@@ -23,10 +23,10 @@ histórico de decisão).
 
 ## Auditoria técnica a fazer assim que houver acesso à conta
 
-- [ ] Confirmar que **nenhuma campanha ativa, bio do Instagram ou UTM**
-      aponta para o domínio `iesports.com` (sem `.br`), que está parado
-      numa página de revenda da GoDaddy. O domínio correto e ativo é
-      `iesports.com.br`.
+- [x] Domínio `iesports.com` (sem `.br`) confirmado pelo cliente como
+      **nunca usado** em campanha/bio — não é risco real, foi engano de
+      digitação na conversa. Domínio correto e único em uso:
+      `iesports.com.br`. Item fechado em 2026-08-07.
 - [ ] Mapear, por clube, se a página de Sympla e o link
       `iesports.com.br/atendimento` têm rastreamento de UTM próprio (para
       permitir CPA por clube/campanha e não só por conta agregada).
