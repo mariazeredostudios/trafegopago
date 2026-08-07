@@ -165,12 +165,57 @@ pendência de decisão: há seletiva marcada?
 Confirmado o padrão dos últimos ~5 meses: pelo menos 6 reinícios de
 campanha (18/01 → 21/09 → 19/10 → cópia → Seletivas → atual `GREMIO
 [QUANTITATIVO]`), cada um perdendo o aprendizado de leilão acumulado.
-Campanha atual está ativa mas muito recente (< R$85 gastos até agora).
-Recomendação: **não duplicar de novo por 2-3 semanas**, deixar juntar
-dados de verdade antes de qualquer novo recomeço. Grêmio segue sem
-postagem orgânica — 100% dependente do tráfego pago.
+Grêmio segue sem postagem orgânica — 100% dependente do tráfego pago.
 
-## 7. Checklist do dia/amanhã (ordem de impacto)
+**Descoberta nova (ao aprofundar a pedido da cliente):** o histórico
+por trás desses reinícios tem o **melhor CPA de toda a conta** — R$18 a
+R$46, abaixo ou perto do teto de referência (R$26,67), melhor que
+Vasco, Coritiba ou Fluminense já entregaram:
+
+| Público | Campanha | Compras | CPA |
+|---|---|---|---|
+| p2_cidade_ambos_25mais_pais&futebol | 21/09 | 8 | R$18,21 |
+| p4_cidade_homens_18a44_aberto | 19/10 | 5 | R$25,76 |
+| p1_estado_ambos_25mais_pais&futebol | 21/09 | 35 | R$27,69 |
+| p3_estado_homens_18a44_aberto | 21/09 | 29 | R$34,25 |
+| p2_cidade_ambos_25mais_pais&futebol | 19/10 | 18 | R$35,00 |
+
+O Grêmio não tem problema de público ruim — tem problema de nunca
+deixar um público bom acumular tempo suficiente.
+
+**Recomendação revisada:** exceção pontual, não "não mexer" absoluto.
+A campanha ativa hoje tem só ~R$85 gastos (menos de 1 dia de verba
+normal) — ainda não há nada a perder. É a única janela pra **adicionar**
+(nunca pausar/editar) os 2 públicos historicamente vencedores
+(`p1_estado_ambos_pais&futebol` e `p2_cidade_ambos_pais&futebol`, que
+não existem na campanha atual) como conjuntos novos, com R$25-30/dia
+cada dentro do mesmo teto de R$95/dia já em uso. Depois disso, sim,
+não mexe mais por 2-3 meses — esse é o ponto real por trás da
+recomendação original.
+
+## 7. Copy — upgrade geral (pedido explícito da cliente)
+
+A cliente apontou, com razão, que a copy do relatório original estava
+fraca — genérica, "de agência mediana". Reescrita completa pro padrão
+de marca grande (Adidas/ESPN/FIFA: frases curtas, ganchos diretos,
+identidade do clube, sem bullet de emoji genérico) pra **Vasco,
+Coritiba, Grêmio e Fluminense** — texto completo de cada variante está
+no Artifact (não duplicado aqui por tamanho). Também corrigidos 2 bugs
+de emoji de bandeira encontrados nesse processo: 🇳🇬 no lugar de 🇺🇸 no
+melhor anúncio do Coritiba, e 🇪🇪 (bandeira da Estônia, provavelmente
+tentativa de representar as cores do Grêmio) usado repetidamente no
+histórico do Grêmio — removido da copy nova.
+
+**Resposta direta à pergunta "eu pauso tudo e começo do zero?":** não,
+nem em Vasco nem em Coritiba — os dois têm anúncios ativos convertendo
+agora (Vasco: público principal ainda gerando compra; Coritiba:
+`CORITIBA8 — Cópia`, CPA ~R$48, o melhor da conta) e zerar a campanha
+jogaria fora o único volume que já funciona. Toda mudança nova entra
+**em conjunto adicional, ao lado do que já roda** — nunca no lugar. A
+única exceção é o Grêmio, e só porque a campanha atual tem gasto
+praticamente zero (ver acima).
+
+## 8. Checklist do dia/amanhã (ordem de impacto)
 
 - [ ] Confirmar amanhã que o gasto da conta voltou ao normal
       (~R$400+/dia total).
@@ -185,7 +230,9 @@ postagem orgânica — 100% dependente do tráfego pago.
 - [ ] Coritiba: recriar os 2 públicos históricos com criativo novo.
 - [ ] Fluminense/Sport: responder se há seletiva marcada nos próximos
       30-60 dias.
-- [ ] Grêmio: não mexer, deixar campanha atual rodar 2-3 semanas.
+- [ ] Grêmio: adicionar os 2 públicos históricos vencedores (E e F,
+      ver seção 6) agora — única janela sem custo. Depois, não mexer
+      por 2-3 meses.
 - [ ] Habilitar ações de escrita no Windsor.ai (ver `ferramentas.md`)
       pra execução direta da próxima vez.
 
