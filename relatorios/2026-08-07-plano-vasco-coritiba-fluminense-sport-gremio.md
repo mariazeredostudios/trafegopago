@@ -70,11 +70,24 @@
 
 ## 4. Fluminense (prioridade 3)
 
-Causa do R$0 de gasto: **nenhuma campanha ativa há ~7 meses**
-(`MARIA - [FLUMINENSE 25/01]`, pausada, estruturalmente intacta com 4
-conjuntos prontos, orçamento configurado em R$200/dia). Pendente de
-decisão do cliente: há seletiva marcada nos próximos 30-60 dias? Se
-sim, reativar com orçamento revisado (sugestão R$95/dia inicial).
+**Correção (2026-08-07, apontada pela cliente):** a primeira versão
+deste relatório dizia "nenhuma campanha ativa há ~7 meses", baseado só
+em campanhas com "FLUMINENSE" por extenso no nome — busca incompleta.
+A partir de fev/2026 as campanhas passaram a usar a abreviação **"FLU"**
+no nome, que não tinha sido capturada. Histórico real, mais recente
+primeiro:
+- `FLU BSB 31 DE MAIO` — criada 11/05/2026, pausada
+- `MARIA - FLU [31/05]` — criada 06/05/2026, pausada
+- `MARIA - FLU [01/03]` — criada 11/02/2026, pausada
+- `MARIA - [FLUMINENSE 25/01]` — criada 08/01/2026, pausada
+
+Ou seja: **teve campanha nova pelo menos em jan, fev/mar e mai/2026**,
+não só em janeiro. O que continua verdadeiro mesmo com a correção:
+nenhuma campanha de Fluminense foi criada em jun/jul/ago/2026, e todas
+as anteriores — incluindo a de maio — estão **pausadas hoje**, o que
+explica o R$0 de gasto nos últimos 30 dias. Pendente de decisão do
+cliente: há seletiva marcada nos próximos 30-60 dias? Se sim, reativar
+com orçamento revisado (sugestão R$95/dia inicial).
 
 ## 5. Sport (prioridade 4)
 
