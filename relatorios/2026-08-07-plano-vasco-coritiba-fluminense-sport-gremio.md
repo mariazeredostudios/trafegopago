@@ -89,30 +89,39 @@ explica o R$0 de gasto nos últimos 30 dias.
 
 ### Plano de lançamento (pedido pela cliente: seletiva 30/08, meta 100 atletas, R$2.500)
 
-**Decisão:** campanha nova, não reativação — a campanha de maio tem
-datas de evento vencidas (31/mai, 27/jun) e mistura uma perna de
-Brasília que performou mal. Reaproveito os 3 públicos comprovados por
-dados reais de maio/2026 e a copy vencedora.
+**Decisão (versão final, pedida pela cliente como "a campanha que eu
+montaria com toda minha capacidade"):** campanha nova, estrutura
+**ABO** (orçamento por conjunto, não por campanha) e **4 públicos**, não
+3 — inclui o ativo mais forte da conta inteira, não só o que o próprio
+Fluminense já testou.
 
-**Achado-chave:** dentro dos mesmos públicos, anúncios citando o CT
-Vale das Laranjeiras/Xerém tiveram CPA R$48-55; a mesma audiência com
-a copy do evento de Brasília teve CPA R$77-134 — até 2,8x pior. Uso só
-o ângulo Xerém neste lançamento.
+**Por que ABO:** com CBO o Meta empurra verba pro CPM mais barato, não
+pro CPA mais barato — foi isso que estragou o Coritiba
+(`abertofutebol — brasil` comeu orçamento por ser "barato de
+alcançar"). Com ABO o orçamento de cada público é fixo, protegendo o
+público qualificado de ser afogado pelo algoritmo.
 
-**Públicos:**
-| Público | CPA histórico (misto) | CPA só com copy Xerém |
+**Achado-chave (copy):** dentro dos mesmos públicos, anúncios citando
+o CT Vale das Laranjeiras/Xerém tiveram CPA R$48-55; a mesma audiência
+com a copy do evento de Brasília teve CPA R$77-134 — até 2,8x pior. Uso
+só o ângulo Xerém.
+
+**Públicos (A é novo, nunca testado no Fluminense — os outros são
+histórico comprovado):**
+| Público | Fonte | CPA |
 |---|---|---|
-| ESTADO_PAIS_VIAJANTES (pais + viajante internacional frequente) | R$67 | ~R$48 |
-| ESTADO_PAIS_ALTOVALOR (pais + preferência por bens de alto valor) | R$60 | ~R$55 |
-| RMKT (remarketing + lookalike compradores, pool pequeno) | R$74 | — |
+| A · Lookalike Compradores de Viagem ★ | LAL 1% de "COMPRADORES VIAGENS GERAL" — base real de ~8.000 clientes que já pagaram a viagem (mesmo ativo do melhor público do Vasco) | não testado no Flu — sinal mais forte da conta |
+| B · ESTADO_PAIS_ALTOVALOR | Pais + preferência por bens de alto valor | ~R$55 (copy Xerém) |
+| C · ESTADO_PAIS_VIAJANTES | Pais + viajante internacional frequente | ~R$48 (copy Xerém) |
+| D · RMKT | Pageview/compradores Fluminense 180D + lookalikes | ~R$74, pool pequeno |
 
 Descartados: públicos sem filtro de alto valor/viajante (CPA R$123) e
-a estrutura de janeiro (geo+interesse aberto, CPA R$2.400 — pior já
-testada no clube).
+a estrutura de janeiro A1/A2/A3 (geo+interesse aberto, CPA R$2.400 —
+pior já testada no clube).
 
-**Orçamento (R$2.500, 07/08→29/08, parar de captar 2-3 dias antes do evento):**
-- Fase 1 — aprendizado (07/08–13/08, 7d): R$90/dia = R$630 (Viajantes R$35 / Alto Valor R$30 / RMKT R$25)
-- Fase 2 — escala (14/08–29/08, 16d): R$117/dia = R$1.870, reforçando o público de melhor CPA real da Fase 1 (RMKT mantém teto — pool pequeno, satura rápido)
+**Orçamento (R$2.500, 07/08→29/08, ABO, parar de captar 2-3 dias antes do evento):**
+- Fase 1 — aprendizado (07/08–13/08, 7d): R$90/dia = R$630 (A R$30 / B R$25 / C R$25 / D R$10)
+- Fase 2 — escala (14/08–29/08, 16d): R$117/dia = R$1.870 (A R$45 / B R$40 / C R$25 / D R$7 — reforça o(s) vencedor(es) reais da Fase 1)
 
 **Aviso de expectativa (importante):** no melhor CPA histórico
 (R$48-60), R$2.500 entrega ~42-52 inscrições, **não 100**. Pra chegar
@@ -122,14 +131,21 @@ qualquer forma, a válvula de escape é somar um público mais aberto
 (geo+futebol, sem filtro de renda) nos últimos 7-10 dias pra puxar
 volume, aceitando que uma fatia desses 100 venha com perfil mais fraco.
 
-**Formato:** foto real do CT (não arte gráfica) — os anúncios de maio
-que mais converteram eram imagem, não vídeo (engajamento de vídeo
-<1%, sinal de criativo estático). Testar 1 vídeo vertical curto como
-variante secundária.
+**Formato — matriz de teste:** ① foto real do CT (Vale das Laranjeiras,
+atletas treinando) como principal desde o dia 1 — é o que já provou
+funcionar (vídeo em maio teve <1% de engajamento, sinal de asset
+fraco, não de formato ruim). ② vídeo vertical 15-20s com gancho nos 3s
+testado em A/B a partir do dia 3-4. Depois de 4-5 dias, mantém só o
+formato de CPA mais baixo — não roda os dois pra sempre "por garantia".
 
-**Copy:** 2 variantes prontas (pública fria e remarketing), adaptadas
-da versão de melhor CPA histórico, atualizadas pra 30/08 — texto
-completo e specs de targeting no Artifact publicado nesta sessão.
+**Camada que a mídia sozinha não resolve:** pergunta de triagem
+financeira antes do Sympla (bot/WhatsApp) — mesma recomendação do
+Vasco. Sem isso, mesmo o público A (o mais qualificado que existe)
+ainda traz gente que não fecha a viagem depois.
+
+**Copy:** 3 variantes prontas (Lookalike Compradores, fria B/C,
+remarketing D) — texto completo e specs de targeting no Artifact
+publicado nesta sessão.
 
 Pendência secundária: confirmar se o evento é mesmo em Xerém (CT Vale
 das Laranjeiras) — a copy toda foi construída em cima dessa suposição
