@@ -8,11 +8,19 @@
 
 ## 1. Visão geral dos 2 agentes
 
-- **Tráfego pago:** a conta inteira ficou 3 dias (05, 06 e 07/08) com
-  gasto ~R$0 em todos os clubes simultaneamente — causa raiz: saldo da
-  conta esgotado (`account_balance` retornado pela API em R$0,03),
-  cliente confirmou e já recolocou saldo. Entrega deve normalizar em
-  algumas horas; confirmar amanhã.
+- **Tráfego pago:** a conta inteira ficou 2 dias completos (05 e 06/08)
+  com gasto R$0 em todos os clubes simultaneamente. **Correção do
+  diagnóstico inicial:** não era saldo esgotado — os prints do Ads
+  Manager (07/08) mostram forma de pagamento válida, limite diário de
+  R$5.649,57 e nenhum bloqueio de billing ativo. O alerta real
+  encontrado foi da própria Meta: *"cobrança indevida em anúncios e
+  mensagens"* sob investigação, marcada como **resolvida em 07/08**
+  com reembolso de R$1,29. A leitura mais provável é que a Meta reteve
+  a entrega da conta durante essa investigação de cobrança — não um
+  problema de saldo do cliente. Gasto de 07/08 ainda baixo (R$0,22 até
+  a checagem), mas dado do dia corrente é sempre parcial; acompanhar a
+  entrega até o fim do dia/amanhã antes de escalar pro suporte da
+  Meta.
 - **Conversão do ecossistema:** das 3 mudanças aplicadas manualmente
   hoje no Vasco, 2 não surtiram o efeito esperado por limitações
   técnicas do Meta (lookalike % não é editável in-place; orçamento foi
