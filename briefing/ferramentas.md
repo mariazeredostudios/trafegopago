@@ -117,6 +117,20 @@ trava (ferramentas do conector não aparecendo dentro do Claude Code)
 | Google Analytics 4 / Pixel do site | Baixa | 💡 A avaliar | Sem conector pronto no diretório hoje. Só relevante se o site já tiver GA4 instalado — a confirmar com o cliente. |
 | Windsor.ai / Supermetrics | Baixa | Não necessário agora | Só faria sentido se precisássemos cruzar com Google/TikTok Ads no mesmo lugar no futuro. |
 
+## Windsor.ai — escrita desabilitada no nível da conta/equipe (2026-08-07)
+
+Testado hoje: `execute_action` (conector `facebook`) retorna erro
+`Write actions are disabled. Please enable them at
+https://onboard.windsor.ai/app/team-management` — mesmo com a ação
+disponível em `list_actions` e com a cadeia campanha/conjunto/anúncio
+confirmada como ativa antes da tentativa. Ou seja, **leitura funciona
+plenamente, escrita está bloqueada por uma configuração de equipe no
+painel do Windsor.ai**, não por permissão do Meta. Pendência: cliente
+(ou quem administra a conta Windsor.ai) precisa habilitar ações de
+escrita em `onboard.windsor.ai/app/team-management` pra eu poder
+executar pausas/ajustes de orçamento direto, em vez de entregar plano
+manual pro cliente aplicar no Ads Manager.
+
 ## Enquanto não há conector ativo
 
 Dados podem ser enviados manualmente (export CSV, print, texto colado) e
