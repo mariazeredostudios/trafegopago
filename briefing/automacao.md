@@ -14,10 +14,21 @@
 
 ## Status
 
-⏳ **Bloqueado** aguardando a conexão do Meta Ads AI Connector oficial
-(`https://mcp.facebook.com/ads`) — ver `briefing/ferramentas.md`. A
-automação (Routine agendada) só é criada depois que o gestor confirmar,
-numa sessão ativa, que consegue ler dados reais da conta pelo conector.
+⏳ **Bloqueado** — atualizado em 2026-08-07 após teste real. A conexão
+foi feita, mas há duas travas a resolver antes de criar as Routines (ver
+`briefing/ferramentas.md`, seção "Status real, testado em 2026-08-07"):
+
+1. A conta de anúncio real (`CA - IE Sports`) ainda não tem o Ads MCP
+   liberado pela Meta (rollout gradual, sem controle manual).
+2. Mesmo quando liberado pela Meta, ainda não está confirmado que as
+   ferramentas do conector aparecem **dentro do Claude Code** (só foram
+   testadas com sucesso no claude.ai comum) — e a automação por Routine
+   depende de rodar neste ambiente.
+
+Enquanto isso não resolve, a automação diária (10h/18h) não pode ser
+criada de verdade. Se a trava 2 se confirmar permanente, o desenho da
+automação pode precisar mudar (ex.: gerar o relatório a partir de dados
+que a cliente copia do chat do claude.ai, em vez de eu puxar sozinha).
 
 ## Como a automação vai funcionar (mecanismo técnico)
 

@@ -4,8 +4,8 @@
 
 | Fonte | Status | Observação |
 |---|---|---|
-| Meta Ads AI Connector (oficial) | ❌ Não conectado ainda | Lançado pela Meta em beta aberto em 29/04/2026 — `https://mcp.facebook.com/ads`. Não aparece no diretório curado do Claude (é conector customizado por URL). Requer plano Claude Pro/Max. Ver passo a passo abaixo. |
-| Windsor.ai / Supermetrics | Alternativa, não usada | Só faz sentido se o conector oficial da Meta não atender (ex.: precisar cruzar com Google/TikTok Ads no mesmo lugar). |
+| Meta Ads AI Connector (oficial) | 🟡 Conectado, mas bloqueado em 2 camadas | Autorizado em 2026-08-07. Funciona no claude.ai comum, mas conta real (`CA - IE Sports`) ainda sem Ads MCP liberado pela Meta (rollout gradual) **e** ferramentas não aparecem dentro do Claude Code. Detalhamento completo abaixo. |
+| Windsor.ai / Supermetrics | Plano B, não conectado ainda | Cogitado como alternativa por não depender do rollout beta da Meta. Ainda não testado se funciona dentro do Claude Code. |
 | Site `iesports.com.br` | ✅ Verificado publicamente | SPA, sem métricas de analytics acessíveis externamente. |
 | Instagram `@iesportsbr` | ⚠️ Bloqueado por rate limit | Instagram limita acesso não autenticado a perfis. Repetir checagem manual ou via conector oficial do Instagram/Meta quando disponível. |
 | Repositório `trafegopago` | ✅ Ativo | Usado como base de conhecimento e destino dos relatórios. |
@@ -36,11 +36,48 @@ Detalhe de segurança do conector oficial: toda campanha criada via IA
 nasce **pausada por padrão**, precisa de ativação manual — proteção
 contra erro de automação.
 
+## Status real, testado em 2026-08-07 (após autorização concluída)
+
+O conector **"META IESPORTS"** aparece como conectado e habilitado na
+conta. Testado de duas formas, com dois resultados diferentes:
+
+**1. Direto no claude.ai (chat comum, fora do Claude Code):** funcionou.
+Conseguiu listar as contas de anúncio:
+- Conta `2189446804604656` — sem nome/negócio associado, sem forma de
+  pagamento cadastrada. **Não operacional** (sem forma de pagamento, o
+  Meta não deixa rodar anúncio). Pode ser ignorada.
+- Conta `2508573272672867` ("CA - IE Sports") — negócio "IE Sports",
+  moeda BRL, com forma de pagamento. **Essa é a conta real.** Porém:
+  retornou que o **Ads MCP ainda não está habilitado para essa conta
+  especificamente** — mensagem de rollout gradual do lado da Meta, sem
+  toggle manual, sem chamado de suporte que acelere. Só esperar a
+  liberação.
+
+**2. Dentro do Claude Code (este ambiente/sessão):** **não funcionou.**
+Mesmo com o conector marcado como `connected: true` e
+`enabledInChat: true`, nenhuma ferramenta de dados (contas, campanhas,
+insights) apareceu disponível para uso — testado com múltiplas buscas
+de ferramenta, sem sucesso. Ou seja: existe uma segunda trava,
+independente da trava de rollout da Meta — o Claude Code pode não
+carregar as ferramentas de conectores customizados (`Add custom
+connector`) da mesma forma que o claude.ai chat comum carrega.
+
+**Implicação prática:** mesmo quando a Meta liberar o Ads MCP para a
+conta "CA - IE Sports", ainda não está confirmado que as ferramentas
+vão aparecer aqui dentro do Claude Code — o que afeta diretamente o
+plano de automação diária (`automacao.md`), que depende de rodar
+dentro deste ambiente. Precisa reteste assim que a conta for liberada.
+
+**Plano B em paralelo:** avaliar conectar o **Windsor.ai** (usa a API
+padrão/estável do Meta Marketing API, não a beta nova do Ads MCP —
+não deveria sofrer da mesma trava de rollout). Ainda não testado se as
+ferramentas dele carregam dentro do Claude Code.
+
 ## Roadmap de potencialização (avaliado em 2026-08-07)
 
 | Item | Prioridade | Status | Observação |
 |---|---|---|---|
-| Meta Ads AI Connector oficial | 1 | ⏳ Pendente do cliente | Motor de dados do Agente 1. |
+| Meta Ads AI Connector oficial | 1 | 🟡 Autorizado, mas bloqueado (ver seção "Status real" acima) | Motor de dados do Agente 1. |
 | Motion Creative Analytics (connector) | 2 | 💡 Sugerido, não conectado | Analisa fadiga de criativo + biblioteca de anúncios de concorrentes. Complementa o Meta Ads Connector para o Agente 1. |
 | Chromium headless neste ambiente (screenshots automáticos de site/Sympla) | 3 | 🔴 Bloqueado tecnicamente | Testado em 2026-08-07: navegação falha por erro de certificado/proxy (`ERR_CERT_DATE_INVALID` / `ERR_CONNECTION_RESET`) mesmo com `--proxy-server` apontado para o proxy do agente. Sem `certutil`/NSS tools disponíveis para importar a CA no perfil do Chromium. Precisa de investigação futura — não bloqueia o resto do trabalho. |
 | Link(s) do Sympla | Alta (manual) | ⏳ Pendente do cliente | Sem conector oficial de Sympla no diretório. Leitura pública direta deve funcionar assim que o link chegar. |
