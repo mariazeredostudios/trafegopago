@@ -85,9 +85,56 @@ Ou seja: **teve campanha nova pelo menos em jan, fev/mar e mai/2026**,
 não só em janeiro. O que continua verdadeiro mesmo com a correção:
 nenhuma campanha de Fluminense foi criada em jun/jul/ago/2026, e todas
 as anteriores — incluindo a de maio — estão **pausadas hoje**, o que
-explica o R$0 de gasto nos últimos 30 dias. Pendente de decisão do
-cliente: há seletiva marcada nos próximos 30-60 dias? Se sim, reativar
-com orçamento revisado (sugestão R$95/dia inicial).
+explica o R$0 de gasto nos últimos 30 dias.
+
+### Plano de lançamento (pedido pela cliente: seletiva 30/08, meta 100 atletas, R$2.500)
+
+**Decisão:** campanha nova, não reativação — a campanha de maio tem
+datas de evento vencidas (31/mai, 27/jun) e mistura uma perna de
+Brasília que performou mal. Reaproveito os 3 públicos comprovados por
+dados reais de maio/2026 e a copy vencedora.
+
+**Achado-chave:** dentro dos mesmos públicos, anúncios citando o CT
+Vale das Laranjeiras/Xerém tiveram CPA R$48-55; a mesma audiência com
+a copy do evento de Brasília teve CPA R$77-134 — até 2,8x pior. Uso só
+o ângulo Xerém neste lançamento.
+
+**Públicos:**
+| Público | CPA histórico (misto) | CPA só com copy Xerém |
+|---|---|---|
+| ESTADO_PAIS_VIAJANTES (pais + viajante internacional frequente) | R$67 | ~R$48 |
+| ESTADO_PAIS_ALTOVALOR (pais + preferência por bens de alto valor) | R$60 | ~R$55 |
+| RMKT (remarketing + lookalike compradores, pool pequeno) | R$74 | — |
+
+Descartados: públicos sem filtro de alto valor/viajante (CPA R$123) e
+a estrutura de janeiro (geo+interesse aberto, CPA R$2.400 — pior já
+testada no clube).
+
+**Orçamento (R$2.500, 07/08→29/08, parar de captar 2-3 dias antes do evento):**
+- Fase 1 — aprendizado (07/08–13/08, 7d): R$90/dia = R$630 (Viajantes R$35 / Alto Valor R$30 / RMKT R$25)
+- Fase 2 — escala (14/08–29/08, 16d): R$117/dia = R$1.870, reforçando o público de melhor CPA real da Fase 1 (RMKT mantém teto — pool pequeno, satura rápido)
+
+**Aviso de expectativa (importante):** no melhor CPA histórico
+(R$48-60), R$2.500 entrega ~42-52 inscrições, **não 100**. Pra chegar
+em 100 mantendo o perfil qualificado, o orçamento realista é ~R$5.000
+(quase o dobro). Não inflei a projeção — se quiser garantir 100 de
+qualquer forma, a válvula de escape é somar um público mais aberto
+(geo+futebol, sem filtro de renda) nos últimos 7-10 dias pra puxar
+volume, aceitando que uma fatia desses 100 venha com perfil mais fraco.
+
+**Formato:** foto real do CT (não arte gráfica) — os anúncios de maio
+que mais converteram eram imagem, não vídeo (engajamento de vídeo
+<1%, sinal de criativo estático). Testar 1 vídeo vertical curto como
+variante secundária.
+
+**Copy:** 2 variantes prontas (pública fria e remarketing), adaptadas
+da versão de melhor CPA histórico, atualizadas pra 30/08 — texto
+completo e specs de targeting no Artifact publicado nesta sessão.
+
+Pendência secundária: confirmar se o evento é mesmo em Xerém (CT Vale
+das Laranjeiras) — a copy toda foi construída em cima dessa suposição
+por ser o ângulo historicamente vencedor; se o local for outro, ajustar
+o texto antes de publicar.
 
 ## 5. Sport (prioridade 4)
 
