@@ -30,6 +30,14 @@ criada de verdade. Se a trava 2 se confirmar permanente, o desenho da
 automação pode precisar mudar (ex.: gerar o relatório a partir de dados
 que a cliente copia do chat do claude.ai, em vez de eu puxar sozinha).
 
+## Lembrete recorrente de checagem (criado em 2026-08-07)
+
+Como a Meta não dá prazo pro rollout ("check back at a later date"),
+configurei um lembrete automático nesta sessão do Claude Code pra
+perguntar à cliente de tempos em tempos se a conta "CA - IE Sports" já
+foi liberada — assim ela não precisa ficar lembrando sozinha. Cadência
+inicial: a cada 3 dias. Ajustável a qualquer momento.
+
 ## Como a automação vai funcionar (mecanismo técnico)
 
 Duas Routines agendadas (cron), uma para 10h e outra para 18h

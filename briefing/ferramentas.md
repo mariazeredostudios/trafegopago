@@ -73,6 +73,12 @@ padrão/estável do Meta Marketing API, não a beta nova do Ads MCP —
 não deveria sofrer da mesma trava de rollout). Ainda não testado se as
 ferramentas dele carregam dentro do Claude Code.
 
+**Reteste em 2026-08-07 (mesmo dia):** confirmado de novo no claude.ai
+comum — conta "CA - IE Sports" (`2508573272672867`) segue com Ads MCP
+não habilitado, mensagem da Meta: *"check back at a later date"*. Sem
+prazo estimado. Configurado lembrete recorrente (ver `automacao.md`)
+pra não depender da cliente lembrar de checar sozinha.
+
 ## Roadmap de potencialização (avaliado em 2026-08-07)
 
 | Item | Prioridade | Status | Observação |
