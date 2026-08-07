@@ -152,13 +152,42 @@ das Laranjeiras) — a copy toda foi construída em cima dessa suposição
 por ser o ângulo historicamente vencedor; se o local for outro, ajustar
 o texto antes de publicar.
 
-## 5. Sport (prioridade 4)
+## 5. Sport (prioridade 4 — versão detalhada)
 
-Mesma causa: nenhuma campanha ativa (`MARIA [SPORT QUANTITATIVO]`,
-pausada há ~4,5 meses, 4 conjuntos prontos). Orçamento histórico
-configurado em R$350/dia — bem acima do padrão dos outros clubes,
-confirmar se foi intencional antes de reativar no mesmo valor. Mesma
-pendência de decisão: há seletiva marcada?
+Nenhuma campanha ativa. Cavando o histórico fundo (a pedido da
+cliente, mesmo padrão de detalhe dos outros clubes), achado principal:
+**existem 2 ofertas diferentes misturadas no histórico** —
+`MARIA [SPORT QUANTITATIVO]` (mar-mai/2026) é a seletiva de R$100 de
+sempre; `LEÃO CAMP` (mai-jun/2026) vendia um produto diferente, "4
+dias de imersão" ("De 23 a 26 de julho"), provavelmente ticket mais
+caro. Essa segunda gastou R$2.730 com **zero compras**, inclusive no
+público "ALTO VALOR_PAIS" que funciona bem no resto da conta — isso
+não invalida o público, invalida a oferta/produto que foi testado com
+ele. Não misturo as duas análises.
+
+**Na seletiva real (QUANTITATIVO), o Sport nunca testou a fórmula que
+funciona nos outros clubes:**
+| Público | Gasto | Compras | CPA |
+|---|---|---|---|
+| abertofutebol — brasil | R$531 | 7 | R$76 |
+| Estado_homens_18mais_advantage | R$1.082 | 9 | R$120 |
+| abertofutebol | R$1.517 | 11 | R$138 |
+| p2_estado_homens_18a44_aberto | R$328 | 2 | R$164 |
+
+Todos os 4 são genéricos — nenhum usou filtro de pais/alto valor/
+viajante (a combinação que deu CPA R$18-60 em Coritiba, Grêmio e
+Fluminense). Sport é o único dos 5 clubes sem prova prévia desse
+padrão — aposta de maior valor esperado, mas tratada como teste real,
+não certeza.
+
+**Recomendação:** campanha nova, R$95-100/dia (não os R$350/dia
+históricos, nunca justificados por retorno), testando Lookalike
+Compradores de Viagem + Pais/Alto Valor (Recife/PE) contra o
+`abertofutebol — brasil` como controle. Bug de organização encontrado:
+o anúncio de melhor CPA se chama internamente `CORITIBA10` (parece
+duplicado do Coritiba e nunca renomeado — texto exibido está correto,
+só desorganização interna). Copy nova (Leão da Ilha, CT José de
+Andrade Médicis, Orlando Cup) no Artifact.
 
 ## 6. Grêmio (prioridade 5 — sem pressão de data)
 
