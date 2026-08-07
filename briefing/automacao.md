@@ -25,10 +25,14 @@ foi feita, mas há duas travas a resolver antes de criar as Routines (ver
    testadas com sucesso no claude.ai comum) — e a automação por Routine
    depende de rodar neste ambiente.
 
-Enquanto isso não resolve, a automação diária (10h/18h) não pode ser
-criada de verdade. Se a trava 2 se confirmar permanente, o desenho da
-automação pode precisar mudar (ex.: gerar o relatório a partir de dados
-que a cliente copia do chat do claude.ai, em vez de eu puxar sozinha).
+**Atualização 2026-08-07:** destravado por outro caminho. O **Windsor.ai**
+foi conectado e suas ferramentas funcionam dentro do Claude Code (ver
+`ferramentas.md`) — puxei dados reais da conta com sucesso e gerei o
+primeiro relatório (`relatorios/2026-08-07-visao-geral-conta.md`). Ou
+seja: a automação diária **pode ser criada agora**, usando o Windsor.ai
+como fonte em vez do conector oficial da Meta (que segue bloqueado).
+Próximo passo: criar as duas Routines (10h e 18h) concedendo o conector
+Windsor.ai a cada execução.
 
 ## Lembrete recorrente de checagem (criado em 2026-08-07)
 

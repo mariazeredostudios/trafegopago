@@ -5,7 +5,7 @@
 | Fonte | Status | Observação |
 |---|---|---|
 | Meta Ads AI Connector (oficial) | 🟡 Conectado, mas bloqueado em 2 camadas | Autorizado em 2026-08-07. Funciona no claude.ai comum, mas conta real (`CA - IE Sports`) ainda sem Ads MCP liberado pela Meta (rollout gradual) **e** ferramentas não aparecem dentro do Claude Code. Detalhamento completo abaixo. |
-| Windsor.ai / Supermetrics | Plano B, não conectado ainda | Cogitado como alternativa por não depender do rollout beta da Meta. Ainda não testado se funciona dentro do Claude Code. |
+| Windsor.ai | ✅ Conectado e **funcionando dentro do Claude Code** | Testado com sucesso em 2026-08-07 — puxou dados reais da conta "CA - IE Sports" (14 campanhas, 30 dias). É o caminho de dados reais em produção enquanto o Meta Ads AI Connector oficial fica bloqueado. |
 | Site `iesports.com.br` | ✅ Verificado publicamente | SPA, sem métricas de analytics acessíveis externamente. |
 | Instagram `@iesportsbr` | ⚠️ Bloqueado por rate limit | Instagram limita acesso não autenticado a perfis. Repetir checagem manual ou via conector oficial do Instagram/Meta quando disponível. |
 | Repositório `trafegopago` | ✅ Ativo | Usado como base de conhecimento e destino dos relatórios. |
@@ -68,10 +68,18 @@ vão aparecer aqui dentro do Claude Code — o que afeta diretamente o
 plano de automação diária (`automacao.md`), que depende de rodar
 dentro deste ambiente. Precisa reteste assim que a conta for liberada.
 
-**Plano B em paralelo:** avaliar conectar o **Windsor.ai** (usa a API
-padrão/estável do Meta Marketing API, não a beta nova do Ads MCP —
-não deveria sofrer da mesma trava de rollout). Ainda não testado se as
-ferramentas dele carregam dentro do Claude Code.
+**Plano B confirmado funcionando (2026-08-07):** conectado o Windsor.ai
+(conta Trial, `dudsazeredo2014@gmail.com`) — diferente do Meta Ads AI
+Connector oficial, **as ferramentas dele aparecem e funcionam dentro do
+Claude Code**. Fluxo de conexão: 1) criar conta no windsor.ai, 2) usar
+`get_connector_connect_info` (tool `mcp__Windsor_ai__*`) pra gerar link
+de autorização do Facebook/Meta Ads, 3) cliente autoriza, 4)
+`get_connectors` confirma a conta vinculada. Testado com
+`get_data`/`get_fields` puxando 30 dias de dados reais de 14 campanhas
+da conta "CA - IE Sports" — primeiro relatório real gerado em
+`relatorios/2026-08-07-visao-geral-conta.md`. **Este é agora o caminho
+de dados em produção** enquanto o conector oficial da Meta segue
+bloqueado pelo rollout.
 
 **Reteste em 2026-08-07 (mesmo dia):** confirmado de novo no claude.ai
 comum — conta "CA - IE Sports" (`2508573272672867`) segue com Ads MCP
