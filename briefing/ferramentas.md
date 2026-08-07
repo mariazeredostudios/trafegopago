@@ -36,6 +36,19 @@ Detalhe de segurança do conector oficial: toda campanha criada via IA
 nasce **pausada por padrão**, precisa de ativação manual — proteção
 contra erro de automação.
 
+## Roadmap de potencialização (avaliado em 2026-08-07)
+
+| Item | Prioridade | Status | Observação |
+|---|---|---|---|
+| Meta Ads AI Connector oficial | 1 | ⏳ Pendente do cliente | Motor de dados do Agente 1. |
+| Motion Creative Analytics (connector) | 2 | 💡 Sugerido, não conectado | Analisa fadiga de criativo + biblioteca de anúncios de concorrentes. Complementa o Meta Ads Connector para o Agente 1. |
+| Chromium headless neste ambiente (screenshots automáticos de site/Sympla) | 3 | 🔴 Bloqueado tecnicamente | Testado em 2026-08-07: navegação falha por erro de certificado/proxy (`ERR_CERT_DATE_INVALID` / `ERR_CONNECTION_RESET`) mesmo com `--proxy-server` apontado para o proxy do agente. Sem `certutil`/NSS tools disponíveis para importar a CA no perfil do Chromium. Precisa de investigação futura — não bloqueia o resto do trabalho. |
+| Link(s) do Sympla | Alta (manual) | ⏳ Pendente do cliente | Sem conector oficial de Sympla no diretório. Leitura pública direta deve funcionar assim que o link chegar. |
+| Export CSV do painel organizador do Sympla (funil de checkout/abandono) | Média (manual) | 💡 Sugerido | Sem conector — mas dá dado real de abandono de carrinho em vez de inferência pela página pública. |
+| Instagram orgânico (bio/posts/Reels/destaques) | Média (manual) | 🔴 Sem conector viável | Instagram bloqueia leitura não autenticada por rate limit. Só via prints enviados pela cliente. |
+| Google Analytics 4 / Pixel do site | Baixa | 💡 A avaliar | Sem conector pronto no diretório hoje. Só relevante se o site já tiver GA4 instalado — a confirmar com o cliente. |
+| Windsor.ai / Supermetrics | Baixa | Não necessário agora | Só faria sentido se precisássemos cruzar com Google/TikTok Ads no mesmo lugar no futuro. |
+
 ## Enquanto não há conector ativo
 
 Dados podem ser enviados manualmente (export CSV, print, texto colado) e
