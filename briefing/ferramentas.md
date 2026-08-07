@@ -87,6 +87,23 @@ não habilitado, mensagem da Meta: *"check back at a later date"*. Sem
 prazo estimado. Configurado lembrete recorrente (ver `automacao.md`)
 pra não depender da cliente lembrar de checar sozinha.
 
+**Reteste em 2026-08-07 (dentro do Claude Code, pergunta "voltou o
+toggle?"):** chamei `ads_get_ad_accounts` diretamente nesta sessão do
+Claude Code e a ferramenta **respondeu com dados reais** — a segunda
+trava (ferramentas do conector não aparecendo dentro do Claude Code)
+**está resolvida**. Resultado por conta:
+- `2189446804604656` (sem nome/negócio, sem forma de pagamento) →
+  `is_ads_mcp_enabled: true`, mas continua não operacional (sem forma
+  de pagamento). Ignorar.
+- `2508573272672867` ("CA - IE Sports", negócio "IE Sports", BRL, com
+  forma de pagamento) → **`is_ads_mcp_enabled: false`**. Motivo
+  retornado pela API: *"Ads MCP is gradually being rolled out. Please
+  check back at a later date to use Ads MCP with this Ad Account."*
+  Ou seja: **o toggle da conta real ainda não voltou** — mas o caminho
+  técnico para usá-lo dentro do Claude Code assim que a Meta liberar
+  já está desbloqueado, o que simplifica o plano de automação
+  (`automacao.md`).
+
 ## Roadmap de potencialização (avaliado em 2026-08-07)
 
 | Item | Prioridade | Status | Observação |
