@@ -47,6 +47,28 @@ Todo relatório gerado por este comitê segue:
    ajustes de site/LP, ajustes de Sympla/oferta (lotes, escassez).
 4. **Checklist prático do dia** — ações priorizadas por impacto em
    faturamento.
+5. **Mexer ou esperar (critério explícito por item de ação)** — toda
+   recomendação de ajuste em público/anúncio/orçamento precisa vir
+   acompanhada do veredito **mexer agora / esperar / não mexer**,
+   justificado cruzando 3 fatores:
+   - **Tempo restante até a seletiva/prazo do clube.** Prazo curto
+     (poucos dias) pesa contra editar estruturas que já estão
+     convertendo — pesa a favor de isolar qualquer teste novo num
+     conjunto separado, sem tocar no que já funciona.
+   - **Custo de reaprendizado do leilão do Meta.** Editar targeting,
+     criativo ou dar um salto grande de orçamento (>20%) num
+     conjunto/anúncio **já ativo e com histórico** reinicia (ou
+     perturba) a fase de aprendizado do Meta — o CPA costuma piorar
+     por alguns dias até estabilizar de novo. **Criar um conjunto
+     novo do zero não tem esse custo** (não existe aprendizado prévio
+     pra perder), por isso duplicar/isolar é quase sempre mais seguro
+     do que editar in-place quando o prazo é curto.
+   - **Valor em jogo** (orçamento do item, volume de inscrições que
+     depende dele) — não vale gastar o prazo curto testando algo de
+     baixo valor; não vale deixar rodar sem ação algo que já está
+     comprovadamente queimando dinheiro (CPA muito acima do teto, zero
+     conversão com gasto relevante) — aí a urgência de cortar supera o
+     custo de reaprendizado.
 
 Template completo em `../relatorios/_template.md`.
 
