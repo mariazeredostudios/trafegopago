@@ -30,9 +30,11 @@
   de verba da conta neste período.
 - `MARIA [VASCO QUANTITATIVO]` e `MARIA [CRUZEIRO QUALITATIVO]` — já
   pausadas corretamente (CPA R$144 e R$139, ambas com ROAS < 1).
-- **Duas campanhas "CAMPANHA TESTE" (Coritiba, Vasco) seguem ATIVAS** na
-  conta, sem função aparente (uma já gastou R$0,02). Risco de gasto
-  acidental — recomendo pausar/excluir.
+- ~~Duas campanhas "CAMPANHA TESTE" (Coritiba, Vasco)...~~ **Correção:**
+  cliente confirmou que são testes propositais (a campanha original de
+  Vasco/Coritiba não estava convertendo). Ver diagnóstico completo em
+  `2026-08-07-diagnostico-vasco-coritiba.md` — o problema real de cada
+  clube foi identificado a nível de público/anúncio.
 
 **Duplicar/escalar hoje:**
 - `MV - [IE] [VENDAS - SELETIVAS PALMEIRAS] [A+] [FRIO]` — melhor CPA da
