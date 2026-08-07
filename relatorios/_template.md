@@ -1,31 +1,40 @@
-# Relatório Executivo — {CLUBE} — {AAAA-MM-DD}
+# Relatório Executivo — {CLUBE} — {AAAA-MM-DD} {HHh}
 
 > Janela analisada: {período} · Seletiva de referência: {data da seletiva} ·
 > Dias restantes até a seletiva: {N}
 
-## 1. Diagnóstico do dia
+## 1. Visão geral dos 2 agentes
 
-{Uma frase clara sobre o status geral da conta/campanha do clube.}
+- **Tráfego pago:** {uma frase — status da conta/campanha}
+- **Conversão do ecossistema:** {uma frase — status da jornada Instagram → Site → Sympla}
 
-## 2. Alertas vermelhos
+## 2. Análise de Tráfego Pago (Agente 1 — Mídia)
 
-- {Anúncio/conjunto fadigado — métrica que comprova (frequência, queda de
-  CTR/hook rate, CPA subindo)}
-- {CPA acima do teto (R$26,67/inscrição de referência, ou o valor validado)}
-- {Gargalo de conversão — página, checkout Sympla, taxa de conectividade}
+**Pausar/ajustar hoje:**
+- {anúncio/conjunto fadigado ou CPA acima do teto, com a métrica que comprova}
 
-## 3. Oportunidades de escala
+**Duplicar/escalar hoje:**
+- {anúncio/público performando acima da média, com números}
 
-- {Anúncio/público performando acima da média, com números}
-- {Sugestão de escala vertical (aumento de orçamento) ou horizontal
-  (duplicação/novos públicos)}
+**Novos públicos/criativos a testar:**
+- {sugestão de público ou ângulo de criativo}
 
-## 4. Checklist de ação imediata
+## 3. Análise de Estratégia e CRO (Agente 2 — Growth/Funil)
 
-- [ ] Pausar: {...}
-- [ ] Duplicar/escalar: {...}
-- [ ] Ajustar público/orçamento/posicionamento: {...}
-- [ ] Novo teste de criativo/ângulo a subir: {...}
+**Ajustes no Instagram:**
+- {ideia de post/story/destaque para reforçar o anúncio do momento}
+
+**Ajustes no Site/Landing Page:**
+- {mudança de copy, design, posição de botão ou estrutura}
+
+**Ajustes no Sympla/Oferta:**
+- {virada de lote, escassez, apresentação dos ingressos}
+
+## 4. Checklist prático do dia (por ordem de impacto no faturamento)
+
+- [ ] {ação 1}
+- [ ] {ação 2}
+- [ ] {ação 3}
 
 ## Métricas-chave do período
 
@@ -33,11 +42,13 @@
 |---|---|---|
 | CPM | | |
 | CTR (todos) | | |
-| CTR (link) | | |
+| CPC | | |
 | Hook Rate | | |
 | Hold Rate | | |
-| Taxa de conectividade (clique → LP) | | |
+| Taxa de conectividade (clique → site) | | |
+| Cliques para o Sympla | | |
 | Taxa de conversão da página (Sympla) | | |
 | Custo por Finalização de Compra | | |
 | CPA final | | |
+| ROAS | | |
 | Total de inscritos no período | | |

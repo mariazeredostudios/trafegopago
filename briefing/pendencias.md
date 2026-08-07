@@ -31,6 +31,23 @@ histórico de decisão).
       `iesports.com.br/atendimento` têm rastreamento de UTM próprio (para
       permitir CPA por clube/campanha e não só por conta agregada).
 
+## Auditoria 360º (Comitê de Growth — Agente 2)
+
+- [ ] **Link(s) do Sympla** — nunca foram enviados. Precisa de pelo menos
+      um link de seletiva ativa (idealmente um por clube) pra auditar
+      capa, descrição, lotes e alinhamento de mensagem.
+- [ ] **Política de lotes** — não sabemos se o ingresso de R$100 sobe de
+      preço por lote (gatilho de escassez) ou é fixo.
+- [ ] **Meta total de vendas/inscritos por evento** — usamos "90+" como
+      referência do onboarding anterior; confirmar se segue valendo como
+      meta oficial do comitê.
+- [ ] **Prints do Instagram** (perfil, bio, destaques, posts/Reels
+      recentes) — acesso automático está bloqueado por rate limit da
+      Meta (ver `comite-growth.md`).
+- [ ] **Histórico detalhado de posts/anúncios/páginas** — o que já
+      funcionou muito bem e o que não devemos repetir, agora sob a ótica
+      de CRO/copy (não só de mídia).
+
 ## Conector de dados (Meta Ads)
 
 - [ ] Cliente vai conectar **Windsor.ai** (ou Supermetrics) nas
