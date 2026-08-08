@@ -25,7 +25,7 @@ export const ASSETS = {
     src: "assets/campo-futebol.jpg", // foto/vídeo de fundo do campo (opcional — sem isso usa gramado ilustrado)
   },
   igFeed: {
-    enabled: false,
+    enabled: true,
     src: "assets/ig-feed.mp4", // gravação de tela rolando o feed do Instagram, pra dentro do telefone
   },
 };

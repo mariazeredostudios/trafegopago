@@ -1,4 +1,4 @@
-// Timeline mestre — 56s @ 30fps = 1680 frames.
+// Timeline mestre — 58s @ 30fps = 1740 frames.
 export const FPS = 30;
 
 export const SCENES = {
@@ -8,8 +8,8 @@ export const SCENES = {
   alemDoFutebol: { from: 600, duration: 300 }, // 0:20 - 0:30
   motivacional: { from: 900, duration: 90 }, // 0:30 - 0:33
   seletiva: { from: 990, duration: 300 }, // 0:33 - 0:43
-  telefoneFeed: { from: 1290, duration: 90 }, // 0:43 - 0:46
-  cta: { from: 1380, duration: 300 }, // 0:46 - 0:56
+  telefoneFeed: { from: 1290, duration: 150 }, // 0:43 - 0:48 (5s — dura o mesmo que a gravação)
+  cta: { from: 1440, duration: 300 }, // 0:48 - 0:58
 };
 
-export const TOTAL_DURATION = SCENES.cta.from + SCENES.cta.duration; // 1680
+export const TOTAL_DURATION = SCENES.cta.from + SCENES.cta.duration; // 1740
