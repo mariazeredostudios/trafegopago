@@ -62,6 +62,23 @@ vem do próprio arquivo de origem, não foi introduzido no render; se
 quiser, dá pra pedir ao designer um ajuste de posição dessa marca d'água
 no arquivo-fonte antes da arte final de impressão.
 
+## Ajustes de precisão desta rodada
+
+- **Piso com a profundidade real do documento (2,92m)**, não 3,00m — os
+  8cm de espessura do painel de fundo comem parte da profundidade
+  útil, exatamente como o documento técnico indica.
+- **TV reposicionada para nunca sobrepor nenhum atleta**: as cabeças dos
+  jogadores começam quase coladas na borda superior da foto original
+  (quase sem respiro natural), então a extensão em blur do mural agora
+  é assimétrica — bem mais alta em cima (onde a TV fica) e mais fina
+  embaixo — garantindo que a TV inteira sobre só na área de blur, nunca
+  em cima de um rosto ou escudo de clube.
+- **Banqueta do balcão adicionada** — o documento lista 3 banquetas
+  (conjunto bistrô com 2 + 1 do balcão); a terceira estava faltando no
+  render.
+- Giro de 360° revalidado após esses ajustes (posições de móveis, piso e
+  câmera recalculadas).
+
 ## Testes antes da publicação
 
 Toda alteração foi verificada renderizando a página com Chromium
