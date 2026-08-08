@@ -5,7 +5,9 @@ import { BrowserSearch } from "./scenes/BrowserSearch";
 import { Apresentacao } from "./scenes/Apresentacao";
 import { DisneyCup } from "./scenes/DisneyCup";
 import { AlemDoFutebol } from "./scenes/AlemDoFutebol";
+import { Motivacional } from "./scenes/Motivacional";
 import { Seletiva } from "./scenes/Seletiva";
+import { TelefoneFeed } from "./scenes/TelefoneFeed";
 import { CTA } from "./scenes/CTA";
 import { PaperWipe } from "./components/Paper";
 
@@ -24,8 +26,14 @@ const Main: React.FC = () => {
       <Sequence from={SCENES.alemDoFutebol.from} durationInFrames={SCENES.alemDoFutebol.duration}>
         <AlemDoFutebol />
       </Sequence>
+      <Sequence from={SCENES.motivacional.from} durationInFrames={SCENES.motivacional.duration}>
+        <Motivacional />
+      </Sequence>
       <Sequence from={SCENES.seletiva.from} durationInFrames={SCENES.seletiva.duration}>
         <Seletiva />
+      </Sequence>
+      <Sequence from={SCENES.telefoneFeed.from} durationInFrames={SCENES.telefoneFeed.duration}>
+        <TelefoneFeed />
       </Sequence>
       <Sequence from={SCENES.cta.from} durationInFrames={SCENES.cta.duration}>
         <CTA />

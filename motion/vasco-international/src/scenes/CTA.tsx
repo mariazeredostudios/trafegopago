@@ -37,17 +37,18 @@ export const CTA: React.FC = () => {
       <PaperBackdrop tone="dark" />
 
       <AbsoluteFill style={{ opacity: taglineOpacity, transform: `scale(${taglineScale})`, justifyContent: "center", alignItems: "center", padding: "0 56px" }}>
-        <TornPanel seed={9} background="rgba(10,10,10,0.7)" style={{ padding: "34px 38px" }}>
-          <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 52, color: palette.white, textAlign: "center", lineHeight: 1.3, letterSpacing: -1 }}>
-            Venha mostrar por que
-            <br />
-            <Highlight dark={false} rotate={-1.5} style={{ fontWeight: 800, fontSize: 52 }}>
+        <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 58, color: palette.white, textAlign: "center", lineHeight: 1.3, letterSpacing: -1 }}>
+          Venha mostrar por que
+          <br />
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 14 }}>
+            <span style={{ fontSize: 46 }}>👉</span>
+            <Highlight dark={false} rotate={-1.5} style={{ fontWeight: 800, fontSize: 58 }}>
               VOCÊ MERECE
             </Highlight>
-            <br />
-            <span style={{ fontStyle: "italic", fontWeight: 600 }}>estar nessa delegação.</span>
-          </div>
-        </TornPanel>
+          </span>
+          <br />
+          <span style={{ fontStyle: "italic", fontWeight: 600 }}>estar nessa delegação.</span>
+        </div>
       </AbsoluteFill>
 
       <AbsoluteFill style={{ opacity: bioOpacity, justifyContent: "center", alignItems: "center" }}>
@@ -74,10 +75,10 @@ export const CTA: React.FC = () => {
           >
             <div style={{ width: "100%", height: "100%", borderRadius: "50%", background: palette.grey900 }} />
           </div>
-          <div style={{ fontFamily: fontStack, fontWeight: 700, fontSize: 22, color: palette.white, marginBottom: 4 }}>
+          <div style={{ fontFamily: fontStack, fontWeight: 700, fontSize: 24, color: palette.white, marginBottom: 4 }}>
             vascointernational
           </div>
-          <div style={{ fontFamily: fontStack, fontSize: 16, color: palette.grey400, marginBottom: 18 }}>
+          <div style={{ fontFamily: fontStack, fontSize: 18, color: palette.grey400, marginBottom: 18 }}>
             Vasco International — Seletiva
           </div>
           <div style={{ position: "relative" }}>
@@ -91,12 +92,12 @@ export const CTA: React.FC = () => {
                 opacity: rippleOpacity,
               }}
             />
-            <div style={{ background: palette.white, color: palette.black, fontFamily: fontStack, fontWeight: 700, fontSize: 20, borderRadius: 999, padding: "12px 0", position: "relative" }}>
+            <div style={{ background: palette.white, color: palette.black, fontFamily: fontStack, fontWeight: 700, fontSize: 22, borderRadius: 999, padding: "12px 0", position: "relative" }}>
               🔗 link na bio
             </div>
           </div>
         </div>
-        <div style={{ marginTop: 28, fontFamily: fontStack, fontWeight: 600, fontSize: 24, color: palette.grey200, textAlign: "center", padding: "0 60px", lineHeight: 1.35 }}>
+        <div style={{ marginTop: 28, fontFamily: fontStack, fontWeight: 600, fontSize: 27, color: palette.grey200, textAlign: "center", padding: "0 60px", lineHeight: 1.35 }}>
           vascodagamainternational.com
           <br />
           ou toque no link da bio
@@ -110,7 +111,7 @@ export const CTA: React.FC = () => {
           <Badge enabled={ASSETS.ieLogo.enabled} src={ASSETS.ieLogo.src} label="iE" />
         </div>
         <div style={{ opacity: 0.9 }}>
-          <StickerLabel text="vascodagamainternational.com" rotate={-1} bg={palette.white} color={palette.black} size={22} />
+          <StickerLabel text="vascodagamainternational.com" rotate={-1} bg={palette.white} color={palette.black} size={24} />
         </div>
       </AbsoluteFill>
     </AbsoluteFill>

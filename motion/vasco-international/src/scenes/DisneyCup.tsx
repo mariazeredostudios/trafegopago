@@ -3,16 +3,26 @@ import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig } fr
 import { palette, fontStack } from "../palette";
 import { PaperBackdrop, TornPanel, TapeStrip, StickerLabel } from "../components/Paper";
 import { useCutPunch, Highlight, Typewriter } from "../components/Motion";
-import { IconCastle, IconWave, IconBall, IconPin, IconSpark, IconPlane } from "../components/Icons";
+import {
+  IconCastle,
+  IconWave,
+  IconBall,
+  IconPin,
+  IconPlane,
+  IconClapper,
+  IconBag,
+  IconFlagUSA,
+  IconPassport,
+} from "../components/Icons";
 
 const EXPERIENCES: { text: string; Icon: React.FC<{ size?: number; color?: string }>; rotate: number }[] = [
   { text: "Tour na Rollins College", Icon: IconPin, rotate: -3 },
   { text: "Treinos em Lakeland com a comissão técnica", Icon: IconBall, rotate: 2 },
   { text: "Typhoon Lagoon", Icon: IconWave, rotate: -2 },
-  { text: "Disney Springs", Icon: IconCastle, rotate: 3 },
+  { text: "Disney Springs", Icon: IconBag, rotate: 3 },
   { text: "Blizzard Beach", Icon: IconWave, rotate: -3 },
   { text: "Magic Kingdom", Icon: IconCastle, rotate: 2 },
-  { text: "Hollywood Studios", Icon: IconSpark, rotate: -2 },
+  { text: "Hollywood Studios", Icon: IconClapper, rotate: -2 },
 ];
 
 const HOLD = 36; // ~1.2s por item — corte rápido, não fica parado
@@ -32,7 +42,20 @@ export const DisneyCup: React.FC = () => {
     extrapolateRight: "clamp",
   });
 
-  const planeX = interpolate(frame, [0, 56], [-30, 130], { extrapolateRight: "clamp" });
+  const planeX = interpolate(frame, [0, 56], [-40, 140], { extrapolateRight: "clamp" });
+
+  const flagSpring = spring({ frame: frame - 26, fps, config: { damping: 10, stiffness: 160 }, durationInFrames: 16 });
+  const flagScale = interpolate(flagSpring, [0, 1], [0.3, 1]);
+  const flagOpacity = interpolate(frame, [26, 36, 58, 70], [0, 1, 1, 0], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const passportSpring = spring({ frame: frame - 32, fps, config: { damping: 10, stiffness: 160 }, durationInFrames: 16 });
+  const passportScale = interpolate(passportSpring, [0, 1], [0.3, 1]);
+  const passportOpacity = interpolate(frame, [32, 42, 58, 70], [0, 1, 1, 0], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
 
   const listStart = 74;
   const localList = Math.max(0, frame - listStart);
@@ -60,16 +83,44 @@ export const DisneyCup: React.FC = () => {
     <AbsoluteFill style={{ overflow: "hidden", transform: `scale(${punch})` }}>
       <PaperBackdrop tone="dark" />
 
+      {/* avião grande cruzando a tela */}
       <div
         style={{
           position: "absolute",
-          top: "18%",
+          top: "14%",
           left: `${planeX}%`,
           opacity: interpolate(frame, [0, 10, 48, 58], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
           transform: "rotate(24deg)",
+          filter: "drop-shadow(0 8px 16px rgba(0,0,0,0.4))",
         }}
       >
-        <IconPlane size={48} color={palette.grey200} />
+        <IconPlane size={128} color={palette.white} />
+      </div>
+
+      {/* bandeira dos EUA de um lado, passaporte do outro — chamando atenção */}
+      <div
+        style={{
+          position: "absolute",
+          top: "30%",
+          left: "9%",
+          opacity: flagOpacity,
+          transform: `scale(${flagScale}) rotate(-6deg)`,
+          filter: "drop-shadow(0 14px 24px rgba(0,0,0,0.5))",
+        }}
+      >
+        <IconFlagUSA width={130} />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: "27%",
+          right: "9%",
+          opacity: passportOpacity,
+          transform: `scale(${passportScale}) rotate(7deg)`,
+          filter: "drop-shadow(0 14px 24px rgba(0,0,0,0.5))",
+        }}
+      >
+        <IconPassport size={110} />
       </div>
 
       <AbsoluteFill
@@ -81,12 +132,12 @@ export const DisneyCup: React.FC = () => {
           padding: "0 60px",
         }}
       >
-        <StickerLabel text="VASCO INTERNATIONAL 2027" rotate={-2} bg={palette.black} color={palette.white} size={19} />
+        <StickerLabel text="VASCO INTERNATIONAL 2027" rotate={-2} bg={palette.black} color={palette.white} size={21} />
         <div style={{ marginTop: 22 }}>
-          <Typewriter text="DISNEY CUP" from={16} charsPerFrame={1.1} size={92} weight={800} style={{ letterSpacing: -2 }} />
+          <Typewriter text="DISNEY CUP" from={16} charsPerFrame={1.1} size={100} weight={800} style={{ letterSpacing: -2 }} />
         </div>
         <div style={{ marginTop: 12 }}>
-          <Highlight dark rotate={0.5} style={{ fontSize: 30, fontWeight: 800, letterSpacing: 3 }}>
+          <Highlight dark rotate={0.5} style={{ fontSize: 34, fontWeight: 800, letterSpacing: 3 }}>
             ORLANDO · USA
           </Highlight>
         </div>
@@ -96,7 +147,7 @@ export const DisneyCup: React.FC = () => {
             fontFamily: fontStack,
             fontWeight: 500,
             fontStyle: "italic",
-            fontSize: 26,
+            fontSize: 29,
             color: palette.grey400,
             textAlign: "center",
             lineHeight: 1.35,
@@ -117,7 +168,7 @@ export const DisneyCup: React.FC = () => {
             top: "20%",
             fontFamily: fontStack,
             fontWeight: 700,
-            fontSize: 22,
+            fontSize: 25,
             color: palette.grey400,
             letterSpacing: 1.5,
             textTransform: "uppercase",
@@ -146,7 +197,7 @@ export const DisneyCup: React.FC = () => {
               style={{
                 fontFamily: fontStack,
                 fontWeight: 800,
-                fontSize: 36,
+                fontSize: 41,
                 color: palette.black,
                 letterSpacing: -0.5,
                 textAlign: "center",

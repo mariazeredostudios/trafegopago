@@ -63,13 +63,16 @@ export const IconCastle: React.FC<{ size?: number; color?: string }> = ({
   color = "#fff",
 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    {/* castelo com 3 torres — silhueta mais limpa/reconhecível */}
     <path
-      d="M12 2.5l1.6 3 2-1.4-.4 3.4h2.4v3.2h-1.6v7.8H7.9v-7.8H6.3V7.5h2.4l-.4-3.4 2 1.4L12 2.5z"
+      d="M4 21V11.2L2.6 9.8 4 8.4l1.6 1.6V6.4h2v2.2L9 7.2l1.4 1.4-1.6 1.6V21M4 21h16M20 21V11.2l1.4-1.4-1.4-1.4-1.6 1.6V6.4h-2v2.2L15 7.2l-1.4 1.4 1.6 1.6V21M12 21v-6.4c0-1.1.9-2 2-2s2 .9 2 2V21M12 21v-6.4c0-1.1-.9-2-2-2s-2 .9-2 2V21"
       stroke={color}
-      strokeWidth="1.4"
+      strokeWidth="1.3"
       strokeLinejoin="round"
+      strokeLinecap="round"
     />
-    <path d="M10 21.5v-4.6a2 2 0 014 0v4.6" stroke={color} strokeWidth="1.4" />
+    <path d="M12 8.4V5" stroke={color} strokeWidth="1.3" strokeLinecap="round" />
+    <path d="M12 5l-1.6 1 1.6 1 1.6-1L12 5z" fill={color} />
   </svg>
 );
 
@@ -78,13 +81,75 @@ export const IconWave: React.FC<{ size?: number; color?: string }> = ({
   color = "#fff",
 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    {/* sol + ondas — parque aquático */}
+    <circle cx="12" cy="7.4" r="3.1" stroke={color} strokeWidth="1.6" />
     <path
-      d="M2 15c1.6-2 3.4-2 5 0s3.4 2 5 0 3.4-2 5 0 3.4 2 5 0M2 19c1.6-2 3.4-2 5 0s3.4 2 5 0 3.4-2 5 0 3.4 2 5 0"
+      d="M2.5 16.2c1.6-1.8 3.3-1.8 4.9 0 1.6 1.8 3.3 1.8 4.9 0 1.6-1.8 3.3-1.8 4.9 0 1.6 1.8 3.3 1.8 4.9 0"
       stroke={color}
-      strokeWidth="1.6"
+      strokeWidth="1.7"
       strokeLinecap="round"
     />
-    <circle cx="12" cy="7" r="3.2" stroke={color} strokeWidth="1.6" />
+    <path
+      d="M2.5 20.4c1.6-1.8 3.3-1.8 4.9 0 1.6 1.8 3.3 1.8 4.9 0 1.6-1.8 3.3-1.8 4.9 0 1.6 1.8 3.3 1.8 4.9 0"
+      stroke={color}
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      opacity="0.5"
+    />
+  </svg>
+);
+
+/** Claquete de cinema — Hollywood Studios. */
+export const IconClapper: React.FC<{ size?: number; color?: string }> = ({
+  size = 40,
+  color = "#fff",
+}) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <rect x="3" y="9.5" width="18" height="11.5" rx="1.6" stroke={color} strokeWidth="1.6" strokeLinejoin="round" />
+    <path d="M3 9.5l1.4-5 15.6 3-1 5" stroke={color} strokeWidth="1.6" strokeLinejoin="round" />
+    <path d="M6.6 4.9l3 3.1M11.8 4l3 3.1" stroke={color} strokeWidth="1.4" strokeLinecap="round" />
+    <path d="M3 13.2h18" stroke={color} strokeWidth="1.3" />
+  </svg>
+);
+
+/** Sacola de compras — Disney Springs. */
+export const IconBag: React.FC<{ size?: number; color?: string }> = ({
+  size = 40,
+  color = "#fff",
+}) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path d="M5.5 8.4h13l1 12.2a1.6 1.6 0 01-1.6 1.7H6.1a1.6 1.6 0 01-1.6-1.7l1-12.2z" stroke={color} strokeWidth="1.6" strokeLinejoin="round" />
+    <path d="M8.4 8.4v-2a3.6 3.6 0 017.2 0v2" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+  </svg>
+);
+
+/** Bandeira dos Estados Unidos — cores reais (não é um "acento" de
+ * destaque, é a identidade da bandeira mesmo). */
+export const IconFlagUSA: React.FC<{ width?: number }> = ({ width = 90 }) => (
+  <svg width={width} height={width * 0.53} viewBox="0 0 60 32" style={{ display: "block" }}>
+    <rect width="60" height="32" fill="#B22234" />
+    {[1, 3, 5, 7, 9, 11].map((i) => (
+      <rect key={i} y={(i * 32) / 13} width="60" height={32 / 13} fill="#fff" />
+    ))}
+    <rect width="26" height="17.2" fill="#3C3B6E" />
+    {Array.from({ length: 12 }).map((_, i) => (
+      <circle key={i} cx={2.5 + (i % 4) * 6.5} cy={2.5 + Math.floor(i / 4) * 6} r="0.9" fill="#fff" />
+    ))}
+  </svg>
+);
+
+/** Passaporte — livrinho com brasão simplificado. */
+export const IconPassport: React.FC<{ size?: number; color?: string }> = ({
+  size = 70,
+  color = "#0A0A0A",
+}) => (
+  <svg width={size * 0.74} height={size} viewBox="0 0 44 60">
+    <rect x="1.5" y="1.5" width="41" height="57" rx="4" fill={color} stroke="#fff" strokeWidth="1.4" />
+    <rect x="6" y="6" width="32" height="48" rx="2" fill="none" stroke="rgba(255,255,255,0.4)" strokeWidth="1" />
+    <circle cx="22" cy="24" r="8" fill="none" stroke="#fff" strokeWidth="1.4" />
+    <path d="M22 17.5v13M16 24h12" stroke="#fff" strokeWidth="1.2" />
+    <rect x="12" y="38" width="20" height="3" fill="#fff" opacity="0.85" />
+    <rect x="12" y="43" width="14" height="2.4" fill="#fff" opacity="0.55" />
   </svg>
 );
 
@@ -96,6 +161,22 @@ export const IconSpark: React.FC<{ size?: number; color?: string }> = ({
     <path
       d="M12 2.4l1.8 6.3 6.3 1.8-6.3 1.8L12 18.4l-1.8-6.1-6.3-1.8 6.3-1.8L12 2.4z"
       fill={color}
+    />
+  </svg>
+);
+
+/** Cursor de mouse (seta) — usado no clique simulado em cima de um CTA. */
+export const IconCursor: React.FC<{ size?: number; color?: string }> = ({
+  size = 40,
+  color = "#fff",
+}) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path
+      d="M4.5 2.8l14.6 8.4-6.2 1.5-1.5 6.2-6.9-16.1z"
+      fill={color}
+      stroke="#000"
+      strokeWidth="1.1"
+      strokeLinejoin="round"
     />
   </svg>
 );

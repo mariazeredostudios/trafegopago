@@ -45,7 +45,7 @@ export const BrowserSearch: React.FC = () => {
           style={{
             fontFamily: fontStack,
             fontWeight: 700,
-            fontSize: 22,
+            fontSize: 25,
             letterSpacing: 4,
             color: palette.grey400,
             textTransform: "uppercase",
@@ -90,7 +90,7 @@ export const BrowserSearch: React.FC = () => {
             <div
               style={{
                 fontFamily: fontStack,
-                fontSize: 29,
+                fontSize: 33,
                 fontWeight: 600,
                 color: palette.grey900,
                 marginLeft: 18,

@@ -132,14 +132,14 @@ export const Apresentacao: React.FC = () => {
       {/* etiqueta + nome, estilo adesivo colado */}
       <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 86 }}>
         <div style={{ opacity: interpolate(frame, [4, 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <StickerLabel text="VASCO INTERNATIONAL" rotate={-2} bg={palette.black} color={palette.white} size={20} />
+          <StickerLabel text="VASCO INTERNATIONAL" rotate={-2} bg={palette.black} color={palette.white} size={22} />
         </div>
         <div
           style={{
             marginTop: 16,
             fontFamily: fontStack,
             fontWeight: 800,
-            fontSize: 46,
+            fontSize: 52,
             color: palette.white,
             opacity: interpolate(frame, [10, 24], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
           }}
@@ -159,7 +159,7 @@ export const Apresentacao: React.FC = () => {
             text={LINE}
             from={18}
             charsPerFrame={1.15}
-            size={25}
+            size={28}
             weight={700}
             align="center"
             style={{ lineHeight: 1.35, whiteSpace: "pre-line" }}

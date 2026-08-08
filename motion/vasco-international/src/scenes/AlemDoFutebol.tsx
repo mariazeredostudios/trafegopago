@@ -7,24 +7,24 @@ import { useCutPunch } from "../components/Motion";
 type Line = { text: string; in: number; out: number; size?: number; sticker?: boolean };
 
 const LINES: Line[] = [
-  { text: "Independência.", in: 0, out: 46, size: 72, sticker: true },
-  { text: "Maturidade.", in: 40, out: 86, size: 72, sticker: true },
-  { text: "Intercâmbio cultural.", in: 80, out: 132, size: 60 },
-  { text: "A metodologia do Vasco,\nna prática.", in: 126, out: 182, size: 54 },
-  { text: "Pra quem carrega o\nCasaca no peito.", in: 176, out: 230, size: 50 },
+  { text: "Independência.", in: 0, out: 46, size: 82, sticker: true },
+  { text: "Maturidade.", in: 40, out: 86, size: 82, sticker: true },
+  { text: "Intercâmbio cultural.", in: 80, out: 132, size: 68 },
+  { text: "A metodologia do Vasco,\nna prática.", in: 126, out: 182, size: 62 },
+  { text: "Essa chance é somente\npara quem carrega a Cruz\nde Malta desde que nasceu.", in: 176, out: 244, size: 46 },
 ];
 
-// 0-230 frases / 230-300 fechamento "Camisas Negras"
+// 0-244 frases / 244-300 fechamento
 export const AlemDoFutebol: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const punch = useCutPunch(frame);
 
-  const closeOpacity = interpolate(frame, [230, 250], [0, 1], {
+  const closeOpacity = interpolate(frame, [244, 262], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const closeSpring = spring({ frame: frame - 230, fps, config: { damping: 12 }, durationInFrames: 20 });
+  const closeSpring = spring({ frame: frame - 244, fps, config: { damping: 12 }, durationInFrames: 20 });
   const closeScale = interpolate(closeSpring, [0, 1], [0.6, 1]);
 
   return (
@@ -79,7 +79,7 @@ export const AlemDoFutebol: React.FC = () => {
 
       <AbsoluteFill style={{ opacity: closeOpacity, transform: `scale(${closeScale})`, justifyContent: "center", alignItems: "center" }}>
         <TornPanel seed={42} background={palette.black} style={{ padding: "34px 44px" }}>
-          <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 44, color: palette.white, textAlign: "center", letterSpacing: -1 }}>
+          <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 50, color: palette.white, textAlign: "center", letterSpacing: -1 }}>
             ORGULHO DE SER VASCO.
           </div>
         </TornPanel>
