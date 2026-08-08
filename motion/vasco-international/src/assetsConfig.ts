@@ -5,7 +5,7 @@
 // Nenhum outro código precisa mudar.
 export const ASSETS = {
   face: {
-    enabled: false,
+    enabled: true,
     src: "assets/rosto-lucas-fortuna.png", // PNG com fundo transparente, só a cabeça/rosto
   },
   jersey: {
