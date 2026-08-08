@@ -2,30 +2,27 @@ import React from "react";
 import { Composition, Sequence, AbsoluteFill } from "remotion";
 import { FPS, SCENES, TOTAL_DURATION } from "./timing";
 import { BrowserSearch } from "./scenes/BrowserSearch";
-import { Colagem } from "./scenes/Colagem";
-import { HookValue } from "./scenes/HookValue";
-import { Destino } from "./scenes/Destino";
-import { Significado } from "./scenes/Significado";
+import { Apresentacao } from "./scenes/Apresentacao";
+import { DisneyCup } from "./scenes/DisneyCup";
+import { AlemDoFutebol } from "./scenes/AlemDoFutebol";
 import { Seletiva } from "./scenes/Seletiva";
 import { CTA } from "./scenes/CTA";
+import { PaperWipe } from "./components/Paper";
 
 const Main: React.FC = () => {
   return (
     <AbsoluteFill>
-      <Sequence from={SCENES.browserSearch.from} durationInFrames={SCENES.browserSearch.duration}>
+      <Sequence from={SCENES.hook.from} durationInFrames={SCENES.hook.duration}>
         <BrowserSearch />
       </Sequence>
-      <Sequence from={SCENES.colagem.from} durationInFrames={SCENES.colagem.duration}>
-        <Colagem />
+      <Sequence from={SCENES.apresentacao.from} durationInFrames={SCENES.apresentacao.duration}>
+        <Apresentacao />
       </Sequence>
-      <Sequence from={SCENES.hookValue.from} durationInFrames={SCENES.hookValue.duration}>
-        <HookValue />
+      <Sequence from={SCENES.disneyCup.from} durationInFrames={SCENES.disneyCup.duration}>
+        <DisneyCup />
       </Sequence>
-      <Sequence from={SCENES.destino.from} durationInFrames={SCENES.destino.duration}>
-        <Destino />
-      </Sequence>
-      <Sequence from={SCENES.significado.from} durationInFrames={SCENES.significado.duration}>
-        <Significado />
+      <Sequence from={SCENES.alemDoFutebol.from} durationInFrames={SCENES.alemDoFutebol.duration}>
+        <AlemDoFutebol />
       </Sequence>
       <Sequence from={SCENES.seletiva.from} durationInFrames={SCENES.seletiva.duration}>
         <Seletiva />
@@ -33,6 +30,7 @@ const Main: React.FC = () => {
       <Sequence from={SCENES.cta.from} durationInFrames={SCENES.cta.duration}>
         <CTA />
       </Sequence>
+      <PaperWipe />
     </AbsoluteFill>
   );
 };

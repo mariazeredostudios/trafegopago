@@ -9,7 +9,7 @@ export const ASSETS = {
     src: "assets/rosto-lucas-fortuna.png", // PNG com fundo transparente, só a cabeça/rosto
   },
   jersey: {
-    enabled: false,
+    enabled: true,
     src: "assets/camisa-vasco.png", // PNG da camisa do Vasco (fundo transparente)
   },
   vascoShield: {

@@ -1,0 +1,189 @@
+import React from "react";
+import {
+  AbsoluteFill,
+  useCurrentFrame,
+  interpolate,
+  spring,
+  useVideoConfig,
+  Img,
+  staticFile,
+} from "remotion";
+import { palette, fontStack } from "../palette";
+import { ASSETS } from "../assetsConfig";
+import { useCutPunch } from "../components/Motion";
+import { Grain } from "../components/Backdrop";
+import { TornPanel, StickerLabel } from "../components/Paper";
+
+const LINE =
+  "Já pensou em vestir a Cruz de Malta\ne representar o Gigante da Colina\nno exterior?";
+
+export const Apresentacao: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const punch = useCutPunch(frame);
+
+  const entrance = spring({ frame, fps, config: { damping: 13 }, durationInFrames: 22 });
+  const scale = interpolate(entrance, [0, 1], [0.5, 1]);
+  const dropY = interpolate(entrance, [0, 1], [-160, 0]);
+
+  const talk = Math.sin(frame / 3) * 2.6;
+  const idleBob = Math.sin(frame / 18) * 7;
+  const rimPulse = 0.55 + Math.sin(frame / 8) * 0.35;
+
+  // legenda revelada palavra a palavra pra imitar cadência de fala
+  const words = LINE.split(/(\s|\n)/);
+  const revealStart = 20;
+  const perWord = 4.2;
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#05130a", overflow: "hidden", transform: `scale(${punch})` }}>
+      <Stadium />
+      <Grain opacity={0.06} />
+
+      <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center" }}>
+        <div
+          style={{
+            position: "absolute",
+            bottom: 300,
+            width: 640,
+            height: 640,
+            borderRadius: "50%",
+            background: `radial-gradient(circle, rgba(255,255,255,${0.16 * rimPulse}) 0%, rgba(255,255,255,0) 65%)`,
+          }}
+        />
+      </AbsoluteFill>
+
+      <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 430 }}>
+        <div
+          style={{
+            transform: `translateY(${dropY + idleBob}px) scale(${scale})`,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              width: 300,
+              height: 300,
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: `5px solid rgba(255,255,255,0.92)`,
+              boxShadow: `0 24px 60px rgba(0,0,0,0.6), 0 0 60px rgba(255,255,255,${0.25 * rimPulse})`,
+              transform: `rotate(${talk}deg)`,
+              background: palette.grey700,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 2,
+              marginBottom: -30,
+            }}
+          >
+            {ASSETS.face.enabled ? (
+              <Img src={staticFile(ASSETS.face.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            ) : (
+              <span style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 90, color: palette.grey200 }}>LF</span>
+            )}
+          </div>
+
+          <div style={{ width: 210, height: 258, overflow: "hidden", filter: "drop-shadow(0 20px 30px rgba(0,0,0,0.5))" }}>
+            {ASSETS.jersey.enabled ? (
+              <Img src={staticFile(ASSETS.jersey.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            ) : (
+              <PlaceholderJersey />
+            )}
+          </div>
+        </div>
+      </AbsoluteFill>
+
+      {/* etiqueta + nome, estilo adesivo colado */}
+      <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 86 }}>
+        <div style={{ opacity: interpolate(frame, [4, 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+          <StickerLabel text="VASCO INTERNATIONAL" rotate={-2} bg={palette.red} color={palette.white} size={20} />
+        </div>
+        <div
+          style={{
+            marginTop: 16,
+            fontFamily: fontStack,
+            fontWeight: 800,
+            fontSize: 46,
+            color: palette.white,
+            opacity: interpolate(frame, [10, 24], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+          }}
+        >
+          LUCAS FORTUNA
+        </div>
+      </AbsoluteFill>
+
+      {/* legenda em papel, palavra a palavra */}
+      <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 60 }}>
+        <TornPanel
+          seed={7}
+          background="rgba(10,10,10,0.72)"
+          style={{ padding: "22px 30px", maxWidth: 640 }}
+        >
+          <div style={{ fontFamily: fontStack, fontWeight: 700, fontSize: 25, color: palette.white, textAlign: "center", lineHeight: 1.35 }}>
+            {words.map((w, i) => {
+              const start = revealStart + i * perWord;
+              const o = interpolate(frame, [start, start + 6], [0, 1], {
+                extrapolateLeft: "clamp",
+                extrapolateRight: "clamp",
+              });
+              return (
+                <span key={i} style={{ opacity: o }}>
+                  {w === "\n" ? <br /> : w}
+                </span>
+              );
+            })}
+          </div>
+        </TornPanel>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
+const Stadium: React.FC = () => {
+  const frame = useCurrentFrame();
+  const sweep = interpolate(frame, [0, 150], [0, 1]);
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #071b0e 0%, #123a1f 45%, #0c2c17 100%)" }} />
+      <AbsoluteFill
+        style={{
+          top: "auto",
+          height: "34%",
+          background:
+            "repeating-linear-gradient(90deg, rgba(0,0,0,0.35) 0px, rgba(0,0,0,0.35) 5px, rgba(20,20,20,0.15) 5px, rgba(20,20,20,0.15) 10px)",
+          opacity: 0.5,
+        }}
+      />
+      <AbsoluteFill
+        style={{
+          background:
+            "repeating-linear-gradient(90deg, rgba(255,255,255,0.045) 0px, rgba(255,255,255,0.045) 90px, transparent 90px, transparent 180px)",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          top: -100,
+          left: `${-30 + sweep * 60}%`,
+          width: "70%",
+          height: "160%",
+          background: "linear-gradient(100deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 40%)",
+          transform: "rotate(18deg)",
+        }}
+      />
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 100%, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 55%)" }} />
+    </AbsoluteFill>
+  );
+};
+
+const PlaceholderJersey: React.FC = () => (
+  <div style={{ width: "100%", height: "100%", background: palette.white, display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
+    <div style={{ position: "absolute", top: 0, left: "18%", width: "34%", height: "100%", background: palette.black, transform: "skewX(-12deg)" }} />
+    <span style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 18, color: palette.grey700, zIndex: 1, background: "rgba(255,255,255,0.85)", padding: "4px 10px", borderRadius: 6 }}>
+      CAMISA VASCO
+    </span>
+  </div>
+);

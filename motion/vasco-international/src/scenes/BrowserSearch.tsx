@@ -1,16 +1,16 @@
 import React from "react";
-import { AbsoluteFill, useCurrentFrame, interpolate, Easing } from "remotion";
+import { AbsoluteFill, useCurrentFrame, interpolate, Easing, spring, useVideoConfig } from "remotion";
 import { palette, fontStack } from "../palette";
+import { Backdrop } from "../components/Backdrop";
 
 const FULL_TEXT = "eu quero jogar pelo vasco da gama";
 
 export const BrowserSearch: React.FC = () => {
   const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
 
-  // Digitação: começa no frame 12, ~2 chars/frame de "peso" (ritmo tipo humano,
-  // não constante) — termina por volta do frame 80.
-  const typingStart = 12;
-  const typingEnd = 82;
+  const typingStart = 14;
+  const typingEnd = 84;
   const progress = interpolate(frame, [typingStart, typingEnd], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -18,82 +18,84 @@ export const BrowserSearch: React.FC = () => {
   });
   const chars = Math.round(progress * FULL_TEXT.length);
   const typed = FULL_TEXT.slice(0, chars);
-
   const cursorBlink = Math.floor(frame / 8) % 2 === 0;
 
-  // Enter pressionado ~frame 92: caixa "pulsa" e a tela começa a clarear
-  // (whip transition) pra cena seguinte.
-  const enterPulse = interpolate(frame, [90, 96, 104], [1, 1.04, 1], {
+  const enterPulse = interpolate(frame, [90, 96, 106], [1, 1.06, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
-  const whiteOut = interpolate(frame, [104, 120], [0, 1], {
+  const whiteOut = interpolate(frame, [106, 120], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
     easing: Easing.in(Easing.cubic),
   });
 
-  const barIn = interpolate(frame, [0, 12], [30, 0], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: Easing.out(Easing.cubic),
-  });
+  const entrance = spring({ frame, fps, config: { damping: 12 }, durationInFrames: 20 });
+  const barScale = interpolate(entrance, [0, 1], [0.82, 1]);
+  const barY = interpolate(entrance, [0, 1], [40, 0]);
   const barOpacity = interpolate(frame, [0, 10], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
+  const glowPulse = 0.5 + Math.sin(frame / 10) * 0.15;
+
   return (
-    <AbsoluteFill style={{ backgroundColor: palette.white }}>
+    <AbsoluteFill style={{ backgroundColor: palette.grey900, overflow: "hidden" }}>
+      <Backdrop base={palette.grey900} blobColor="rgba(179,18,26,0.28)" blobColor2="rgba(255,255,255,0.08)" />
+
       <AbsoluteFill
         style={{
           justifyContent: "center",
           alignItems: "center",
-          padding: 64,
+          padding: 60,
         }}
       >
-        {/* Chrome de navegador minimalista */}
         <div
           style={{
-            width: "100%",
-            transform: `translateY(${barIn}px) scale(${enterPulse})`,
+            fontFamily: fontStack,
+            fontWeight: 700,
+            fontSize: 24,
+            letterSpacing: 4,
+            color: palette.grey400,
+            textTransform: "uppercase",
+            marginBottom: 26,
             opacity: barOpacity,
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              gap: 8,
-              marginBottom: 18,
-              paddingLeft: 4,
-            }}
-          >
-            {[palette.grey400, palette.grey400, palette.grey400].map(
-              (c, i) => (
-                <div
-                  key={i}
-                  style={{
-                    width: 12,
-                    height: 12,
-                    borderRadius: 999,
-                    background: c,
-                  }}
-                />
-              )
-            )}
+          Toda história começa com uma busca
+        </div>
+
+        {/* "Navegador" — janela com chrome + glow por baixo */}
+        <div
+          style={{
+            width: "100%",
+            transform: `translateY(${barY}px) scale(${barScale * enterPulse})`,
+            opacity: barOpacity,
+            borderRadius: 26,
+            background: "rgba(20,20,20,0.65)",
+            border: `1px solid rgba(255,255,255,0.12)`,
+            boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${60 + glowPulse * 40}px rgba(179,18,26,${glowPulse * 0.3})`,
+            padding: 22,
+            backdropFilter: "blur(6px)",
+          }}
+        >
+          <div style={{ display: "flex", gap: 9, marginBottom: 20, paddingLeft: 6 }}>
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#FF5F57" }} />
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#FEBC2E" }} />
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#28C840" }} />
           </div>
           <div
             style={{
               display: "flex",
               alignItems: "center",
               width: "100%",
-              height: 74,
+              height: 78,
               borderRadius: 999,
-              border: `2px solid ${palette.grey200}`,
-              boxShadow: "0 18px 40px rgba(0,0,0,0.08)",
+              border: `2px solid rgba(255,255,255,0.14)`,
+              background: "rgba(255,255,255,0.96)",
               padding: "0 30px",
-              background: "#FFFFFF",
             }}
           >
             <SearchIcon />
@@ -109,46 +111,20 @@ export const BrowserSearch: React.FC = () => {
               }}
             >
               {typed}
-              <span
-                style={{
-                  opacity: cursorBlink ? 1 : 0,
-                  color: palette.black,
-                }}
-              >
-                |
-              </span>
+              <span style={{ opacity: cursorBlink ? 1 : 0, color: palette.black }}>|</span>
             </div>
           </div>
         </div>
       </AbsoluteFill>
 
-      <AbsoluteFill
-        style={{
-          backgroundColor: palette.white,
-          opacity: whiteOut,
-        }}
-      />
+      <AbsoluteFill style={{ backgroundColor: palette.white, opacity: whiteOut }} />
     </AbsoluteFill>
   );
 };
 
 const SearchIcon: React.FC = () => (
   <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
-    <circle
-      cx="11"
-      cy="11"
-      r="7"
-      stroke={palette.grey400}
-      strokeWidth="2.4"
-    />
-    <line
-      x1="16.2"
-      y1="16.2"
-      x2="21"
-      y2="21"
-      stroke={palette.grey400}
-      strokeWidth="2.4"
-      strokeLinecap="round"
-    />
+    <circle cx="11" cy="11" r="7" stroke={palette.grey400} strokeWidth="2.4" />
+    <line x1="16.2" y1="16.2" x2="21" y2="21" stroke={palette.grey400} strokeWidth="2.4" strokeLinecap="round" />
   </svg>
 );
