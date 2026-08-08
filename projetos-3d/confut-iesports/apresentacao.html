@@ -552,37 +552,63 @@ scene.add(makeStool(1.82, 2.05)); // banqueta do balcão — sempre presente, n�
 
 // ================= OPÇÃO 2 — 2 poltronas + mesinha baixa =================
 // encostadas na parede de fundo, viradas para a frente (para o corredor)
-var shellMat = new THREE.MeshStandardMaterial({ color: 0x0b63d6, roughness: 0.78, metalness: 0.02 });
-var cushionMat = new THREE.MeshStandardMaterial({ color: 0xeef1f7, roughness: 0.6 });
+// estofado em couro/courino branco — inspiração enviada pelo cliente (poltrona shell branca, base cromada)
+var shellMat = new THREE.MeshStandardMaterial({ color: 0xf5f3ef, roughness: 0.42, metalness: 0.02 });
+var cushionMat = new THREE.MeshStandardMaterial({ color: 0xfaf8f4, roughness: 0.4 });
 
 function makeArmchair(px, pz){
+  // inspirada na poltrona shell (tipo Swan Chair): casca contínua e
+  // arredondada em couro/estofado claro, base giratória em estrela cromada.
   var g = new THREE.Group();
-  var shellH = 0.72, rTop = 0.33, rBot = 0.29, liftH = 0.11;
+  var liftH = 0.42; // altura do pedestal até a base da casca
+
+  // perfil da casca (raio, altura) revolvido — silhueta arredondada, não um
+  // cilindro reto: alarga no assento, afina suavemente até o topo
+  var profile = [
+    [0.020, 0.00],
+    [0.230, 0.05],
+    [0.335, 0.15],
+    [0.330, 0.30],
+    [0.300, 0.44],
+    [0.250, 0.56],
+    [0.205, 0.64],
+    [0.180, 0.70]
+  ].map(function(p){ return new THREE.Vector2(p[0], p[1]); });
   var shell = new THREE.Mesh(
-    new THREE.CylinderGeometry(rTop, rBot, shellH, 28, 1, true, THREE.MathUtils.degToRad(-150), THREE.MathUtils.degToRad(300)),
+    new THREE.LatheGeometry(profile, 32, THREE.MathUtils.degToRad(-150), THREE.MathUtils.degToRad(300)),
     shellMat
   );
-  shell.position.y = shellH/2 + liftH;
+  shell.position.y = liftH;
   shell.castShadow = true; shell.receiveShadow = true;
   g.add(shell);
 
-  var seat = new THREE.Mesh(new THREE.CylinderGeometry(0.265, 0.265, 0.10, 24), cushionMat);
-  seat.position.y = liftH + 0.14;
+  var seat = new THREE.Mesh(new THREE.CylinderGeometry(0.255, 0.255, 0.08, 24), cushionMat);
+  seat.position.y = liftH + 0.15;
   seat.castShadow = true;
   g.add(seat);
 
-  var legH = 0.16;
-  [[0.21,0.13],[-0.21,0.13],[0.21,-0.13],[-0.21,-0.13]].forEach(function(p){
-    var leg = new THREE.Mesh(new THREE.CylinderGeometry(0.014,0.010, legH, 8), metalMat);
-    leg.position.set(p[0], legH/2, p[1]);
-    leg.rotation.x = (p[1] > 0 ? -1 : 1) * 0.1;
-    leg.rotation.z = (p[0] > 0 ? -1 : 1) * 0.1;
-    leg.castShadow = true;
-    g.add(leg);
-  });
+  // pedestal cromado
+  var stem = new THREE.Mesh(new THREE.CylinderGeometry(0.028, 0.032, liftH - 0.03, 14), metalMat);
+  stem.position.y = (liftH - 0.03)/2 + 0.03;
+  stem.castShadow = true;
+  g.add(stem);
+
+  // base giratória em estrela (4 pontas), como a referência
+  var starMat = metalMat;
+  for (var i = 0; i < 4; i++){
+    var ang = i * Math.PI/2 + Math.PI/4;
+    var arm = new THREE.Mesh(new THREE.BoxGeometry(0.40, 0.022, 0.06), starMat);
+    arm.position.set(Math.cos(ang)*0.19, 0.02, Math.sin(ang)*0.19);
+    arm.rotation.y = ang;
+    arm.castShadow = true; arm.receiveShadow = true;
+    g.add(arm);
+    var foot = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.018, 12), new THREE.MeshStandardMaterial({ color: 0x22262e, roughness: 0.6 }));
+    foot.position.set(Math.cos(ang)*0.37, 0.009, Math.sin(ang)*0.37);
+    g.add(foot);
+  }
 
   g.position.set(px, 0, pz);
-  g.rotation.y = Math.PI/2; // abertura da poltrona virada para +Z — de frente para o corredor
+  g.rotation.y = Math.PI; // abertura da poltrona virada para +Z — de frente para o corredor, não para a parede
   return g;
 }
 
