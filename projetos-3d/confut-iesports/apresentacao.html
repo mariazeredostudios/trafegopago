@@ -133,6 +133,15 @@ h1{ font-family: var(--font-display); text-transform:uppercase; font-weight:600;
 }
 .scene-loading.is-hidden{ opacity:0; }
 
+.furniture-toggle{ display:flex; justify-content:center; gap:8px; margin-top:12px; }
+.furniture-toggle button{
+  font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.03em; text-transform:uppercase;
+  background:transparent; border:1px solid var(--line); color:var(--chalk-faint);
+  padding:8px 14px; border-radius:999px; cursor:pointer; transition:border-color .15s,color .15s,background .15s;
+}
+.furniture-toggle button:hover{ color:var(--chalk); }
+.furniture-toggle button.is-current{ border-color:var(--pitch-br); color:var(--chalk); background:rgba(61,139,255,0.12); }
+
 .panel-info{
   background: var(--night-2); border:1px solid var(--line); border-radius:14px; padding:20px;
   display:flex; flex-direction:column; gap:12px; justify-content:center;
@@ -170,6 +179,10 @@ h1{ font-family: var(--font-display); text-transform:uppercase; font-weight:600;
       <div class="scene" id="scene">
         <canvas id="gl"></canvas>
         <div class="scene-loading" id="sceneLoading">Montando o estande…</div>
+      </div>
+      <div class="furniture-toggle" id="furnitureToggle" role="group" aria-label="Opção de mobiliário da área de convívio">
+        <button type="button" class="is-current" data-opt="A">Opção 1 · Mesa bistrô</button>
+        <button type="button" data-opt="B">Opção 2 · Poltronas</button>
       </div>
     </div>
 
@@ -528,10 +541,82 @@ function makeStool(px, pz){
   g.position.set(px, 0, pz);
   return g;
 }
-scene.add(makeTable(1.05, 1.05));
-scene.add(makeStool(0.62, 1.42));
-scene.add(makeStool(1.48, 0.68));
-scene.add(makeStool(1.82, 2.05)); // banqueta do balcão — item próprio da lista do documento técnico
+// Opção 1 — conjunto bistrô (mesa alta + 2 banquetas), documento técnico
+var loungeA = new THREE.Group();
+loungeA.add(makeTable(1.05, 1.05));
+loungeA.add(makeStool(0.62, 1.42));
+loungeA.add(makeStool(1.48, 0.68));
+scene.add(loungeA);
+
+scene.add(makeStool(1.82, 2.05)); // banqueta do balcão — sempre presente, não faz parte da troca de opção
+
+// ================= OPÇÃO 2 — 2 poltronas + mesinha baixa =================
+// encostadas na parede de fundo, viradas para a frente (para o corredor)
+var shellMat = new THREE.MeshStandardMaterial({ color: 0x0b63d6, roughness: 0.78, metalness: 0.02 });
+var cushionMat = new THREE.MeshStandardMaterial({ color: 0xeef1f7, roughness: 0.6 });
+
+function makeArmchair(px, pz){
+  var g = new THREE.Group();
+  var shellH = 0.72, rTop = 0.33, rBot = 0.29, liftH = 0.11;
+  var shell = new THREE.Mesh(
+    new THREE.CylinderGeometry(rTop, rBot, shellH, 28, 1, true, THREE.MathUtils.degToRad(-150), THREE.MathUtils.degToRad(300)),
+    shellMat
+  );
+  shell.position.y = shellH/2 + liftH;
+  shell.castShadow = true; shell.receiveShadow = true;
+  g.add(shell);
+
+  var seat = new THREE.Mesh(new THREE.CylinderGeometry(0.265, 0.265, 0.10, 24), cushionMat);
+  seat.position.y = liftH + 0.14;
+  seat.castShadow = true;
+  g.add(seat);
+
+  var legH = 0.16;
+  [[0.21,0.13],[-0.21,0.13],[0.21,-0.13],[-0.21,-0.13]].forEach(function(p){
+    var leg = new THREE.Mesh(new THREE.CylinderGeometry(0.014,0.010, legH, 8), metalMat);
+    leg.position.set(p[0], legH/2, p[1]);
+    leg.rotation.x = (p[1] > 0 ? -1 : 1) * 0.1;
+    leg.rotation.z = (p[0] > 0 ? -1 : 1) * 0.1;
+    leg.castShadow = true;
+    g.add(leg);
+  });
+
+  g.position.set(px, 0, pz);
+  g.rotation.y = Math.PI/2; // abertura da poltrona virada para +Z — de frente para o corredor
+  return g;
+}
+
+function makeLowTable(px, pz){
+  var g = new THREE.Group();
+  var h = 0.36;
+  var top = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.025, 32), glassMat);
+  top.position.y = h; top.castShadow = true;
+  g.add(top);
+  [0, 120, 240].forEach(function(deg){
+    var a = THREE.MathUtils.degToRad(deg);
+    var lx = Math.cos(a)*0.26, lz = Math.sin(a)*0.26;
+    var leg = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, h - 0.02, 8), metalMat);
+    leg.position.set(lx, h/2, lz);
+    leg.rotation.x = Math.sin(a) * 0.15;
+    leg.rotation.z = -Math.cos(a) * 0.15;
+    leg.castShadow = true;
+    g.add(leg);
+  });
+  g.position.set(px, 0, pz);
+  return g;
+}
+
+var loungeB = new THREE.Group();
+loungeB.add(makeArmchair(0.65, 0.40));
+loungeB.add(makeArmchair(1.65, 0.40));
+loungeB.add(makeLowTable(1.15, 0.92));
+loungeB.visible = false;
+scene.add(loungeB);
+
+window.__setFurniture = function(option){
+  loungeA.visible = (option === 'A');
+  loungeB.visible = (option === 'B');
+};
 
 // ================= INTERAÇÃO: arraste para orbitar =================
 var dragging = false, moved = 0, startX = 0, startY = 0, startAz = 0, startPo = 0;
@@ -645,4 +730,16 @@ window.__cameraDebug = function(){ return { azimuth: THREE.MathUtils.radToDeg(sp
 })();
 
 document.getElementById('sceneLoading').classList.add('is-hidden');
+
+(function(){
+  var toggle = document.getElementById('furnitureToggle');
+  if (!toggle) return;
+  var btns = Array.prototype.slice.call(toggle.querySelectorAll('button'));
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.toggle('is-current', x === b); });
+      if (window.__setFurniture) window.__setFurniture(b.getAttribute('data-opt'));
+    });
+  });
+})();
 </script>
