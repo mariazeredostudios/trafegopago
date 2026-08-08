@@ -324,7 +324,7 @@ var rearLight2 = new THREE.DirectionalLight(0x9fb8e8, 0.5);
 rearLight2.position.set(5.5, 3.0, 1.5);
 scene.add(rearLight2);
 var counterWarm = new THREE.PointLight(0xffb066, 0.45, 2.0, 2);
-counterWarm.position.set(2.4, 1.6, 1.0);
+counterWarm.position.set(2.4, 1.6, 2.05);
 scene.add(counterWarm);
 
 // ---------- helpers ----------
@@ -436,7 +436,7 @@ scene.add(logoMesh);
 // ================= BALCÃO (counter) =================
 var CW = 0.90, CD = 0.40, CH = 0.90;
 var counterGroup = new THREE.Group();
-var cx0 = 2.05, cz0 = 0.75; // canto do balcão (perto da parede lateral, área frontal)
+var cx0 = 2.05, cz0 = 1.85; // canto do balcão — perto da parede lateral, na frente do estande (voltado para o corredor/entrada, não escondido no fundo)
 counterGroup.position.set(cx0 + CW/2, CH/2, cz0 + CD/2);
 scene.add(counterGroup);
 
@@ -528,7 +528,7 @@ function makeStool(px, pz){
 scene.add(makeTable(1.05, 1.05));
 scene.add(makeStool(0.62, 1.42));
 scene.add(makeStool(1.48, 0.68));
-scene.add(makeStool(1.82, 0.95)); // banqueta do balcão — item próprio da lista do documento técnico
+scene.add(makeStool(1.82, 2.05)); // banqueta do balcão — item próprio da lista do documento técnico
 
 // ================= INTERAÇÃO: arraste para orbitar =================
 var dragging = false, moved = 0, startX = 0, startY = 0, startAz = 0, startPo = 0;
