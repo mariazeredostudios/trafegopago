@@ -1,4 +1,5 @@
-// Timeline mestre — 58s @ 30fps = 1740 frames.
+// Timeline mestre — a cena do telefone agora dura o mesmo que a gravação
+// de tela INTEIRA (não corta mais), então o vídeo final ficou mais longo.
 export const FPS = 30;
 
 export const SCENES = {
@@ -8,8 +9,8 @@ export const SCENES = {
   alemDoFutebol: { from: 600, duration: 300 }, // 0:20 - 0:30
   motivacional: { from: 900, duration: 90 }, // 0:30 - 0:33
   seletiva: { from: 990, duration: 300 }, // 0:33 - 0:43
-  telefoneFeed: { from: 1290, duration: 150 }, // 0:43 - 0:48 (5s — dura o mesmo que a gravação)
-  cta: { from: 1440, duration: 300 }, // 0:48 - 0:58
+  telefoneFeed: { from: 1290, duration: 591 }, // 0:43 - 1:03 — vídeo inteiro (19.7s), sem corte
+  cta: { from: 1881, duration: 300 }, // 1:03 - 1:13
 };
 
-export const TOTAL_DURATION = SCENES.cta.from + SCENES.cta.duration; // 1740
+export const TOTAL_DURATION = SCENES.cta.from + SCENES.cta.duration; // 2181
