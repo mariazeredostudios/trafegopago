@@ -1,7 +1,6 @@
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, interpolate } from "remotion";
 import { palette, fontStack } from "../palette";
-import { SCENES } from "../timing";
 
 // ---------------------------------------------------------------------
 // Kit visual "colagem / paper cutout": bordas rasgadas determinísticas,
@@ -157,12 +156,12 @@ export const StickerLabel: React.FC<{
 
 /** Transição de "papel rasgado" entre cenas — uma tira cobre a tela
  * inteira no instante do corte e desliza pra fora, escondendo o corte
- * seco por trás de um rasgo de papel. */
-export const PaperWipe: React.FC = () => {
+ * seco por trás de um rasgo de papel. Passe as fronteiras de cena da
+ * timeline em uso (timing.ts ou shortTiming.ts) — cada Composition tem
+ * a sua, então não dá pra cravar uma só aqui dentro. */
+export const PaperWipe: React.FC<{ boundaries: number[] }> = ({ boundaries: allBoundaries }) => {
   const frame = useCurrentFrame();
-  const boundaries = Object.values(SCENES)
-    .map((s) => s.from)
-    .filter((f) => f > 0);
+  const boundaries = allBoundaries.filter((f) => f > 0);
 
   return (
     <AbsoluteFill style={{ pointerEvents: "none", overflow: "hidden" }}>

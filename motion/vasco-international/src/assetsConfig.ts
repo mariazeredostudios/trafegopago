@@ -28,4 +28,8 @@ export const ASSETS = {
     enabled: true,
     src: "assets/ig-feed.mp4", // gravação de tela rolando o feed do Instagram, pra dentro do telefone
   },
+  igFeedFast: {
+    enabled: true,
+    src: "assets/ig-feed-fast.mp4", // mesma gravação, acelerada ~6x — usada só no corte curto (Reels)
+  },
 };
