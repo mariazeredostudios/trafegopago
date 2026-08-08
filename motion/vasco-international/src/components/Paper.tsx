@@ -99,7 +99,7 @@ export const PaperBackdrop: React.FC<{ tone?: "dark" | "light" }> = ({ tone = "d
           height: 820,
           borderRadius: "50%",
           background:
-            tone === "dark" ? "rgba(179,18,26,0.22)" : "rgba(179,18,26,0.06)",
+            tone === "dark" ? "rgba(255,255,255,0.09)" : "rgba(20,20,20,0.06)",
           filter: "blur(150px)",
           top: -260 + drift,
           left: -260,

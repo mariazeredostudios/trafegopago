@@ -3,7 +3,7 @@ import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig, Img
 import { palette, fontStack } from "../palette";
 import { ASSETS } from "../assetsConfig";
 import { PaperBackdrop, TornPanel, StickerLabel } from "../components/Paper";
-import { useCutPunch } from "../components/Motion";
+import { useCutPunch, Highlight } from "../components/Motion";
 
 // 0-90 tagline / 85-190 instagram->bio / 185-300 end card
 export const CTA: React.FC = () => {
@@ -38,12 +38,14 @@ export const CTA: React.FC = () => {
 
       <AbsoluteFill style={{ opacity: taglineOpacity, transform: `scale(${taglineScale})`, justifyContent: "center", alignItems: "center", padding: "0 56px" }}>
         <TornPanel seed={9} background="rgba(10,10,10,0.7)" style={{ padding: "34px 38px" }}>
-          <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 52, color: palette.white, textAlign: "center", lineHeight: 1.16, letterSpacing: -1 }}>
+          <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 52, color: palette.white, textAlign: "center", lineHeight: 1.3, letterSpacing: -1 }}>
             Venha mostrar por que
             <br />
-            <span style={{ color: palette.red }}>VOCÊ MERECE</span>
+            <Highlight dark={false} rotate={-1.5} style={{ fontWeight: 800, fontSize: 52 }}>
+              VOCÊ MERECE
+            </Highlight>
             <br />
-            estar nessa delegação.
+            <span style={{ fontStyle: "italic", fontWeight: 600 }}>estar nessa delegação.</span>
           </div>
         </TornPanel>
       </AbsoluteFill>
@@ -65,7 +67,7 @@ export const CTA: React.FC = () => {
               width: 70,
               height: 70,
               borderRadius: "50%",
-              background: `conic-gradient(${palette.red}, ${palette.grey700}, ${palette.white}, ${palette.red})`,
+              background: `conic-gradient(${palette.white}, ${palette.grey700}, ${palette.grey200}, ${palette.white})`,
               margin: "0 auto 14px",
               padding: 3,
             }}

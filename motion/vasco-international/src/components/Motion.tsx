@@ -162,3 +162,64 @@ export const useCutPunch = (localFrame: number) =>
     extrapolateRight: "clamp",
     easing: Easing.out(Easing.cubic),
   });
+
+/** Caixa de destaque (highlighter) atrás de uma palavra-chave — preto com
+ * texto branco, ou branco com texto preto. Só preto/branco/cinza. */
+export const Highlight: React.FC<{
+  children: React.ReactNode;
+  dark?: boolean;
+  rotate?: number;
+  style?: React.CSSProperties;
+}> = ({ children, dark = true, rotate = 0, style }) => (
+  <span
+    style={{
+      display: "inline-block",
+      background: dark ? palette.black : palette.white,
+      color: dark ? palette.white : palette.black,
+      padding: "3px 14px",
+      transform: `rotate(${rotate}deg)`,
+      boxShadow: dark ? "0 0 0 2px rgba(255,255,255,0.15)" : "0 8px 18px rgba(0,0,0,0.3)",
+      ...style,
+    }}
+  >
+    {children}
+  </span>
+);
+
+/** Efeito máquina de escrever — revela caractere a caractere com cursor
+ * piscando. */
+export const Typewriter: React.FC<{
+  text: string;
+  from: number;
+  charsPerFrame?: number;
+  size?: number;
+  weight?: number;
+  color?: string;
+  align?: "center" | "left";
+  style?: React.CSSProperties;
+}> = ({ text, from, charsPerFrame = 0.9, size = 40, weight = 700, color = palette.white, align = "center", style }) => {
+  const frame = useCurrentFrame();
+  const local = Math.max(0, frame - from);
+  const count = Math.min(text.length, Math.floor(local * charsPerFrame));
+  const shown = text.slice(0, count);
+  const done = count >= text.length;
+  const blink = Math.floor(frame / 8) % 2 === 0;
+
+  return (
+    <div
+      style={{
+        fontFamily: fontStack,
+        fontWeight: weight,
+        fontSize: size,
+        color,
+        textAlign: align,
+        whiteSpace: "pre-wrap",
+        letterSpacing: -0.3,
+        ...style,
+      }}
+    >
+      {shown}
+      <span style={{ opacity: !done || blink ? 1 : 0 }}>|</span>
+    </div>
+  );
+};

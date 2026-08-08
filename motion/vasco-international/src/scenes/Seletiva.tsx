@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig } from "remotion";
 import { palette, fontStack } from "../palette";
 import { PaperBackdrop, TornPanel, TapeStrip, StickerLabel } from "../components/Paper";
-import { useCutPunch } from "../components/Motion";
+import { useCutPunch, Highlight } from "../components/Motion";
 import { IconBall, IconPin, IconCalendar, IconSpark } from "../components/Icons";
 
 const FIELDS: { Icon: React.FC<{ size?: number; color?: string }>; label: string; value: string }[] = [
@@ -26,7 +26,7 @@ export const Seletiva: React.FC = () => {
 
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 64px" }}>
         <div style={{ opacity: titleOpacity, marginBottom: 26, textAlign: "center" }}>
-          <StickerLabel text="COMO FUNCIONA A SELETIVA" rotate={-2} bg={palette.red} color={palette.white} size={20} />
+          <StickerLabel text="COMO FUNCIONA A SELETIVA" rotate={-2} bg={palette.black} color={palette.white} size={20} />
           <div
             style={{
               marginTop: 16,
@@ -74,7 +74,13 @@ export const Seletiva: React.FC = () => {
                       {f.label}
                     </div>
                     <div style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 27, color: palette.black }}>
-                      {f.value}
+                      {f.label === "Data" || f.label === "Local" ? (
+                        <Highlight rotate={-1} style={{ fontSize: 27, fontWeight: 800 }}>
+                          {f.value}
+                        </Highlight>
+                      ) : (
+                        f.value
+                      )}
                     </div>
                   </div>
                 </div>

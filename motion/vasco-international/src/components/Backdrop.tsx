@@ -12,7 +12,7 @@ export const Backdrop: React.FC<{
   intensity?: number;
 }> = ({
   base = palette.black,
-  blobColor = "rgba(179,18,26,0.35)",
+  blobColor = "rgba(255,255,255,0.12)",
   blobColor2 = "rgba(255,255,255,0.06)",
   intensity = 1,
 }) => {

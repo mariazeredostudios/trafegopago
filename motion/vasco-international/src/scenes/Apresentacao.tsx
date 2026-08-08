@@ -10,7 +10,7 @@ import {
 } from "remotion";
 import { palette, fontStack } from "../palette";
 import { ASSETS } from "../assetsConfig";
-import { useCutPunch } from "../components/Motion";
+import { useCutPunch, Typewriter } from "../components/Motion";
 import { Grain } from "../components/Backdrop";
 import { TornPanel, StickerLabel } from "../components/Paper";
 
@@ -26,14 +26,11 @@ export const Apresentacao: React.FC = () => {
   const scale = interpolate(entrance, [0, 1], [0.5, 1]);
   const dropY = interpolate(entrance, [0, 1], [-160, 0]);
 
-  const talk = Math.sin(frame / 3) * 2.6;
+  const talk = Math.sin(frame / 5) * 1.4;
   const idleBob = Math.sin(frame / 18) * 7;
   const rimPulse = 0.55 + Math.sin(frame / 8) * 0.35;
-
-  // legenda revelada palavra a palavra pra imitar cadência de fala
-  const words = LINE.split(/(\s|\n)/);
-  const revealStart = 20;
-  const perWord = 4.2;
+  // "queixo" de papel batendo tipo marionete — abre/fecha em ritmo de fala
+  const jawOffset = Math.abs(Math.sin(frame / 4.2)) * 9;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#05130a", overflow: "hidden", transform: `scale(${punch})` }}>
@@ -80,7 +77,43 @@ export const Apresentacao: React.FC = () => {
             }}
           >
             {ASSETS.face.enabled ? (
-              <Img src={staticFile(ASSETS.face.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              <>
+                {/* rosto fixo (rosto inteiro, a "boca" fica coberta pela tira abaixo) */}
+                <div
+                  style={{
+                    position: "absolute",
+                    inset: 0,
+                    backgroundImage: `url(${staticFile(ASSETS.face.src)})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                />
+                {/* queixo/boca recortado — desliza tipo marionete de papel */}
+                <div
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    height: "38%",
+                    overflow: "hidden",
+                  }}
+                >
+                  <div
+                    style={{
+                      position: "absolute",
+                      left: 0,
+                      right: 0,
+                      bottom: jawOffset,
+                      height: 300,
+                      backgroundImage: `url(${staticFile(ASSETS.face.src)})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      boxShadow: "0 -3px 6px rgba(0,0,0,0.35)",
+                    }}
+                  />
+                </div>
+              </>
             ) : (
               <span style={{ fontFamily: fontStack, fontWeight: 800, fontSize: 90, color: palette.grey200 }}>LF</span>
             )}
@@ -99,7 +132,7 @@ export const Apresentacao: React.FC = () => {
       {/* etiqueta + nome, estilo adesivo colado */}
       <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 86 }}>
         <div style={{ opacity: interpolate(frame, [4, 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
-          <StickerLabel text="VASCO INTERNATIONAL" rotate={-2} bg={palette.red} color={palette.white} size={20} />
+          <StickerLabel text="VASCO INTERNATIONAL" rotate={-2} bg={palette.black} color={palette.white} size={20} />
         </div>
         <div
           style={{
@@ -115,27 +148,22 @@ export const Apresentacao: React.FC = () => {
         </div>
       </AbsoluteFill>
 
-      {/* legenda em papel, palavra a palavra */}
+      {/* legenda em papel, efeito máquina de escrever */}
       <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 60 }}>
         <TornPanel
           seed={7}
-          background="rgba(10,10,10,0.72)"
+          background="rgba(10,10,10,0.78)"
           style={{ padding: "22px 30px", maxWidth: 640 }}
         >
-          <div style={{ fontFamily: fontStack, fontWeight: 700, fontSize: 25, color: palette.white, textAlign: "center", lineHeight: 1.35 }}>
-            {words.map((w, i) => {
-              const start = revealStart + i * perWord;
-              const o = interpolate(frame, [start, start + 6], [0, 1], {
-                extrapolateLeft: "clamp",
-                extrapolateRight: "clamp",
-              });
-              return (
-                <span key={i} style={{ opacity: o }}>
-                  {w === "\n" ? <br /> : w}
-                </span>
-              );
-            })}
-          </div>
+          <Typewriter
+            text={LINE}
+            from={18}
+            charsPerFrame={1.15}
+            size={25}
+            weight={700}
+            align="center"
+            style={{ lineHeight: 1.35, whiteSpace: "pre-line" }}
+          />
         </TornPanel>
       </AbsoluteFill>
     </AbsoluteFill>

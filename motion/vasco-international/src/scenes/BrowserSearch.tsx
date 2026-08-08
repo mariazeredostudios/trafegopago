@@ -1,40 +1,35 @@
 import React from "react";
-import { AbsoluteFill, useCurrentFrame, interpolate, Easing, spring, useVideoConfig } from "remotion";
+import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig } from "remotion";
 import { palette, fontStack } from "../palette";
 import { Backdrop } from "../components/Backdrop";
 
 const FULL_TEXT = "eu quero jogar pelo vasco da gama";
 
+// Cena de 90 frames (3s) — digitação tem que terminar bem antes do corte
+// pro "enter" respirar antes da transição em papel rasgado assumir.
 export const BrowserSearch: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const typingStart = 14;
-  const typingEnd = 84;
+  const typingStart = 3;
+  const typingEnd = 58;
   const progress = interpolate(frame, [typingStart, typingEnd], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
-    easing: Easing.inOut(Easing.ease),
   });
   const chars = Math.round(progress * FULL_TEXT.length);
   const typed = FULL_TEXT.slice(0, chars);
-  const cursorBlink = Math.floor(frame / 8) % 2 === 0;
+  const cursorBlink = Math.floor(frame / 6) % 2 === 0;
 
-  const enterPulse = interpolate(frame, [90, 96, 106], [1, 1.06, 1], {
+  const enterPulse = interpolate(frame, [60, 66, 74], [1, 1.07, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
-  const whiteOut = interpolate(frame, [106, 120], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: Easing.in(Easing.cubic),
-  });
-
-  const entrance = spring({ frame, fps, config: { damping: 12 }, durationInFrames: 20 });
+  const entrance = spring({ frame, fps, config: { damping: 12 }, durationInFrames: 14 });
   const barScale = interpolate(entrance, [0, 1], [0.82, 1]);
   const barY = interpolate(entrance, [0, 1], [40, 0]);
-  const barOpacity = interpolate(frame, [0, 10], [0, 1], {
+  const barOpacity = interpolate(frame, [0, 8], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
@@ -42,49 +37,42 @@ export const BrowserSearch: React.FC = () => {
   const glowPulse = 0.5 + Math.sin(frame / 10) * 0.15;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: palette.grey900, overflow: "hidden" }}>
-      <Backdrop base={palette.grey900} blobColor="rgba(179,18,26,0.28)" blobColor2="rgba(255,255,255,0.08)" />
+    <AbsoluteFill style={{ backgroundColor: "#161616", overflow: "hidden" }}>
+      <Backdrop base="#161616" blobColor="rgba(255,255,255,0.1)" blobColor2="rgba(255,255,255,0.05)" />
 
-      <AbsoluteFill
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          padding: 60,
-        }}
-      >
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: 60 }}>
         <div
           style={{
             fontFamily: fontStack,
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: 22,
             letterSpacing: 4,
             color: palette.grey400,
             textTransform: "uppercase",
-            marginBottom: 26,
+            marginBottom: 24,
             opacity: barOpacity,
           }}
         >
           Toda história começa com uma busca
         </div>
 
-        {/* "Navegador" — janela com chrome + glow por baixo */}
         <div
           style={{
             width: "100%",
             transform: `translateY(${barY}px) scale(${barScale * enterPulse})`,
             opacity: barOpacity,
             borderRadius: 26,
-            background: "rgba(20,20,20,0.65)",
-            border: `1px solid rgba(255,255,255,0.12)`,
-            boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${60 + glowPulse * 40}px rgba(179,18,26,${glowPulse * 0.3})`,
+            background: "rgba(255,255,255,0.06)",
+            border: `1px solid rgba(255,255,255,0.14)`,
+            boxShadow: `0 40px 90px rgba(0,0,0,0.55), 0 0 ${50 + glowPulse * 30}px rgba(255,255,255,${glowPulse * 0.12})`,
             padding: 22,
             backdropFilter: "blur(6px)",
           }}
         >
           <div style={{ display: "flex", gap: 9, marginBottom: 20, paddingLeft: 6 }}>
-            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#FF5F57" }} />
-            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#FEBC2E" }} />
-            <div style={{ width: 13, height: 13, borderRadius: 999, background: "#28C840" }} />
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: palette.grey400 }} />
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: palette.grey400 }} />
+            <div style={{ width: 13, height: 13, borderRadius: 999, background: palette.grey400 }} />
           </div>
           <div
             style={{
@@ -102,8 +90,8 @@ export const BrowserSearch: React.FC = () => {
             <div
               style={{
                 fontFamily: fontStack,
-                fontSize: 30,
-                fontWeight: 500,
+                fontSize: 29,
+                fontWeight: 600,
                 color: palette.grey900,
                 marginLeft: 18,
                 whiteSpace: "nowrap",
@@ -116,8 +104,6 @@ export const BrowserSearch: React.FC = () => {
           </div>
         </div>
       </AbsoluteFill>
-
-      <AbsoluteFill style={{ backgroundColor: palette.white, opacity: whiteOut }} />
     </AbsoluteFill>
   );
 };
