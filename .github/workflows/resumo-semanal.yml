@@ -1,0 +1,27 @@
+name: Resumo semanal (segunda de manhã)
+
+on:
+  schedule:
+    # 10:00 UTC = 07:00 em America/Sao_Paulo, toda segunda-feira — antes da
+    # reunião de alinhamento da equipe.
+    - cron: "0 10 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  disparar-resumo-semanal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chamar rota de resumo semanal
+        run: |
+          status=$(curl -s -o /tmp/resposta.json -w "%{http_code}" \
+            -X POST "${SITE_URL}/api/cron/resumo-semanal" \
+            -H "x-cron-secret: ${CRON_SECRET}")
+          echo "HTTP $status"
+          cat /tmp/resposta.json
+          if [ "$status" -ge 300 ]; then
+            echo "Falhou ao gerar o resumo semanal." >&2
+            exit 1
+          fi
+        env:
+          SITE_URL: ${{ secrets.PLATAFORMA_SITE_URL }}
+          CRON_SECRET: ${{ secrets.PLATAFORMA_CRON_SECRET }}

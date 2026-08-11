@@ -48,6 +48,22 @@ histórico de decisão).
       funcionou muito bem e o que não devemos repetir, agora sob a ótica
       de CRO/copy (não só de mídia).
 
+## Equipe e plataforma de demandas (aberto em 2026-08-11)
+
+- [ ] Quem edita o link da bio e o botão do site de cada clube: o próprio
+      coordenador do clube, o Gabriel, ou outra pessoa? Ver
+      `briefing/equipe.md`, seção 3.
+- [ ] Por que o Monday.com foi abandonado da primeira vez — importante
+      para não repetir o mesmo problema na plataforma nova
+      (`plataforma/`).
+- [ ] `clubes/checklist-personalizacao.md` — preencher e-mail marketing,
+      arte de WhatsApp de desconto, app próprio e collab por clube (só
+      Grêmio confirmado até agora, como sem postagem orgânica).
+- [ ] Deploy da plataforma própria (`plataforma/README.md`): criar as
+      contas gratuitas Supabase/Resend/Vercel, convidar as 6 pessoas por
+      e-mail real, e configurar os 2 secrets do GitHub Actions
+      (`PLATAFORMA_SITE_URL`, `PLATAFORMA_CRON_SECRET`).
+
 ## Conector de dados (Meta Ads)
 
 - [ ] Cliente vai conectar **Windsor.ai** (ou Supermetrics) nas

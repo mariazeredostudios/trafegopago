@@ -99,6 +99,24 @@ Manager) para dentro de `relatorios/insumos/`. Limitações conhecidas de
 leitura de Instagram/site/Sympla estão documentadas em
 `briefing/comite-growth.md`.
 
+## Equipe e plataforma de demandas mensais
+
+- **Equipe completa e fluxo operacional:** ver `briefing/equipe.md`
+  (quem é quem, entregas recorrentes, ferramentas já em uso, cadência de
+  relatório pedida pela diretora).
+- **Personalização por clube** (e-mail marketing, arte de WhatsApp com
+  desconto, app próprio, collab): ver
+  `clubes/checklist-personalizacao.md`.
+- **Plataforma própria de gestão de demandas** (substitui Monday/WhatsApp
+  "to do", grátis, hospedada em Vercel+Supabase+Resend): código em
+  `plataforma/`, guia de deploy em `plataforma/README.md`. Cron gratuito
+  dos resumos diário/semanal em `.github/workflows/`.
+- **Agentes de IA por função da equipe**, disponíveis via `/agents` neste
+  Claude Code (em `.claude/agents/`): `criativos` (Anna Clara/Victor
+  Hugo), `sympla-publicacao` (Prime), `estrategia-copy` (Gabriel),
+  `atendimento` (Ana Júlia). O papel da Maria/gestão de tráfego pago já é
+  coberto pelo Comitê de Growth descrito acima nesta persona.
+
 ## Pendências em aberto com o cliente
 
 Ver `briefing/pendencias.md`.

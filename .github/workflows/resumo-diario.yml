@@ -1,0 +1,27 @@
+name: Resumo diário (16h)
+
+on:
+  schedule:
+    # 19:00 UTC = 16:00 em America/Sao_Paulo (Brasil não observa horário de
+    # verão desde 2019, então o offset -03:00 é fixo o ano todo).
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  disparar-resumo-diario:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chamar rota de resumo diário
+        run: |
+          status=$(curl -s -o /tmp/resposta.json -w "%{http_code}" \
+            -X POST "${SITE_URL}/api/cron/resumo-diario" \
+            -H "x-cron-secret: ${CRON_SECRET}")
+          echo "HTTP $status"
+          cat /tmp/resposta.json
+          if [ "$status" -ge 300 ]; then
+            echo "Falhou ao gerar o resumo diário." >&2
+            exit 1
+          fi
+        env:
+          SITE_URL: ${{ secrets.PLATAFORMA_SITE_URL }}
+          CRON_SECRET: ${{ secrets.PLATAFORMA_CRON_SECRET }}
