@@ -201,6 +201,34 @@ Clara/Victor Hugo → `criativos`, Prime → `sympla-publicacao`, Gabriel →
 Peça pra eu escrever o texto completo da Mensagem 4 quando chegar nessa
 etapa.
 
+## ⚠️ Reformulação grande — decisão da diretora em 2026-08-11
+
+Depois de ver a base rodando, a diretora pediu uma mudança de direção
+importante, que **substitui as Mensagens 2, 3 e 4 acima** (o app não vai
+mais ter login, nem e-mail de aviso por enquanto, nem chat com agentes —
+isso pode voltar depois, mas não é a prioridade agora):
+
+- **Sem login** — vira uma plataforma pública (view + edição sem conta),
+  pensada para ficar ligada numa **TV da sala da equipe**.
+- **Tela principal = só um "Calendário"** — lista de estratégias com
+  responsável, prazo e status colorido por urgência (mesma lógica
+  verde/amarelo/laranja/vermelho), fonte grande, auto-atualização a cada
+  60s, itens concluídos marcados visualmente (não somem da tela).
+- **Preenchimento 100% manual** pela Maria/equipe — nada de raspar site
+  externo pra essa parte.
+- **Duplicar pro mês seguinte + histórico dos meses anteriores sempre
+  acessível** (nunca apaga).
+- **Não recriar as páginas de cronograma por clube que ela já tem em
+  projetos Lovable separados** (ex.: `cronogramasantosie.lovable.app`,
+  `cronogramabahiaie.lovable.app`, `cronogramacoxaie.lovable.app`) — só
+  linkar pra elas numa subpágina "Clubes", nunca clonar o conteúdo.
+
+O prompt completo dessa reformulação foi entregue à diretora diretamente
+no chat em 2026-08-11 (não duplicado aqui por ser específico do momento
+— se precisar reconstruir, o resumo acima cobre a lógica central:
+tabela nova `calendario_estrategias`, RLS liberado pra `anon`, coluna
+`clubes.link_cronograma`).
+
 ## O que ainda depende de você, mesmo no Lovable
 
 - Criar a conta Lovable (grátis) e a conta Resend (grátis, se quiser
