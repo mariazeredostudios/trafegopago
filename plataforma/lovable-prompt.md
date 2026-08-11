@@ -176,6 +176,31 @@ No Lovable, clicar em **Publish** (canto superior direito) — ele gera a
 URL pública sozinho, sem precisar de Vercel. Depois é só mandar essa URL
 e a senha de cada um dos 6 e-mails convidados no Supabase para a equipe.
 
+## Mensagem 4 (futura) — chat por função com os agentes auxiliares
+
+Decisão da diretora em 2026-08-11: depois que as Mensagens 1-3 estiverem
+rodando, ela quer uma aba de chat dentro do próprio app — cada pessoa
+loga e já cai automaticamente no agente da própria função (Anna
+Clara/Victor Hugo → `criativos`, Prime → `sympla-publicacao`, Gabriel →
+`estrategia-copy`, Ana Júlia → `atendimento`), sem precisar saber que
+"agente" existe por trás.
+
+- **Modelo escolhido:** Claude Opus 5 (`claude-opus-5`) — mais capaz,
+  US$5/US$25 por milhão de tokens de entrada/saída.
+- **Arquitetura:** Supabase Edge Function chamando a API da Claude com o
+  system prompt de cada função (mesmo conteúdo já escrito em
+  `.claude/agents/*.md` neste repositório), roteado pela `funcao` da
+  pessoa logada. Personas guardadas numa tabela `agent_personas` editável
+  sem precisar redeployar.
+- **Custo real, fora do "de graça" combinado até aqui:** precisa de uma
+  chave de API da Anthropic em `console.anthropic.com` (conta separada
+  da assinatura do Claude usada para conversar), com cartão cadastrado —
+  cobrança por token usado no chat. Tende a ficar em poucos dólares/mês
+  no volume desta equipe, mas não é zero.
+
+Peça pra eu escrever o texto completo da Mensagem 4 quando chegar nessa
+etapa.
+
 ## O que ainda depende de você, mesmo no Lovable
 
 - Criar a conta Lovable (grátis) e a conta Resend (grátis, se quiser
