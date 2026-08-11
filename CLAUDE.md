@@ -108,9 +108,12 @@ leitura de Instagram/site/Sympla estão documentadas em
   desconto, app próprio, collab): ver
   `clubes/checklist-personalizacao.md`.
 - **Plataforma própria de gestão de demandas** (substitui Monday/WhatsApp
-  "to do", grátis, hospedada em Vercel+Supabase+Resend): código em
-  `plataforma/`, guia de deploy em `plataforma/README.md`. Cron gratuito
-  dos resumos diário/semanal em `.github/workflows/`.
+  "to do", grátis): caminho ativo é reconstruir no **Lovable**, guia em
+  `plataforma/lovable-prompt.md` (decisão da diretora em 2026-08-11, por
+  ser mais rápido de colocar no ar). O código Next.js completo já
+  construído e testado continua em `plataforma/` como alternativa/
+  referência de schema (`plataforma/supabase/`), com guia de deploy em
+  `plataforma/README.md` e cron gratuito em `.github/workflows/`.
 - **Agentes de IA por função da equipe**, disponíveis via `/agents` neste
   Claude Code (em `.claude/agents/`): `criativos` (Anna Clara/Victor
   Hugo), `sympla-publicacao` (Prime), `estrategia-copy` (Gabriel),

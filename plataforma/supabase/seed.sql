@@ -57,7 +57,7 @@ values
     '["Dados da seletiva recebidos do coordenador", "Evento criado no Sympla", "Capa e descrição revisadas", "Link testado"]', 5),
 
   ('publicacao_social', 'Ajustar link da bio e botão do site — {clube}',
-    'Bio iesports.com.br/atendimento e botão do site do clube apontando para o Sympla do mês.', 'publicacao_sympla', 'instagram', 'alta', 0, null, false,
+    'Bio iesports.com.br/atendimento e botão do site do clube apontando para o Sympla do mês.', 'estrategia_copy', 'instagram', 'alta', 0, null, false,
     '["Link da bio atualizado", "Botão do site do clube atualizado", "Link testado em celular"]', 6),
 
   ('copy_estrategia', 'Calendário de postagem do mês — {clube}',

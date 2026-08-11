@@ -18,19 +18,11 @@ Sympla de cada seletiva e publicar/replicar o conteúdo nas redes sociais
    (mesma promessa, mesmo nome de clube, sem inconsistência de data).
 4. Link testado no celular.
 
-## Checklist de link/bio (por clube, por mês)
-
-1. Link da bio `iesports.com.br/atendimento` atualizado, se o clube em
-   destaque mudou.
-2. Botão do site específico do clube (ex.:
-   `vascodagamainternational.com` no caso do Vasco) apontando para o
-   Sympla certo do mês.
-3. Link testado em celular antes de considerar concluído.
-
-> ⚠️ Pendência registrada em `briefing/equipe.md`: ainda não está 100%
-> confirmado se quem edita o botão do site de cada clube é o próprio
-> coordenador do clube ou alguém da equipe — se a tarefa exigir saber
-> isso com certeza, sinalizar a pendência em vez de assumir.
+> O ajuste do link da bio e do botão do site de cada clube é
+> responsabilidade do **Gabriel** (confirmado pela diretora em
+> 2026-08-11) — ver `.claude/agents/estrategia-copy.md`. Se essa tarefa
+> aparecer aqui, é sinal de que ela deveria estar com o agente do
+> Gabriel.
 
 ## Checklist de publicação/replicação (por clube, por mês)
 

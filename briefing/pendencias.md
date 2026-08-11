@@ -50,19 +50,27 @@ histórico de decisão).
 
 ## Equipe e plataforma de demandas (aberto em 2026-08-11)
 
-- [ ] Quem edita o link da bio e o botão do site de cada clube: o próprio
-      coordenador do clube, o Gabriel, ou outra pessoa? Ver
-      `briefing/equipe.md`, seção 3.
-- [ ] Por que o Monday.com foi abandonado da primeira vez — importante
-      para não repetir o mesmo problema na plataforma nova
-      (`plataforma/`).
+- [x] Quem edita o link da bio e o botão do site de cada clube: **o
+      Gabriel.** Confirmado pela diretora em 2026-08-11 — atualizado em
+      `briefing/equipe.md` e no agente `.claude/agents/estrategia-copy.md`.
+- [x] Por que o Monday.com foi abandonado da primeira vez: **não foi
+      problema da ferramenta — foi falta de posicionamento da diretora**
+      (uso/cobrança não sustentada, palavras dela). Confirmado em
+      2026-08-11. Implicação prática: o risco real para a plataforma nova
+      não é técnico, é de adoção — vale reforçar o hábito (reunião de
+      segunda cobrando o quadro, checklist sendo realmente marcado) mais
+      do que escolher a ferramenta "certa".
 - [ ] `clubes/checklist-personalizacao.md` — preencher e-mail marketing,
       arte de WhatsApp de desconto, app próprio e collab por clube (só
       Grêmio confirmado até agora, como sem postagem orgânica).
-- [ ] Deploy da plataforma própria (`plataforma/README.md`): criar as
-      contas gratuitas Supabase/Resend/Vercel, convidar as 6 pessoas por
-      e-mail real, e configurar os 2 secrets do GitHub Actions
-      (`PLATAFORMA_SITE_URL`, `PLATAFORMA_CRON_SECRET`).
+- [x] Diretora decidiu (2026-08-11) reconstruir a plataforma no
+      **Lovable** em vez de seguir o passo a passo manual
+      Vercel/Supabase/Resend/GitHub Actions — ver
+      `plataforma/lovable-prompt.md`.
+- [ ] Deploy no Lovable: criar conta Lovable, clicar em "Connect
+      Supabase", colar as 3 mensagens de `plataforma/lovable-prompt.md`,
+      convidar os 6 e-mails reais no Supabase provisionado pelo Lovable,
+      clicar em Publish.
 
 ## Conector de dados (Meta Ads)
 

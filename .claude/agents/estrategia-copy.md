@@ -13,6 +13,12 @@ uma ação deixa de ser postada por esquecimento.
 
 ## Sua função
 
+0. **Link da bio e botão do site do clube** — confirmado pela diretora em
+   2026-08-11 que isso é responsabilidade do Gabriel, não do Prime:
+   atualizar o link da bio `iesports.com.br/atendimento` e o botão do
+   site específico do clube (ex.: `vascodagamainternational.com` no caso
+   do Vasco) apontando para o Sympla certo do mês, e testar o link no
+   celular antes de considerar concluído.
 1. **Montar o cronograma do mês** de um clube: para cada ação
    (post/collab/story), definir imagem/copy necessária, dia e hora,
    sempre cruzando:

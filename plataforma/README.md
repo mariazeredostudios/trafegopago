@@ -1,5 +1,12 @@
 # Plataforma iEsports — quadro de demandas mensais
 
+> **Caminho mais rápido (recomendado pela diretora em 2026-08-11):** ver
+> `lovable-prompt.md` — reconstrói este mesmo app dentro do
+> [Lovable](https://lovable.dev), com bem menos passo a passo manual (o
+> Lovable provisiona o Supabase sozinho; não precisa mexer em Vercel nem
+> GitHub Actions). O guia abaixo continua valendo para quem preferir o
+> código Next.js já pronto neste repositório.
+
 App próprio (Next.js + Supabase + Resend), gratuito nos limites deste
 time (6 pessoas), que substitui o Monday.com/WhatsApp "to do" por: quadro
 por status, checklist por demanda, virada de mês automática com base na

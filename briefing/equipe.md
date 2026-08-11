@@ -39,11 +39,11 @@ segunda.
 
 1. Coordenadores do clube preenchem os dados da seletiva num site/form
    próprio.
-2. Time vê os dados, cria o evento no **Sympla** (Prime), ajusta o link da
-   bio (`iesports.com.br/atendimento`) e o botão do site do clube
-   apontando para o Sympla (ex.: `vascodagamainternational.com` no caso do
-   Vasco). *(Responsável exato pela edição do link/botão do site do clube
-   ainda não confirmado — ver pendência no fim deste arquivo.)*
+2. Time vê os dados, cria o evento no **Sympla** (Prime), e o **Gabriel**
+   ajusta o link da bio (`iesports.com.br/atendimento`) e o botão do site
+   do clube apontando para o Sympla (ex.:
+   `vascodagamainternational.com` no caso do Vasco). Confirmado pela
+   diretora em 2026-08-11.
 3. Time (Anna Clara/Victor Hugo) produz artes e vídeos.
 4. **Maria aprova.**
 5. Material aprovado vai para o **Drive do marketing**.
