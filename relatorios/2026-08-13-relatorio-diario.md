@@ -1,34 +1,35 @@
 # Relatório Diário — 13/08/2026 (quinta)
 
-> Vasco: 3 dias até a seletiva (16/08). Coritiba: 3 dias (15-16/08).
+> Vasco e Coritiba: seletivas concluídas essa semana. Fechamento dos
+> números abaixo.
 
-## 🚨 Vasco, Coritiba, Botafogo e Palmeiras pausadas agora
+## ✓ Semana fechada — 4 seletivas, todas na meta ou acima
 
-Confirmado: não é problema de pagamento (saldo R$871,93, positivo) nem
-limite de gasto (sem spend cap). Parece pausa manual — **preciso que
-a cliente confirme se foi intencional**. Com Vasco e Coritiba a 3 dias
-da seletiva, cada hora pausada sem necessidade é hora perdida.
+| Clube | Meta | Final |
+|---|---|---|
+| Palmeiras | 70-90 | **150** |
+| Botafogo | 70-90 | **95** |
+| Coritiba | 70 | **70** |
+| Vasco | 70 | **65** |
 
-| Campanha | Gasto até pausar | Checkouts | Compras |
-|---|---|---|---|
-| MV - VENDAS-VASCO | R$110,22 | 7 | 3 |
-| MARIA CORITIBA QUANTITATIVO | R$0 | 2 | 1 |
-| MARIA BOTAFOGO QUANTITATIVO | R$85,42 | 4 | 1 |
-| MARIA PALMEIRAS QUANTITATIVO | R$81,35 | 9 | 1 |
+Palmeiras e Botafogo pausados hoje pela cliente por terem batido meta
+— decisão certa, evita gasto à toa. Vasco fechou acima da projeção
+pós-apagão (~55-60), mesmo perdendo 2 dias pra retenção de cobrança da
+Meta e mais 1 dia pro CBO alimentando o público errado — o
+`PAIS + VALOR ALTO` e depois o `p2_estado_advantage` recuperaram o que
+dava no tempo restante. Coritiba bateu a meta exata (70), puxado pelo
+`PAIS + VALOR ALTO` criado na segunda-feira.
 
-Vasco vinha bem antes de pausar: 3 vendas por R$110,22 (CPA R$36,74).
-
-## Campanhas novas (criadas essa semana)
+## Campanhas novas (criadas essa semana) — primeiros dias
 
 **Bahia Agosto:** R$136,55 gastos, 12 checkouts, 1 venda — saiu do
 `PAIS + ALTO VALOR`, CPA R$26,18. 5ª vez que a fórmula funciona
 primeiro. Sem ação.
 
 **Flu Agosto:** R$226,44 em ~3-4 dias, só 1 checkout, 0 vendas. Ainda
-dentro do prazo normal de aprendizado, mas volume de checkout baixo
-pro gasto — observar mais 1-2 dias.
+dentro do prazo normal de aprendizado — observar mais 1-2 dias.
 
-**Sport Agosto:** R$165,16 gastos, **0 checkouts, 0 vendas**. Já era o
+**Sport Agosto:** R$165,16 gastos, 0 checkouts, 0 vendas. Já era o
 pior histórico da conta — merece atenção se continuar assim amanhã.
 
 ## Rodando normalmente
@@ -39,14 +40,10 @@ pior histórico da conta — merece atenção se continuar assim amanhã.
 | Cruzeiro | R$125,42 | 20 | 2 | R$62,71 |
 | Santos | R$127,42 | 16 | 2 | R$63,71 |
 
-Grêmio surpreendeu hoje mesmo sem os públicos históricos ainda
-adicionados — 1 dia não muda o diagnóstico de que segue caro no
-acumulado.
+## Falta ajustar (nada urgente)
 
-## Preciso modificar algo? Sim.
-
-1. Confirmar/reverter a pausa do Vasco e Coritiba — urgente.
-2. Grêmio: faltam os 2 públicos históricos (E/F), pendente desde 10/08.
-3. Sport Agosto: se amanhã seguir zerado, considerar pausar o pior
+1. Grêmio: faltam os 2 públicos históricos (E/F), pendente desde
+   10/08 — é dinheiro sendo desperdiçado todo dia sem eles.
+2. Sport Agosto: se amanhã seguir zerado, considerar pausar o pior
    conjunto e testar copy/criativo diferente.
-4. Bahia e o resto: nada — está funcionando, não mexer.
+3. Bahia, Flu e o resto: nada — funcionando ou ainda é cedo.
