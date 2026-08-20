@@ -26,6 +26,7 @@ Cidade com Futebol, cortar RMKT (0 vendas, não é urgente preservar).
 
 ### Grêmio — pausou os 2 mortos certos, mas CBO ainda sufoca E/F
 
+
 | Conjunto | Gasto | Checkouts | Compras |
 |---|---|---|---|
 | FUTEBOL + PAIS | R$232,33 | 16 | 2 |
@@ -42,18 +43,24 @@ há 3 dias, ainda não foi criada.
 forma de garantir verba fixa. 10 dias até 30/08, ainda dá tempo, mas cada
 dia sem isso é verba mal alocada.
 
-### Bahia — Melhor Público 1% sem retorno, Pais+Alto Valor na frente de novo
+## Observar — cedo pra agir
 
-| Conjunto | Gasto | Compras | CPA |
+### Bahia — Melhor Público 1% esfriou nos últimos 4 dias, mas já provou que converte esse mês
+
+| Conjunto | Gasto (4d) | Compras (4d) | CPA (mês) |
 |---|---|---|---|
-| MELHOR PUBLICO 1% | R$95,23 | 0 | — |
+| MELHOR PUBLICO 1% | R$95,23 | 0 | R$115,47 (2 vendas desde 01/08) |
 | PAIS + ALTO VALOR | R$66,31 | 2 | R$33,16 |
 | COMPRADORES SYMPLA | R$47,15 | 1 | R$47,15 |
 
-**Mexer ou esperar:** mexer — pausar Melhor Público 1% (maior gasto,
-zero vendas), concentrar em Pais+Alto Valor e Compradores Sympla.
+`MELHOR PUBLICO 1% DOS VIAJANTES` tem 2 vendas no acumulado do mês
+(R$230,93 / 16 checkouts) — as 2 vendas foram antes de 17/08. Nos
+últimos 4 dias esfriou (0 de 7 checkouts), mas não é um conjunto morto,
+é um que funcionou e parou de converter recentemente.
 
-## Observar — cedo pra agir
+**Mexer ou esperar:** esperar mais 1-2 dias — já provou que converte
+esse mês, R$95 em 4 dias não justifica cortar ainda. Se continuar
+zerado, pausa depois de amanhã.
 
 ### Vasco Setembro — ABO correto, conversão baixa nos 4 conjuntos
 
@@ -82,6 +89,6 @@ algo.
 ## Checklist de hoje
 
 - [ ] Grêmio: criar campanha ABO dedicada pra E/F.
-- [ ] Bahia: pausar Melhor Público 1% dos Viajantes.
 - [ ] Sport: realocar orçamento pra Melhores Bairros e Cidade com Futebol, cortar RMKT.
+- [ ] Bahia: só observar Melhor Público 1% mais 1-2 dias, sem ação ainda.
 - [ ] Vasco Setembro: só observar, volta em 2-3 dias.
