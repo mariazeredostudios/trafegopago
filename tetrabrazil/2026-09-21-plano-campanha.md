@@ -267,6 +267,96 @@ pôde ser validada. Portanto:
 - Alternativa rápida: exportar data de nascimento do painel do Sympla e
   cruzar por e-mail
 
+### 4.8 Públicos que já existem na conta — o que aproveitar e o que corrigir
+
+Públicos salvos enviados pelo cliente (telas do app, 21/09):
+
+**`Prep 2627 1`**
+- Advantage+ audience: **On**
+- Geo: **Minas Gerais, Rio de Janeiro e Paraná**
+- Idade: 20+ · Sugestão: homens e mulheres, 20–45
+- Interesses: *Coaching, Work abroad, Football*
+
+**`Brazil 2025`**
+- Geo: **Minas Gerais, Rio de Janeiro e Paraná**
+- Idade: homens e mulheres, **22–38**
+- Interesses: *Sports, Physical education*
+
+Outros salvos: `Rio Grande do Sul`, `Brasil Sudeste`, `Brasil 2024`, `Brasil 2`.
+
+#### ✅ O que esses públicos acertaram
+
+**Minas Gerais está nos dois.** Isso confirma, por experiência de conta, o
+que a base de 518 ex-alunos mostrou de forma independente: MG é o terceiro
+maior mercado (21,4%). Duas fontes distintas apontando para o mesmo lugar —
+MG entra no plano com confiança alta.
+
+O conjunto de interesses do `Prep 2627 1` (*Coaching / Work abroad /
+Football*) é preciso e alinhado à oferta. **É o melhor ponto de partida da
+conta.**
+
+A faixa **22–38** do `Brazil 2025` é o dado mais próximo de uma validação
+etária que existe hoje (a planilha não tem idade). É mais estreita que os
+21–42 do briefing. Serve como hipótese a testar, não como verdade — ver 4.7.
+
+#### 🔴 O erro grave: nenhum dos dois inclui São Paulo
+
+Os dois públicos cobrem **MG + RJ + Paraná**. Paraná fazia todo sentido na
+edição **2025-2026**, que tinha **núcleo em Curitiba**. A edição 2026-2027
+**não tem núcleo no Paraná** — tem em **São Paulo (Itu)**, **Rio (Xerém)** e
+**Porto Velho**.
+
+Ou seja: esses públicos estão calibrados para a geografia do ano passado.
+Reaproveitá-los como estão significa:
+
+- **Gastar em Paraná**, onde o núcleo mais próximo agora fica a ~400 km
+  (Curitiba → Itu). PR é 6% da base histórica, mas sem núcleo local o
+  custo de deslocamento derruba a conversão.
+- **Não anunciar em São Paulo**, que é uma das duas praças a encher — e
+  justamente a de maior gap (**82 vagas**), menor base histórica (126) e
+  prazo mais curto (10/dez).
+
+**Correção obrigatória antes de subir verba:**
+
+| Público | Ação |
+|---|---|
+| `Prep 2627 1` | Manter os interesses. **Trocar a geo:** remover Paraná, adicionar São Paulo. Desmembrar em duas versões, uma por praça |
+| `Brazil 2025` | Interesses amplos demais (*Sports, Physical education*) para um ticket de R$ 1.350. Usar só como conjunto de teste, nunca como principal |
+| `Rio Grande do Sul` | Arquivar. RS perdeu o núcleo de Porto Alegre nesta edição (ver 10.2) |
+| `Brasil Sudeste` | Verificar se inclui SP. Se incluir, é o mais próximo do alvo correto |
+
+⚠️ **`Advantage+ audience: On` no `Prep 2627 1`:** com essa opção ligada, a
+geolocalização e os interesses viram *sugestão* — o Meta entrega fora deles.
+Isso ameniza a ausência de SP, mas não resolve: não há controle nem garantia
+de entrega na praça certa, e é impossível separar o CPA de SP do de RJ.
+**Nas campanhas por praça, Advantage+ audience deve ficar desligado.**
+
+#### ⚠️ "Funcionou" medido com o quê?
+
+A conta **não tem evento de `Purchase`** (ver auditoria). Então esses
+públicos não podem ter sido avaliados por venda — no máximo por custo de
+clique, alcance ou engajamento. **Clique barato em público amplo é
+exatamente o que se espera de `Sports / Physical education`, e não tem
+relação com vender um curso de R$ 1.350.**
+
+Tratar esses públicos como "validados para venda" seria um erro. Eles são
+uma boa hipótese de partida — a validação real só começa quando o
+`InitiateCheckout` e o `Purchase` estiverem no ar.
+
+#### 🔴 Impedimento: as telas são do impulsionamento, não do Gerenciador
+
+A interface mostrada é a de **impulsionar publicação** pelo app. Esse fluxo
+**não suporta** o que este plano exige:
+
+- Otimização por `InitiateCheckout` ou `Purchase`
+- CBO e campanhas separadas por praça com verba controlada
+- Lookalike a partir de público personalizado
+- Exclusão de compradores e de quem já iniciou o checkout
+- Janela de atribuição e relatório por conjunto
+
+**Toda a Fase 2 precisa rodar no Gerenciador de Anúncios.** Impulsionamento
+serve para a Fase 1 (aquecimento e vídeo), não para a fase de conversão.
+
 ## 5. Estrutura de campanhas
 
 ### FASE 1 — Construção (21/set – 25/out) · R$ 15/dia
