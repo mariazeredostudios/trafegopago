@@ -203,10 +203,10 @@ errática. Concentrar resolve isso.
 | 21/set | Início Fase 1 + correções técnicas |
 | ~19/out | Decisão: qual criativo e qual público vão para a Fase 2 |
 | 26/out | Início Fase 2 (verba pesada) |
-| ~29/nov | **Última chamada São Paulo** |
-| ~05/dez | 🔴 **PAUSAR toda campanha de São Paulo** (evento 10–13/dez) |
-| 30/nov – 14/dez | Fase 3 — verba migra para RJ |
-| ~14/dez | 🔴 **PAUSAR Rio de Janeiro** (evento 17–20/dez) |
+| ~29/nov | **Última chamada para a data de São Paulo** |
+| ~05/dez | 🔴 **Tirar a data de SP dos criativos** (núcleo 10–13/dez). Geo segue nacional |
+| 30/nov – 14/dez | Fase 3 — criativo migra para a data do Rio |
+| ~14/dez | 🔴 **Encerrar** (núcleo do Rio começa 17–20/dez) |
 
 ---
 
@@ -280,27 +280,65 @@ Isso reduz o público, sobe o CPM e piora exatamente o que torna o LAL bom.
 **No conjunto de Lookalike: só geolocalização e idade ampla (21–50).**
 Deixe a faixa 21–42 apenas nos conjuntos de interesse.
 
-### 4.5 Geolocalização — definida com dado real da base (518 registros)
+### 4.5 Geolocalização — **nacional**. O produto não é local.
 
-Análise completa em `2026-09-21-analise-base-ex-alunos.md`. O que ela mudou:
+> **Correção de 21/09.** A primeira versão deste plano restringia a
+> segmentação a SP + RJ + MG. Estava errado, e a própria base prova.
 
-| Praça | Segmentação |
+O TetraPREP não vende um curso em São Paulo ou no Rio. Vende **a
+oportunidade de trabalhar nos Estados Unidos**. São Paulo e Rio são
+locais de prova prática, não mercados. Quem está disposto a mudar de país
+não é impedido por uma viagem interestadual.
+
+**O que os 518 registros mostram:**
+
+| | Qtd | % |
+|---|---|---|
+| **Vieram de fora de SP e RJ** | **261** | **50,4%** |
+| Vieram de estados que **nunca tiveram núcleo local** | 204 | 39,4% |
+| Viajaram **mais de 600 km** | 112 | 21,6% |
+| Viajaram mais de 1.200 km | 34 | 6,6% |
+
+**Distância até o núcleo mais próximo:**
+
+| Distância | Pessoas | % |
+|---|---|---|
+| Mesmo estado do núcleo | 257 | 49,6% |
+| Até ~600 km | 149 | 28,8% |
+| 600 a 1.200 km | 78 | 15,1% |
+| 1.200 a 2.200 km | 27 | 5,2% |
+| Mais de 2.200 km | 7 | 1,4% |
+
+Havia alunos do Amapá, Pará, Maranhão, Ceará e Pernambuco — estados sem
+núcleo, a mais de 2.000 km. Eles viajaram porque o prêmio é emprego no
+exterior, não um curso de fim de semana.
+
+**Segmentação definida:**
+
+| Item | Decisão |
 |---|---|
-| **RJ (Xerém)** | **Estado do Rio inteiro + Zona da Mata e Sul de Minas** (Juiz de Fora, Muriaé, Ubá). Reforço em Rio capital e Sul Fluminense |
-| **SP (Itu)** | **Estado de São Paulo inteiro.** Reforço em Campinas/Itu/Jundiaí/Sorocaba (21,4% da base paulista) e SP capital (35,7%) |
-| **Teste (Fase 2)** | Belo Horizonte + RMBH — 29 alunos históricos, sem núcleo local |
-| Fora | PR, RS, SC, DF, BA — perderam ou nunca tiveram núcleo próximo. Alvo de e-mail, não de mídia paga |
+| Geolocalização | **Brasil inteiro**, sem exclusões |
+| Quem faz a ponderação regional | **O Lookalike.** A semente são os 518 ex-alunos reais — ela já carrega a distribuição geográfica verdadeira, incluindo o peso maior de SP/RJ/MG. Não é preciso forçar à mão |
+| Raio em torno das sedes | **Nunca.** A Baixada Fluminense, sede do núcleo do RJ, é 4,6% do público carioca |
 
-**Dois erros que os dados evitaram:**
+**Três motivos técnicos que reforçam ir nacional:**
 
-1. **Não segmentar por raio em torno das sedes.** A Baixada Fluminense,
-   onde o núcleo do RJ acontece, é apenas **4,6%** do público histórico do
-   Rio. O público está na capital (52,7%) e no Sul Fluminense (18,3%).
-2. **Não ignorar Minas.** MG é o **terceiro maior mercado** (111 alunos,
-   21,4%) e nunca teve núcleo. **Juiz de Fora sozinha tem 26 alunos** — a
-   terceira cidade da base, e a ~180 km de Xerém. Incluir a Zona da Mata
-   leva a cobertura da base histórica de 49,6% para 57,9%; incluir MG
-   inteiro leva a 71,0%.
+1. **Geo estreita encarece.** Menos gente no leilão para o mesmo orçamento
+   = CPM maior. Brasil inteiro é mais barato que SP+RJ, não mais caro.
+2. **Restringir geo em cima de Lookalike é o erro descrito em 4.4.** O LAL
+   já sabe onde estão as pessoas certas.
+3. **Público maior = sai mais rápido da aprendizagem**, que é exatamente o
+   gargalo desta conta a R$ 70/dia.
+
+**Sobre Minas Gerais:** continua sendo o terceiro maior mercado (111
+alunos, 21,4%, com 26 só em Juiz de Fora). Mas o motivo que eu tinha dado
+— "fica perto de Xerém" — era a lógica errada. MG importa por **volume**,
+não por proximidade. Com segmentação nacional, o ponto fica resolvido
+sozinho.
+
+**Porto Velho vira uma vantagem:** com público nacional, o núcleo de
+Rondônia (05–08/dez) passa a ser uma terceira opção de data e local para
+quem está no Norte e Centro-Oeste. Vale aparecer no criativo.
 
 ### 4.6 Gênero — corrigindo a premissa do briefing
 
@@ -434,39 +472,38 @@ levar para a Fase 2 **antes** de gastar os R$ 2.450.
 
 ### FASE 2 — Conversão (26/out – 29/nov) · R$ 70/dia
 
-**Campanhas separadas por praça — e não uma CBO única.** Motivo: São Paulo
-é o problema mais difícil (base histórica menor, 126 vs 131; gap maior, 82
-vs 71; e prazo mais curto, 10/dez vs 17/dez). Numa CBO única o algoritmo
-jogaria a verba na praça mais barata e deixaria SP morrer. Verba separada
-= controle.
+> **Revisado em 21/09.** A versão anterior separava campanhas por praça.
+> Com público nacional e **evento único no Sympla** (a praça é escolhida
+> depois da compra), SP e RJ não são dois mercados geográficos — são
+> **duas datas do mesmo produto**. As 153 vagas em aberto são um só
+> objetivo, não dois.
 
-**Campanha 2 — `PREP2627 | F2 | Vendas SP` · CBO R$ 30/dia**
+Consolidar também resolve o gargalo do orçamento: a R$ 70/dia, quanto
+menos conjuntos, mais rápido cada um sai da fase de aprendizagem.
+
+**Campanha 2 — `PREP2627 | F2 | Vendas` · CBO R$ 55/dia**
 - Objetivo: Vendas · Otimização: `InitiateCheckout` · Atribuição 7d/1d
-- Geo: estado de São Paulo (reforço Campinas/Itu/Jundiaí/Sorocaba)
+- **Geo: Brasil** · Advantage+ audience desligado nos conjuntos 2.1 e 2.2
 
 | Conjunto | Público | Idade |
 |---|---|---|
-| 2.1 | Lookalike 1% da base + 47 inscritos | 21–50, sem interesses empilhados |
-| 2.2 | Interesses futebol + intercâmbio + ensino superior | 22–45 |
+| 2.1 | **Lookalike 1% da base + 47 inscritos** | 21–50, **sem interesses empilhados** |
+| 2.2 | Interesses *Coaching · Work abroad · Football* (herdados da conta antiga, ver 4.8) | 22–45 |
+| 2.3 (teste, 2ª semana) | Público feminino com criativo próprio (ver 4.6) | 22–45 |
 
-**Campanha 3 — `PREP2627 | F2 | Vendas RJ` · CBO R$ 25/dia**
-- Geo: estado do Rio + **Zona da Mata/Sul de MG** (Juiz de Fora e região)
-
-| Conjunto | Público | Idade |
-|---|---|---|
-| 3.1 | Lookalike 1% da base + 47 inscritos | 21–50 |
-| 3.2 | Interesses futebol + intercâmbio + ensino superior | 22–45 |
-
-**Campanha 4 — `PREP2627 | F2 | Remarketing` · ABO R$ 15/dia**
+**Campanha 3 — `PREP2627 | F2 | Remarketing` · ABO R$ 15/dia**
 
 | Conjunto | Público | R$/dia |
 |---|---|---|
-| 4.1 | `InitiateCheckout` 30d SEM compra + visitantes 30d | R$ 9 |
-| 4.2 | Engajamento IG/FB 365d + Vídeo 50%+ (excluindo 4.1) | R$ 6 |
+| 3.1 | `InitiateCheckout` 30d SEM compra + visitantes 30d | R$ 9 |
+| 3.2 | Engajamento IG/FB 365d + Vídeo 50%+ (excluindo 3.1) | R$ 6 |
 
-Excluir compradores e a base de ex-alunos de todas as campanhas frias.
-O conjunto dedicado ao público feminino entra como teste dentro da
-campanha da praça com melhor CPA após a primeira semana.
+Excluir compradores e a base de ex-alunos das campanhas frias.
+
+**Como ler a praça sem separar campanha:** pelo detalhamento por região do
+Meta cruzado com o campo de núcleo no Sympla (ver 2.0). Se um dos núcleos
+encher antes, a correção é **de criativo** — passar a destacar a outra
+data — não de segmentação.
 
 > **Por que otimizar por `InitiateCheckout` e não por `Purchase`:** a
 > R$ 70/dia com CPA de R$ 180 saem ~2,7 compras/semana. O Meta precisa de
@@ -479,18 +516,21 @@ campanha da praça com melhor CPA após a primeira semana.
 
 ### FASE 3 — Fechamento (30/nov – 14/dez) · R$ 68/dia
 
+Geo continua **nacional**. O que muda é a **data em destaque no criativo**,
+não a segmentação.
+
 | Campanha | R$/dia | Foco |
 |---|---|---|
-| Vendas RJ (CBO) | R$ 38 | Só Rio. Criativo com contagem regressiva |
+| Vendas (CBO) | R$ 38 | Criativo passa a destacar a data do **Rio (17–20/dez)**, com contagem regressiva |
 | Remarketing urgência (ABO) | R$ 30 | "Últimas vagas", "encerra dia X" |
 
-🔴 **05/dez: pausar tudo de São Paulo.** O evento é 10–13/dez.
-🔴 **~14/dez: pausar Rio.** O evento é 17–20/dez.
+🔴 **~05/dez: tirar a data de São Paulo (10–13/dez) de todos os criativos.**
+Não é pausar campanha — é parar de anunciar uma data que não dá mais para
+vender. A campanha segue vendendo a data do Rio.
+🔴 **~14/dez: encerrar.** O núcleo do Rio começa em 17/dez.
 
-Nesta fase o remarketing recebe 44% da verba — é onde está o CPA mais
-barato e onde a urgência converte.
-
----
+Nesta fase o remarketing recebe 44% da verba — é onde o CPA é mais barato
+e onde a urgência converte.
 
 ## 6. Criativos
 

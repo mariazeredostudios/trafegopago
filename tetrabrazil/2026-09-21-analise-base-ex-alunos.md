@@ -189,11 +189,18 @@ São Paulo" é uma mensagem legítima para 73 pessoas que já compraram.
 
 ## 7. O que muda no plano de campanha
 
+> ⚠️ **Revisado em 21/09.** A leitura inicial (restringir a SP + RJ + MG)
+> estava errada. Os mesmos dados mostram que **50,4% da base veio de fora
+> de SP e RJ**, **39,4% de estados que nunca tiveram núcleo** e **21,6%
+> viajaram mais de 600 km**. O produto é a oportunidade de trabalhar nos
+> EUA — SP e RJ são locais de prova, não mercados. **A segmentação é
+> nacional.** Ver seção 4.5 do plano.
+
 | # | Decisão | Motivo |
 |---|---|---|
-| 1 | **Incluir MG na segmentação** — Zona da Mata/Juiz de Fora no núcleo RJ; BH como teste | +21 pp de cobertura da base histórica |
+| 1 | **Segmentação nacional**, com o Lookalike fazendo a ponderação regional | A semente de 518 ex-alunos já carrega a distribuição real |
 | 2 | **Não segmentar por raio em torno das sedes** | A Baixada (sede RJ) é só 4,6% do público do RJ |
-| 3 | **RJ = estado inteiro + Zona da Mata MG**; **SP = estado inteiro**, com reforço em Campinas/Itu/Sorocaba | Interior paulista pesa mais que a capital |
+| 3 | **MG importa por volume (21,4%), não por proximidade** | Terceiro maior mercado, 26 alunos só em Juiz de Fora |
 | 4 | **Verba principal em público masculino**, com 1 conjunto dedicado a mulheres | 86/14 na base real |
 | 5 | **Idade 21–50 na Fase 1**, estreitar só com dado do Meta | Sem idade na planilha |
 | 6 | **Adiantar a verba de SP** | SP tem base menor (126 vs 131), gap maior (82 vs 71) e prazo mais curto (10/dez vs 17/dez) |
