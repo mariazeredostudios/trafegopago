@@ -3,7 +3,7 @@
 > Pixel único confirmado no ar em 21/09: **`1100395945778742`**
 > (dispara só `PageView` — falta `ViewContent` e `InitiateCheckout`)
 > Destino: `https://www.tetrabrazil.com/novoprep` · Ticket R$ 1.350
-> Verba total: **R$ 3.995** · 21/set a 14/dez/2026
+> Conta em **dólar** · Verba total: **US$ 772,50** · 21/set a 14/dez/2026
 
 ---
 
@@ -64,61 +64,89 @@ No remarketing 3.2, excluir também o público do 3.1 (evita sobreposição).
 
 ---
 
-## PARTE 2 — ESTRUTURA E VERBA
+## PARTE 2 — ESTRUTURA E VERBA (conta em **USD** · total **US$ 775**)
 
-### FASE 1 · 21/set – 25/out · 35 dias · R$ 15/dia · **R$ 525**
+> Conta de anúncio em dólar. Câmbio implícito R$ 5,16/US$.
+> ⚠️ Se a fatura for paga com cartão brasileiro, soma **IOF + spread**
+> por cima — confirme a alíquota vigente com seu banco, porque mudou
+> recentemente. US$ 775 pode sair por R$ 4.200–4.400 no extrato.
+> **O teto de US$ 775 é o que o Meta gasta, não o que sai do seu bolso.**
 
-**`PREP2627 | F1 | Aquecimento Video`** — ABO R$ 15/dia
-- Objetivo: **Engajamento → ThruPlay**
-- Público: Brasil · 21–50 · todos os gêneros
-- Interesses: *Coaching · Work abroad · Football*
-- Criativos: 4 vídeos rodando juntos (ângulos 1, 2, 3 e 5)
+### 2.1 ⚠️ Em dólar o orçamento força consolidação
 
-Função: construir `CA | Video 50%+` barato e descobrir qual criativo tem
-Hook Rate e Hold Rate melhores **antes** de gastar os R$ 2.450.
-**Não espere venda aqui.**
+O Meta exige mínimos diários **por conjunto**, mais altos para otimização
+por conversão. Com **US$ 13,57/dia** na Fase 2, dividir em 5 conjuntos
+daria ~US$ 2,70 cada — abaixo do piso prático. Nenhum sairia da
+aprendizagem.
 
-### FASE 2 · 26/out – 29/nov · 35 dias · R$ 70/dia · **R$ 2.450**
+**Mudanças em relação à versão em reais:**
 
-**`PREP2627 | F2 | Vendas`** — **CBO R$ 55/dia**
-Objetivo: Vendas · Otimização: **`InitiateCheckout`**
+| Antes | Agora | Motivo |
+|---|---|---|
+| Remarketing com 2 conjuntos | **1 conjunto só**, juntando todos os públicos mornos | US$ 4/dia não se divide em dois |
+| Conjunto 2.3 feminino separado | **Criativo feminino dentro do conjunto 2.2** | Conjunto dedicado é luxo neste orçamento. Lê-se o resultado pelo detalhamento por gênero |
+| 5 conjuntos na Fase 2 | **3 conjuntos** | Menos conjuntos = mais eventos por conjunto = sai da aprendizagem |
 
-| Conjunto | Público | Idade | Entra em |
+### 2.2 Verba por fase
+
+| Fase | Período | Dias | **US$/dia** | **Total US$** | % |
+|---|---|---|---|---|---|
+| 1 — Aquecimento | 21/set – 25/out | 35 | **3,00** | **105** | 13% |
+| 2 — Conversão | 26/out – 29/nov | 35 | **13,50** | **472,50** | 61% |
+| 3 — Fechamento | 30/nov – 14/dez | 15 | **13,00** | **195** | 25% |
+| | | 85 | | **772,50** | |
+
+Sobram US$ 2,50 de folga.
+
+### 2.3 Verba por campanha e conjunto
+
+**FASE 1 · 21/set – 25/out · US$ 3/dia**
+
+| Campanha | Tipo | US$/dia | Conjunto |
 |---|---|---|---|
-| 2.1 | `LAL \| 1% BR` (sem interesses empilhados) | 21–50 | 26/out |
-| 2.2 | Interesses *Coaching · Work abroad · Football* | 22–45 | 26/out |
-| 2.3 | Mesmos interesses, **só mulheres**, criativo próprio | 22–45 | 2ª semana |
+| `PREP2627 \| F1 \| Aquecimento Video` | ABO | **3,00** | 1 só: Brasil · 21–50 · interesses *Coaching/Work abroad/Football* · ThruPlay · 4 vídeos |
 
-**`PREP2627 | F2 | Remarketing`** — **ABO R$ 15/dia**
+> Se o Meta recusar US$ 3/dia por mínimo de conjunto, rode **US$ 5/dia de
+> 25/set a 15/out** (21 dias) — mesmo dinheiro, diário aceito.
 
-| Conjunto | Público | R$/dia |
+**FASE 2 · 26/out – 29/nov · US$ 13,50/dia**
+
+| Campanha | Tipo | US$/dia | Conjuntos |
+|---|---|---|---|
+| `PREP2627 \| F2 \| Vendas` | **CBO** | **9,50** | **2.1** `LAL \| 1% BR` · 21–50 · sem interesses<br>**2.2** Interesses *Coaching/Work abroad/Football* · 22–45 · **inclui o criativo feminino** |
+| `PREP2627 \| F2 \| Remarketing` | ABO | **4,00** | **3.1** conjunto único: `CA \| InitiateCheckout` + `CA \| Site todos 30d` + `CA \| IG engajamento` + `CA \| FB engajamento` + `CA \| Video 50%+` |
+
+Otimização: `InitiateCheckout` · Atribuição 7d clique / 1d visualização ·
+Advantage+ audience **desligado** · Geo **Brasil**.
+Em CBO o mínimo por conjunto não trava — o Meta distribui.
+
+**FASE 3 · 30/nov – 14/dez · US$ 13/dia**
+
+| Campanha | Tipo | US$/dia |
 |---|---|---|
-| 3.1 | `CA \| InitiateCheckout` + `CA \| Site todos` (30 d) | R$ 9 |
-| 3.2 | `CA \| IG engajamento` + `CA \| FB engajamento` + `CA \| Video 50%+` | R$ 6 |
+| `PREP2627 \| F3 \| Vendas` (criativo passa a destacar só a data do Rio) | CBO | **7,00** |
+| `PREP2627 \| F3 \| RMKT Urgencia` | ABO | **6,00** |
 
-### FASE 3 · 30/nov – 14/dez · 15 dias · R$ 68/dia · **R$ 1.020**
+46% em remarketing — é onde o CPA é mais barato e a urgência converte.
 
-| Campanha | R$/dia | O que muda |
+### 2.4 Metas convertidas para dólar
+
+| Métrica | Alvo R$ | **Alvo US$** |
 |---|---|---|
-| `PREP2627 \| F3 \| Vendas` (CBO) | R$ 38 | Criativo passa a destacar **só a data do Rio** |
-| `PREP2627 \| F3 \| RMKT Urgencia` (ABO) | R$ 30 | Escassez e prazo |
+| CPM | 25 – 50 | **4,84 – 9,69** |
+| Custo por visualização da LP | 0,60 – 1,50 | **0,12 – 0,29** |
+| Custo por `InitiateCheckout` | 15 – 35 | **2,91 – 6,78** |
+| **CPA final** | **130 – 220** | **25,19 – 42,62** |
+| Ticket do produto | 1.350 | **261,56** |
+| ROAS | 6x – 10x | igual (razão não muda) |
 
-🔴 **~05/dez:** tirar a data de São Paulo dos criativos (núcleo 10–13/dez).
-🔴 **~14/dez:** encerrar. O núcleo do Rio começa em 17/dez.
-**A geolocalização segue nacional o tempo todo.**
+**Projeção:** US$ 775 ÷ US$ 34,88 de CPA blended = **~22 vendas ·
+R$ 30.000 de faturamento · ROAS 7,4x**. Mesma projeção de antes — o
+câmbio não muda a matemática, só a unidade.
 
-### Resumo da verba
-
-| Fase | Período | R$/dia | Total | % |
-|---|---|---|---|---|
-| 1 — Aquecimento | 21/set – 25/out | 15 | 525 | 13% |
-| 2 — Conversão | 26/out – 29/nov | 70 | 2.450 | 61% |
-| 3 — Fechamento | 30/nov – 14/dez | 68 | 1.020 | 26% |
-| | | | **3.995** | |
-
-Projeção realista: **~22 vendas · R$ 29.700 · ROAS 7,4x**
-
----
+> **No pixel, manter `currency: 'BRL'` e `value: 1350.00`.** A venda
+> acontece em reais no Sympla. O Meta converte sozinho para exibir o ROAS
+> na moeda da conta. Declarar USD no pixel quebraria o valor.
 
 ## PARTE 3 — COPY
 
@@ -317,4 +345,4 @@ https://www.tetrabrazil.com/novoprep?utm_source=meta&utm_medium=paid&utm_campaig
 | 3 | Redirect `tetrabrazil.com.br/novoprep` → `.com/novoprep` | Clique que cai no `.com.br` morre num 404 |
 | 4 | Preço oficial: R$ 1.350 ou R$ 1.300 | Copy e checkout precisam bater |
 | 5 | Data-limite real de matrícula por núcleo | Define quando tirar cada data do criativo |
-| 6 | Limite de gasto da conta nova | Pode barrar os R$ 70/dia da Fase 2 |
+| 6 | Limite de gasto da conta nova | Pode barrar os US$ 13,50/dia da Fase 2 |
