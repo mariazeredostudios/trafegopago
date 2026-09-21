@@ -3,7 +3,8 @@
 > Pixel único confirmado no ar em 21/09: **`1100395945778742`**
 > (dispara só `PageView` — falta `ViewContent` e `InitiateCheckout`)
 > Destino: `https://www.tetrabrazil.com/novoprep` · Ticket R$ 1.350
-> Conta em **dólar** · Verba total: **US$ 772,50** · 21/set a 14/dez/2026
+> Conta em **dólar** · Verba total: **US$ 773,90** · 21/set a 14/dez/2026
+> **Sem fase de aquecimento — venda direta desde o dia 1.**
 
 ---
 
@@ -33,7 +34,7 @@
 |---|---|---|
 | 7 | `CA \| IG engajamento` | Conta do Instagram · qualquer interação · 365 d |
 | 8 | `CA \| FB engajamento` | Página do Facebook · qualquer interação · 365 d |
-| 9 | `CA \| Video 50%+` | Vídeo · assistiu 50% · 365 d *(criar após a Fase 1)* |
+| 9 | ~~`CA \| Video 50%+`~~ | Descartado — sem campanha de vídeo não há público de vídeo |
 
 **Semelhantes**
 
@@ -66,87 +67,115 @@ No remarketing 3.2, excluir também o público do 3.1 (evita sobreposição).
 
 ## PARTE 2 — ESTRUTURA E VERBA (conta em **USD** · total **US$ 775**)
 
-> Conta de anúncio em dólar. Câmbio implícito R$ 5,16/US$.
-> ⚠️ Se a fatura for paga com cartão brasileiro, soma **IOF + spread**
-> por cima — confirme a alíquota vigente com seu banco, porque mudou
-> recentemente. US$ 775 pode sair por R$ 4.200–4.400 no extrato.
-> **O teto de US$ 775 é o que o Meta gasta, não o que sai do seu bolso.**
+> **Revisado: fase de aquecimento eliminada.** Venda direta desde o dia 1.
+> Câmbio implícito R$ 5,16/US$.
+> ⚠️ Fatura paga com cartão brasileiro leva **IOF + spread** por cima —
+> US$ 775 pode sair por R$ 4.200–4.400. O teto é o que o Meta gasta, não
+> o custo final.
 
-### 2.1 ⚠️ Em dólar o orçamento força consolidação
+### 2.1 O que muda sem aquecimento
 
-O Meta exige mínimos diários **por conjunto**, mais altos para otimização
-por conversão. Com **US$ 13,57/dia** na Fase 2, dividir em 5 conjuntos
-daria ~US$ 2,70 cada — abaixo do piso prático. Nenhum sairia da
-aprendizagem.
-
-**Mudanças em relação à versão em reais:**
-
-| Antes | Agora | Motivo |
+| | Custo | Ganho |
 |---|---|---|
-| Remarketing com 2 conjuntos | **1 conjunto só**, juntando todos os públicos mornos | US$ 4/dia não se divide em dois |
-| Conjunto 2.3 feminino separado | **Criativo feminino dentro do conjunto 2.2** | Conjunto dedicado é luxo neste orçamento. Lê-se o resultado pelo detalhamento por gênero |
-| 5 conjuntos na Fase 2 | **3 conjuntos** | Menos conjuntos = mais eventos por conjunto = sai da aprendizagem |
+| Sem teste de criativo prévio | Descobrimos o anúncio vencedor **gastando**, não antes | 100% da verba vai para venda |
+| Sem público de vídeo | Perde-se uma fonte barata de remarketing | **O tráfego de venda constrói público de site, que é mais quente que espectador de vídeo** |
 
-### 2.2 Verba por fase
+Substituto do teste: subir **4 anúncios no mesmo conjunto** desde o início
+e deixar o Meta escolher. Pausar os perdedores na segunda semana.
 
-| Fase | Período | Dias | **US$/dia** | **Total US$** | % |
-|---|---|---|---|---|---|
-| 1 — Aquecimento | 21/set – 25/out | 35 | **3,00** | **105** | 13% |
-| 2 — Conversão | 26/out – 29/nov | 35 | **13,50** | **472,50** | 61% |
-| 3 — Fechamento | 30/nov – 14/dez | 15 | **13,00** | **195** | 25% |
-| | | 85 | | **772,50** | |
+### 2.2 ⚠️ O gargalo: `InitiateCheckout` ainda não existe
 
-Sobram US$ 2,50 de folga.
+O pixel `1100395945778742` só dispara `PageView`. Sem evento de fundo de
+funil, o objetivo **Vendas não tem por que otimizar** — ele exige um
+evento de conversão.
 
-### 2.3 Verba por campanha e conjunto
+Por isso a operação tem **dois blocos**, e a virada entre eles é
+disparada pelo evento entrar no ar, não por data fixa.
 
-**FASE 1 · 21/set – 25/out · US$ 3/dia**
+### 2.3 BLOCO A — 21/set até o `InitiateCheckout` subir · **US$ 7,50/dia**
 
-| Campanha | Tipo | US$/dia | Conjunto |
-|---|---|---|---|
-| `PREP2627 \| F1 \| Aquecimento Video` | ABO | **3,00** | 1 só: Brasil · 21–50 · interesses *Coaching/Work abroad/Football* · ThruPlay · 4 vídeos |
+**`PREP2627 | A | Trafego Venda`** — Objetivo **Tráfego** · Otimização
+**Visualizações da página de destino** · CBO **US$ 7,50/dia**
 
-> Se o Meta recusar US$ 3/dia por mínimo de conjunto, rode **US$ 5/dia de
-> 25/set a 15/out** (21 dias) — mesmo dinheiro, diário aceito.
+| Conjunto | Público | Idade |
+|---|---|---|
+| A.1 | `LAL \| 1% BR` (semente: 518 ex-alunos + 47 compradores) | 21–50, sem interesses |
+| A.2 | Interesses *Coaching · Work abroad · Football* | 22–45 |
 
-**FASE 2 · 26/out – 29/nov · US$ 13,50/dia**
+Geo **Brasil** · Advantage+ audience desligado · 4 anúncios por conjunto.
+
+**Isto não é aquecimento.** É venda com a melhor otimização disponível
+hoje: leva gente com intenção até a landing page, de onde ela clica para
+o Sympla. E semeia o pixel para o Bloco B.
+
+⚠️ Otimização por LPV **não mede venda**. Enquanto o Bloco A rodar, a
+única leitura real de vendas é o painel do Sympla.
+
+### 2.4 BLOCO B — do evento no ar até 14/dez · **US$ 10,60/dia**
 
 | Campanha | Tipo | US$/dia | Conjuntos |
 |---|---|---|---|
-| `PREP2627 \| F2 \| Vendas` | **CBO** | **9,50** | **2.1** `LAL \| 1% BR` · 21–50 · sem interesses<br>**2.2** Interesses *Coaching/Work abroad/Football* · 22–45 · **inclui o criativo feminino** |
-| `PREP2627 \| F2 \| Remarketing` | ABO | **4,00** | **3.1** conjunto único: `CA \| InitiateCheckout` + `CA \| Site todos 30d` + `CA \| IG engajamento` + `CA \| FB engajamento` + `CA \| Video 50%+` |
+| `PREP2627 \| B \| Vendas` | **CBO** | **7,60** | **B.1** `LAL \| 1% BR` · 21–50<br>**B.2** Interesses *Coaching/Work abroad/Football* · 22–45 · **inclui o criativo feminino** |
+| `PREP2627 \| B \| Remarketing` | ABO | **3,00** | **B.3** conjunto único: `CA \| InitiateCheckout` + `CA \| Site todos 30d` + `CA \| IG engajamento` + `CA \| FB engajamento` |
 
-Otimização: `InitiateCheckout` · Atribuição 7d clique / 1d visualização ·
-Advantage+ audience **desligado** · Geo **Brasil**.
-Em CBO o mínimo por conjunto não trava — o Meta distribui.
+Objetivo **Vendas** · Otimização **`InitiateCheckout`** · Atribuição
+7d clique / 1d visualização · Geo **Brasil**.
 
-**FASE 3 · 30/nov – 14/dez · US$ 13/dia**
+> Se após 10 dias o volume de `InitiateCheckout` ficar abaixo de
+> 15/semana, descer a otimização para `ViewContent`.
 
-| Campanha | Tipo | US$/dia |
-|---|---|---|
-| `PREP2627 \| F3 \| Vendas` (criativo passa a destacar só a data do Rio) | CBO | **7,00** |
-| `PREP2627 \| F3 \| RMKT Urgencia` | ABO | **6,00** |
+### 2.5 Verba
 
-46% em remarketing — é onde o CPA é mais barato e a urgência converte.
+| Bloco | Período previsto | Dias | **US$/dia** | **Total** |
+|---|---|---|---|---|
+| A — Tráfego/venda | 21/set – 31/out | 41 | **7,50** | **307,50** |
+| B — Vendas + remarketing | 01/nov – 14/dez | 44 | **10,60** | **466,40** |
+| | | 85 | | **773,90** |
 
-### 2.4 Metas convertidas para dólar
+A data de virada (01/nov) é **estimativa**. A virada real acontece assim
+que o `InitiateCheckout` subir:
+
+- **Evento no ar antes de 01/nov** → migra para o Bloco B na hora e roda
+  a US$ 7,50/dia até 31/out, subindo para US$ 10,60 em 01/nov
+- **Evento atrasa para depois de 01/nov** → o Bloco A continua, mas já a
+  US$ 10,60/dia. Cada semana de atraso é uma semana otimizando por
+  clique em vez de por compra
+
+O degrau de US$ 7,50 → US$ 10,60 em 01/nov também protege a conta nova:
+gasto crescente e regular, sem salto brusco.
+
+### 2.6 Calendário
+
+| Data | Ação |
+|---|---|
+| **21/set** | Subir Bloco A · US$ 7,50/dia |
+| ~28/set | Pausar os 2 anúncios de pior CTR, manter os 2 melhores |
+| **Assim que o IC subir** | Criar Bloco B, desligar o Bloco A |
+| **01/nov** | Verba para US$ 10,60/dia · ligar remarketing |
+| ~29/nov | Última chamada para a data de São Paulo |
+| **~05/dez** | 🔴 Tirar a data de SP dos criativos (núcleo 10–13/dez) |
+| 05/dez – 14/dez | Criativo só com a data do Rio + urgência |
+| **~14/dez** | 🔴 Encerrar (núcleo do Rio começa 17/dez) |
+
+Geo segue **nacional** o tempo todo. O que muda no fim é a data
+destacada no criativo, nunca a segmentação.
+
+### 2.7 Metas em dólar
 
 | Métrica | Alvo R$ | **Alvo US$** |
 |---|---|---|
 | CPM | 25 – 50 | **4,84 – 9,69** |
-| Custo por visualização da LP | 0,60 – 1,50 | **0,12 – 0,29** |
+| Custo por visualização da LP *(métrica-chave do Bloco A)* | 0,60 – 1,50 | **0,12 – 0,29** |
 | Custo por `InitiateCheckout` | 15 – 35 | **2,91 – 6,78** |
 | **CPA final** | **130 – 220** | **25,19 – 42,62** |
-| Ticket do produto | 1.350 | **261,56** |
-| ROAS | 6x – 10x | igual (razão não muda) |
+| Ticket | 1.350 | **261,56** |
+| ROAS | 6x – 10x | igual |
 
-**Projeção:** US$ 775 ÷ US$ 34,88 de CPA blended = **~22 vendas ·
-R$ 30.000 de faturamento · ROAS 7,4x**. Mesma projeção de antes — o
-câmbio não muda a matemática, só a unidade.
+**Projeção:** ~22 vendas · R$ 30.000 · ROAS 7,4x.
 
 > **No pixel, manter `currency: 'BRL'` e `value: 1350.00`.** A venda
-> acontece em reais no Sympla. O Meta converte sozinho para exibir o ROAS
-> na moeda da conta. Declarar USD no pixel quebraria o valor.
+> acontece em reais no Sympla; o Meta converte sozinho para exibir o ROAS
+> na moeda da conta.
 
 ## PARTE 3 — COPY
 
@@ -340,9 +369,9 @@ https://www.tetrabrazil.com/novoprep?utm_source=meta&utm_medium=paid&utm_campaig
 
 | # | Pendência | Impacto |
 |---|---|---|
-| 1 | `ViewContent` e `InitiateCheckout` no site (pixel `1100395945778742` só dispara `PageView`) | **Sem isso a Fase 2 não tem por que otimizar.** A Fase 1 pode subir hoje mesmo assim |
+| 1 | **`InitiateCheckout` no site** (pixel `1100395945778742` só dispara `PageView`) | 🔴 **Agora é o item mais caro da lista.** Cada semana de atraso é uma semana otimizando por clique em vez de por compra. O Bloco A sobe hoje sem ele, mas paga esse preço |
 | 2 | `Purchase` via pixel no painel do Sympla | Sem ROAS real |
 | 3 | Redirect `tetrabrazil.com.br/novoprep` → `.com/novoprep` | Clique que cai no `.com.br` morre num 404 |
 | 4 | Preço oficial: R$ 1.350 ou R$ 1.300 | Copy e checkout precisam bater |
 | 5 | Data-limite real de matrícula por núcleo | Define quando tirar cada data do criativo |
-| 6 | Limite de gasto da conta nova | Pode barrar os US$ 13,50/dia da Fase 2 |
+| 6 | Limite de gasto da conta nova | Pode barrar os US$ 10,60/dia do Bloco B |
