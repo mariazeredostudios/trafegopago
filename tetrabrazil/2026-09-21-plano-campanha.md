@@ -155,36 +155,23 @@ errática. Concentrar resolve isso.
 
 ## 4. Públicos
 
-### 4.1 A planilha CSV — sim, é o ativo mais valioso que você tem
+### 4.1 A base de ex-alunos — analisada (518 registros)
 
-Respondendo diretamente: **ajuda muito, e por três motivos diferentes.**
+Análise completa em `2026-09-21-analise-base-ex-alunos.md`. Resumo:
 
-**a) Público Personalizado + Lookalike (o uso óbvio)**
-Com 1.000+ registros, o Lookalike 1% de ex-alunos tende a ser o público
-frio mais barato da conta — melhor que qualquer interesse.
+- **Qualidade excelente:** 517 e-mails válidos e únicos, 518 telefones
+  (511 celulares), zero duplicatas. Correspondência esperada no Meta:
+  60–75%.
+- ⚠️ **São 518 registros, não 1.000+.** Passa do mínimo para Lookalike,
+  mas fica abaixo do ideal (1.000–5.000). **Somar os 47 inscritos de
+  2026-2027 e qualquer outra base à mesma semente.**
+- **Geo, gênero e clusters institucionais:** ver 4.5, 4.6 e seção 10.
+- **Idade não existe na planilha** — ver 4.7.
 
-**b) Definir a geolocalização com dado, não com palpite (o que você perguntou)**
-Cruzando cidade/estado dos ex-alunos eu respondo:
-- Qual o raio real de captação de cada núcleo?
-- Vale anunciar só SP e RJ, ou historicamente vem gente de MG, PR, ES?
-- Qual % veio do interior vs. capital? (decide se o alvo é "Itu + 100 km"
-  ou "estado de SP inteiro")
-
-**c) Validar a faixa etária com dado real**
-Você definiu 21–42 por intuição. A base diz qual é a idade que realmente
-compra. Se a mediana for 27, gastar em 38–42 é desperdício.
-
-**Colunas que eu preciso:** cidade, estado/UF, CEP, data de nascimento ou
-idade, gênero, e-mail, telefone, ano/edição do prep, valor pago e — se
-existir — **se a pessoa chegou a ser contratada nos EUA**. Essa última é a
-mais valiosa: o Lookalike de *quem foi contratado* é um proxy do aluno
-ideal, não só de quem comprou.
-
-> ⚠️ **Privacidade:** não faça commit do CSV bruto neste repositório — são
-> dados pessoais de 1.000 pessoas num histórico de git permanente. Me
-> envie o arquivo anexado no chat; eu trabalho com ele, devolvo só a
-> análise agregada e o arquivo fica fora do versionamento. Para o Meta, o
-> upload do Público Personalizado já faz o hash dos dados localmente.
+> ⚠️ **Privacidade:** o CSV bruto **não foi versionado** neste
+> repositório — são dados pessoais de 518 pessoas e o histórico do git é
+> permanente. Só o agregado está aqui. Para o Meta, o upload do Público
+> Personalizado faz o hash dos dados localmente no navegador.
 
 ### 4.2 Mapa de públicos
 
@@ -236,15 +223,49 @@ Isso reduz o público, sobe o CPM e piora exatamente o que torna o LAL bom.
 **No conjunto de Lookalike: só geolocalização e idade ampla (21–50).**
 Deixe a faixa 21–42 apenas nos conjuntos de interesse.
 
-### 4.5 Geolocalização (revisar depois do CSV)
+### 4.5 Geolocalização — definida com dado real da base (518 registros)
 
-| Praça | Segmentação recomendada |
+Análise completa em `2026-09-21-analise-base-ex-alunos.md`. O que ela mudou:
+
+| Praça | Segmentação |
 |---|---|
-| **SP (Itu)** | Estado de São Paulo + raio reforçado de 100 km em Itu (Sorocaba, Campinas, Jundiaí, Indaiatuba, Salto, Grande SP) |
-| **RJ (Xerém)** | Estado do Rio de Janeiro + raio de 80 km em Duque de Caxias (Baixada, Grande Rio, Niterói, Petrópolis) |
-| Expansão | MG e ES como teste barato, **só se** o CSV mostrar histórico de alunos de fora do estado |
+| **RJ (Xerém)** | **Estado do Rio inteiro + Zona da Mata e Sul de Minas** (Juiz de Fora, Muriaé, Ubá). Reforço em Rio capital e Sul Fluminense |
+| **SP (Itu)** | **Estado de São Paulo inteiro.** Reforço em Campinas/Itu/Jundiaí/Sorocaba (21,4% da base paulista) e SP capital (35,7%) |
+| **Teste (Fase 2)** | Belo Horizonte + RMBH — 29 alunos históricos, sem núcleo local |
+| Fora | PR, RS, SC, DF, BA — perderam ou nunca tiveram núcleo próximo. Alvo de e-mail, não de mídia paga |
 
----
+**Dois erros que os dados evitaram:**
+
+1. **Não segmentar por raio em torno das sedes.** A Baixada Fluminense,
+   onde o núcleo do RJ acontece, é apenas **4,6%** do público histórico do
+   Rio. O público está na capital (52,7%) e no Sul Fluminense (18,3%).
+2. **Não ignorar Minas.** MG é o **terceiro maior mercado** (111 alunos,
+   21,4%) e nunca teve núcleo. **Juiz de Fora sozinha tem 26 alunos** — a
+   terceira cidade da base, e a ~180 km de Xerém. Incluir a Zona da Mata
+   leva a cobertura da base histórica de 49,6% para 57,9%; incluir MG
+   inteiro leva a 71,0%.
+
+### 4.6 Gênero — corrigindo a premissa do briefing
+
+A base real é **86,1% masculina / 13,9% feminina** (estimativa por nome).
+O briefing dizia "homens e mulheres" — é verdade, mas não meio a meio.
+
+- Verba principal: público masculino
+- **Um conjunto dedicado ao público feminino** com criativo próprio. CPM
+  de mulheres nesse nicho costuma ser menor e a TetraBrazil tem lastro
+  para o ângulo (instrutoras do Red Bull Bragantino e do Vasco Feminino).
+  14% de 200 vagas são ~28 mulheres — mercado real, mensagem separada.
+
+### 4.7 Idade — segue sendo palpite, e isso tem solução
+
+A planilha **não tem idade nem data de nascimento**. A faixa 21–42 não
+pôde ser validada. Portanto:
+
+- Fase 1 roda com **21–50**, aberto
+- O relatório demográfico do Meta mostra em ~3 semanas onde a conversão
+  realmente acontece — aí sim estreita, com dado
+- Alternativa rápida: exportar data de nascimento do painel do Sympla e
+  cruzar por e-mail
 
 ## 5. Estrutura de campanhas
 
@@ -266,28 +287,39 @@ levar para a Fase 2 **antes** de gastar os R$ 2.450.
 
 ### FASE 2 — Conversão (26/out – 29/nov) · R$ 70/dia
 
-**Campanha 2 — `PREP2627 | F2 | Vendas`**
-- Objetivo: **Vendas** · Otimização: **`InitiateCheckout`**
-- Orçamento: **CBO R$ 55/dia**
-- Janela de atribuição: 7 dias clique / 1 dia visualização
+**Campanhas separadas por praça — e não uma CBO única.** Motivo: São Paulo
+é o problema mais difícil (base histórica menor, 126 vs 131; gap maior, 82
+vs 71; e prazo mais curto, 10/dez vs 17/dez). Numa CBO única o algoritmo
+jogaria a verba na praça mais barata e deixaria SP morrer. Verba separada
+= controle.
 
-| Conjunto | Público | Idade | Observação |
-|---|---|---|---|
-| 2.1 | Lookalike 1% ex-alunos | 21–50 | Sem interesses empilhados |
-| 2.2 | Interesses futebol + intercâmbio | 22–45 | + Ensino superior |
-| 2.3 | Advantage+ (amplo, com sugestão de LAL) | 21–45 | Deixa o algoritmo buscar |
+**Campanha 2 — `PREP2627 | F2 | Vendas SP` · CBO R$ 30/dia**
+- Objetivo: Vendas · Otimização: `InitiateCheckout` · Atribuição 7d/1d
+- Geo: estado de São Paulo (reforço Campinas/Itu/Jundiaí/Sorocaba)
 
-Geo: SP e RJ conforme 4.5. Excluir em todos: compradores e quem já
-iniciou checkout (vai para a campanha 3).
+| Conjunto | Público | Idade |
+|---|---|---|
+| 2.1 | Lookalike 1% da base + 47 inscritos | 21–50, sem interesses empilhados |
+| 2.2 | Interesses futebol + intercâmbio + ensino superior | 22–45 |
 
-**Campanha 3 — `PREP2627 | F2 | Remarketing`**
-- Objetivo: **Vendas** · Otimização: `InitiateCheckout` (ou `Purchase` se
-  houver volume) · **ABO R$ 15/dia**
+**Campanha 3 — `PREP2627 | F2 | Vendas RJ` · CBO R$ 25/dia**
+- Geo: estado do Rio + **Zona da Mata/Sul de MG** (Juiz de Fora e região)
+
+| Conjunto | Público | Idade |
+|---|---|---|
+| 3.1 | Lookalike 1% da base + 47 inscritos | 21–50 |
+| 3.2 | Interesses futebol + intercâmbio + ensino superior | 22–45 |
+
+**Campanha 4 — `PREP2627 | F2 | Remarketing` · ABO R$ 15/dia**
 
 | Conjunto | Público | R$/dia |
 |---|---|---|
-| 3.1 | `InitiateCheckout` 30d SEM compra + visitantes 30d | R$ 9 |
-| 3.2 | Engajamento IG/FB 365d + Vídeo 50%+ (excluindo 3.1) | R$ 6 |
+| 4.1 | `InitiateCheckout` 30d SEM compra + visitantes 30d | R$ 9 |
+| 4.2 | Engajamento IG/FB 365d + Vídeo 50%+ (excluindo 4.1) | R$ 6 |
+
+Excluir compradores e a base de ex-alunos de todas as campanhas frias.
+O conjunto dedicado ao público feminino entra como teste dentro da
+campanha da praça com melhor CPA após a primeira semana.
 
 > **Por que otimizar por `InitiateCheckout` e não por `Purchase`:** a
 > R$ 70/dia com CPA de R$ 180 saem ~2,7 compras/semana. O Meta precisa de
@@ -324,6 +356,7 @@ barato e onde a urgência converte.
 | 3 | **Concretude da oferta** | "USD 250 por semana, hospedagem, transporte, seguro e passagem paga. Visto J-1." |
 | 4 | **Autoridade/lugar** | "4 dias dentro do CT do Fluminense em Xerém." |
 | 5 | **Depoimento** | Ex-aluno que hoje trabalha nos EUA, falando em primeira pessoa |
+| 6 | **Feminino** (conjunto dedicado) | Treinadora falando com treinadoras — o futebol feminino nos EUA e as instrutoras da própria TetraBrazil |
 
 Os ângulos 1 e 2 são os mais fortes: o 1 usa número real e verificável, o
 2 ataca exatamente a crença que trava o público ("isso não é pra mim").
@@ -418,3 +451,37 @@ novos prontos antes de precisar.
    foi efetivamente contratado nos EUA.
 6. **Conta de anúncio** — qual será usada e qual dos dois pixels está
    vinculado a ela?
+
+---
+
+## 10. Canais de custo zero identificados na base
+
+A análise da planilha revelou dois canais que provavelmente rendem mais
+que os R$ 4.000 de mídia — e custam zero.
+
+### 10.1 Clusters institucionais
+
+Cidades pequenas com concentração anômala de alunos:
+
+| Cidade | Alunos |
+|---|---|
+| **Rio das Flores / RJ** | **11** (município de ~9 mil habitantes) |
+| Ouro Preto / MG | 5 |
+| Valença / RJ | 5 |
+| Cláudio / MG · Maricá / RJ · Petrópolis / RJ | 4 cada |
+| Rio das Ostras / RJ · Cachoeira do Campo / MG | 3 cada |
+
+Onze alunos de uma cidade de 9 mil habitantes não é demanda orgânica — é
+um clube, uma escola ou um professor multiplicador. **Identificar quem
+levou cada grupo e reativar a ponte para 2026-2027** é a ação de maior
+retorno por real gasto neste plano. É a mesma lógica do núcleo de Porto
+Velho com a Federação de Rondônia, só que aplicada de propósito.
+
+### 10.2 O Sul perdeu o núcleo local
+
+PR (31) + RS (26) + SC (16) = **73 pessoas, 14,1% da base**. A edição
+2025-2026 tinha núcleos em Curitiba e Porto Alegre; a 2026-2027 não tem.
+
+Não é alvo de mídia paga (o deslocamento inviabiliza), mas "seu núcleo
+mudou — o mais próximo agora é São Paulo" é uma mensagem legítima de
+e-mail/WhatsApp para 73 pessoas que já compraram esse produto.
