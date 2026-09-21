@@ -68,15 +68,71 @@ eles significa otimizar às cegas.
 
 | # | Ação | Prioridade | Responsável |
 |---|---|---|---|
+| 0 | **Compartilhar um pixel existente com a conta de anúncio nova** (ver 2.0) | 🔴🔴 | Você / TetraBrazil |
 | 1 | Redirecionar `tetrabrazil.com.br/novoprep` → `tetrabrazil.com/novoprep` (301) | 🔴 | Dev/site |
 | 2 | Escolher **um** pixel oficial e remover o segundo `fbq('init')` | 🔴 | Dev |
 | 3 | Implementar `ViewContent` + `InitiateCheckout` no site | 🔴 | Dev |
 | 4 | Ativar pixel do Meta no painel do organizador do Sympla (para `Purchase`) | 🔴 | Você |
 | 5 | Subir a lista CSV como Público Personalizado + criar Lookalike 1% | 🔴 | Você |
 | 6 | Padronizar UTMs por praça/público/criativo | 🟡 | Você |
+| 6b | Verificar o limite de gasto da conta nova antes da Fase 2 | 🟡 | Você |
 | 7 | Alinhar preço (R$ 1.350 vs R$ 1.300) entre criativo, site e Sympla | 🟡 | Você |
 | 8 | Definir a data-limite real de matrícula de cada núcleo (há 16h de aula online obrigatória antes do presencial) | 🟡 | Você |
 | 9 | Criar Públicos de Engajamento IG/FB 365d (não depende do pixel — dá para fazer hoje) | 🟢 | Você |
+
+### 2.0 Dois fatos que reordenam as prioridades (confirmados em 21/09)
+
+#### A conta de anúncio é NOVA — e o pixel do site não é dela
+
+A conta foi criada agora para este trabalho. Consequências práticas:
+
+1. 🔴 **Os pixels do site provavelmente não pertencem a esta conta.** O
+   site dispara `1092407173145058` e `2044408082864046` — ativos do
+   ecossistema antigo da TetraBrazil. Uma conta nova nasce sem pixel
+   vinculado. **Se nenhum desses dois estiver compartilhado com a conta
+   nova, a campanha roda completamente cega**, mesmo depois de implementar
+   os eventos.
+
+   **Solução correta:** no Gerenciador de Negócios, compartilhar **um** dos
+   pixels existentes com a conta nova (Configurações do Negócio → Origens
+   de dados → Pixels → Atribuir parceiros/contas). Isso preserva o
+   histórico de `PageView` que já existe.
+
+   **Solução errada:** criar um terceiro pixel e somar ao site. Já são dois
+   disparando em duplicidade — um terceiro piora.
+
+2. **Conta nova tem limite de gasto inicial.** O Meta impõe um teto diário
+   até criar histórico de pagamento. Verificar em Faturamento → Limite de
+   gasto da conta antes da Fase 2, quando o diário sobe para R$ 70.
+
+3. **Conta nova tem CPM mais alto e aprendizagem mais lenta** nas primeiras
+   semanas — sem histórico, o leilão a trata com desconfiança.
+
+➡️ **Isso valida o ritmo híbrido que você escolheu.** Começar a R$ 15/dia e
+subir gradualmente é exatamente o que uma conta nova precisa: gasto
+crescente e regular, fatura paga em dia, sem saltos bruscos. Uma conta nova
+que começa em R$ 70/dia tem risco real de análise e bloqueio.
+
+#### Existe UM único evento no Sympla — a divisão por praça é pós-compra
+
+Os 47 inscritos estão num evento único; SP e RJ são separados
+internamente depois da compra. Isso significa:
+
+- ❌ Não existe link nem ingresso por praça
+- ❌ O parâmetro `content_category` por cidade **não funciona** como eu
+  havia proposto — não há o que diferenciar no clique
+- ✅ **Mas a separação continua possível pela geolocalização da campanha:**
+  uma compra vinda de campanha segmentada no estado de São Paulo é, na
+  prática, uma inscrição do núcleo de SP
+
+**Decisão:** manter o evento único (não vale desorganizar a operação a 80
+dias do curso) e **ler a praça pela geo da campanha**. Por isso as
+campanhas da Fase 2 são separadas por praça — é a única forma de saber o
+CPA de cada núcleo.
+
+**Melhoria opcional, custo zero:** adicionar um campo obrigatório
+"Qual núcleo você vai cursar?" no checkout do Sympla. Dá o dado limpo, sem
+inferência, e ainda organiza a operação interna deles.
 
 ### 2.1 Eventos de pixel a implementar
 
@@ -90,10 +146,11 @@ fbq('track', 'ViewContent', {
 });
 
 // No clique de QUALQUER botão que leva ao Sympla
-// A cidade vem do card clicado — é o que separa SP de RJ de Porto Velho
+// Sem content_category por cidade: o Sympla tem um evento único e a
+// divisão por praça acontece depois da compra (ver 2.0). A praça é lida
+// pela geolocalização da campanha.
 fbq('track', 'InitiateCheckout', {
   content_name: 'TetraPREP 2026-2027',
-  content_category: 'sao_paulo',   // | 'rio_de_janeiro' | 'porto_velho'
   value: 1350.00,
   currency: 'BRL'
 });
