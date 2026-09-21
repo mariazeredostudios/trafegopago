@@ -80,7 +80,12 @@ eles significa otimizar às cegas.
 | 8 | Definir a data-limite real de matrícula de cada núcleo (há 16h de aula online obrigatória antes do presencial) | 🟡 | Você |
 | 9 | Criar Públicos de Engajamento IG/FB 365d (não depende do pixel — dá para fazer hoje) | 🟢 | Você |
 
-### 2.0 Dois fatos que reordenam as prioridades (confirmados em 21/09)
+### 2.0 Conta nova e evento único no Sympla (atualizado 21/09)
+
+> ✅ **Pixel resolvido em 21/09:** o site agora dispara **um único pixel,
+> `1100395945778742`**, da conta nova. Os dois antigos foram removidos.
+> Confirmado por leitura direta da página. Falta apenas ele disparar os
+> eventos de fundo de funil.
 
 #### A conta de anúncio é NOVA — e o pixel do site não é dela
 
