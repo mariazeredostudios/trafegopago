@@ -188,3 +188,52 @@ do mesmo CT).
 **Projeção honesta:** com CPA de ~R$100–110, o saldo de R$1.832 compra ~17–18 vendas. O total
 fica em ~23–24 vendas no tráfego, contra as ~40 da meta de 70. Para chegar lá, seria preciso
 mais ~R$1.700–1.900 de verba, ou o criativo novo derrubar o CPA para ~R$60.
+
+---
+
+## 8. Meta correta: 27 vendas no tráfego por seletiva (= 70 pessoas), não ritmo por dia
+
+Definição do gestor: a meta é **número**. 70 pessoas na seletiva equivalem a 27 vendas no
+tráfego. Gastar antes ou no dia não importa. Isso substitui a lógica de "R$/dia até a seletiva"
+das seções 2, 3 e 7. O que manda agora é **CPA necessário = saldo ÷ vendas que faltam**.
+
+| Clube | Vendas | Faltam | Saldo (teto R$2.500) | CPA necessário | CPA atual | Projeção | Bate 27? |
+|---|---|---|---|---|---|---|---|
+| **Santos** | 26 | 1 | R$169,64 | R$170 | R$89,63 | 27–28 | ✅ se religar |
+| **Bahia** | 26 | 1 | R$70,06 | R$70 | R$93,46 | ~27 | ⚠️ no limite |
+| **Vasco** | 10 | 17 | R$1.624 | R$95,50 | R$87,60 | ~28 | ✅ |
+| **Botafogo** | 0 | 27 | R$2.386 | R$88,40 | — (Estado hist. R$100) | ~24 | ⚠️ depende do ABO |
+| **Coritiba** | 6 | 21 | R$1.832 | R$87,20 | R$111,39 | ~22–23 | ❌ faltam ~4–5 |
+| **Flu** | 14 | 13 | ~R$125 | R$9,60 | R$169,67 | ~15 | ❌ sem saldo/tempo |
+| **Palmeiras** | 3 | 24 | R$1.743* | R$72,60 | R$252,40 | ~10 | ❌ crítico |
+
+\* Pelo teto de R$2.500. O gestor já colocou verba extra, então o valor real é outro.
+
+**O que muda:**
+- **Vasco:** não segurar em R$68/dia. Deixar rodar no ritmo atual (~R$150/dia), com a mesma
+  divisão entre públicos. A projeção passa da meta. A frase da seção 2 ("abaixo das ~40") usava
+  a meta errada.
+- **Coritiba:** faltam ~4–5 vendas, não ~18. O extra necessário cai para **~R$500**, não os
+  R$1.700–1.900 da seção 7. Outra saída é o CPA cair para R$87, dentro do alcance do
+  Estado_advantage (R$79,55 no histórico). Ritmo livre de ~R$100/dia:
+
+  | Público | R$/dia |
+  |---|---|
+  | Estado_advantage | R$35 |
+  | 1% | R$35 |
+  | MELHOR BAIRRO | R$15 |
+  | PAIS + VIAJANTES | R$15 |
+
+- **Santos (seletiva 27/09):** religar **sem editar nada**, para não voltar para revisão. Usar
+  os R$170 restantes em 25–26/09 no RMKT (CPA R$48,54, o melhor da campanha, que estava pausado)
+  e no 1% (CPA R$78,38).
+- **Bahia (seletiva 27/09):** religar só o COMPRADORES SYMPLA (CPA R$59,45) com os R$70
+  restantes.
+- Santos e Bahia receberam vendas **depois de pausadas**: Santos teve 1 venda em 24/09 com R$0
+  gastos, por atribuição atrasada. Pode entrar mais alguma sem gasto novo.
+- **Palmeiras:** a 7 dias de 03/10, com o CPA dos melhores públicos (~R$130), as 24 vendas que
+  faltam custam **~R$3.100**. Com a redistribuição da seção 6, dá para chegar perto disso. Decisão
+  do gestor: quanto de verba extra colocar.
+- **Ressalva sobre velocidade:** gastar rápido não é problema. Subir de uma vez a verba de um
+  público é, porque isso encarece o CPA. O 1% do Palmeiras foi de CPM R$20 para R$40 quando
+  recebeu R$156/dia. Escalar em degraus de ~30%.
