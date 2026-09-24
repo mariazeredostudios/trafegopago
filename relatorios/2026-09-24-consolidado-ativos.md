@@ -118,3 +118,29 @@ dedicada antes do próximo ciclo: criativo, página e se o BSB (Brasília) deve 
 6. [ ] **Palmeiras:** subir o 2º criativo (depoimentos).
 7. [ ] Me passar as datas das seletivas do Palmeiras (Curitiba) e do Coritiba para fechar o
        valor por dia.
+
+---
+
+## 6. Atualização 24/09 com as datas confirmadas pelo gestor
+
+- **Palmeiras (Curitiba): seletiva em 03/10.** Faltam 8 dias de verba (25/09–02/10). O gasto
+  acelerado é intencional. A campanha tem **1 anúncio com 5 criativos** (criativo flexível), por
+  isso o Windsor mostra um anúncio só. A correção é que o CTR médio de 1,7–2,1% é o resultado
+  combinado dos 5. Conferir no Gerenciador (Detalhamento > por recurso) qual criativo o Meta
+  está priorizando e trocar o pior pelo vídeo de depoimentos, se ele ainda não estiver entre os 5.
+  - A sobreposição com o Coritiba é aceita, porque os produtos são diferentes e ela dura só até 03/10.
+  - O ponto que continua valendo é o CPA de R$252 com a maior verba em PAIS + ALTO VALOR (0 vendas).
+  - Redistribuição proposta (~R$300/dia):
+
+    | Público | Hoje | 25/09 | 26/09, se o CPA segurar |
+    |---|---|---|---|
+    | CURITIBA + FUTEBOL | ~R$70 | R$100 | R$130 |
+    | 1% VIAJANTES | ~R$156 | R$120 | R$120 |
+    | PAIS + ALTO VALOR | ~R$156 | R$40 | pausar se continuar sem venda |
+    | RMKT checkout/visita Palmeiras (novo) | — | R$30 | R$40 a partir de 30/09, com copy de urgência |
+
+- **Vasco: 18/10 confirmado.** Ritmo de R$68/dia (R$1.624 ÷ 24 dias) mantido.
+- **Coritiba: 18/10 confirmado.** Ritmo de R$76/dia (R$1.832 ÷ 24 dias) mantido.
+- **Botafogo: criar uma campanha nova com orçamento por conjunto (ABO).** Não reaproveitar a
+  QUANTITATIVO. Manter a antiga ligada, com a verba reduzida a ~R$20/dia, até a nova sair da
+  revisão e entregar. Em agosto, a reativação ficou 4 dias parada em revisão.
