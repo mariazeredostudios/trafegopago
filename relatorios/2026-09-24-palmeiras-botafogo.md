@@ -40,8 +40,9 @@ Gasto por dia: 22/09 R$227,81 · 23/09 **R$381,38** · 24/09 R$147,99 (parcial).
 **O que mudar hoje:**
 - PAIS + ALTO VALOR: de ~R$150 para **R$25/dia**. Se não vender até 26/09, pausar.
 - CURITIBA + FUTEBOL: **+R$20/dia** (cerca de R$60–70/dia).
-- 1% VIAJANTES: **reduzir para ~R$60/dia**. Não escalar enquanto o Coritiba usar o mesmo
-  público na mesma cidade.
+- 1% VIAJANTES: **reduzir para R$40/dia**. O mesmo público rende o dobro no Coritiba (CPA
+  R$79,71 contra R$174,12), então em Curitiba ele fica prioritariamente com o Coritiba (ver
+  relatório consolidado de 24/09).
 - Ajustar o total da campanha ao teto: (R$2.500 − R$757) ÷ dias até a seletiva.
 - Subir **um segundo anúncio** em cada conjunto: o vídeo "FALA E DEPOIMENTOS" do Palmeiras, que
   já baixamos, ou um post collab do clube. Um criativo sozinho com CTR abaixo de 2% é o gargalo
@@ -96,7 +97,7 @@ de 4%. O criativo prende. O problema está na distribuição da verba e depois d
 1. [ ] Botafogo: conferir se o link vai para o evento do Sympla de 18/10.
 2. [ ] Palmeiras: baixar PAIS + ALTO VALOR para R$25/dia e ajustar o total ao teto de R$2.500.
 3. [ ] Botafogo: criar a campanha ABO com R$40 / R$25 / R$20 / R$10.
-4. [ ] Palmeiras: CURITIBA + FUTEBOL +R$20/dia; 1% para ~R$60/dia.
+4. [ ] Palmeiras: CURITIBA + FUTEBOL +R$20/dia; 1% para R$40/dia.
 5. [ ] Palmeiras: subir o 2º criativo (depoimentos) nos 3 conjuntos.
 6. [ ] Reavaliar em 26/09. Palmeiras: PAIS + ALTO VALOR sem venda → pausar. Botafogo: ainda
        sem venda com o link certo → olhar a página do Sympla.

@@ -1,0 +1,120 @@
+# Relatório consolidado 24/09: todas as campanhas ativas
+
+Fonte: Meta Ads via Windsor.ai. 24/09 é parcial. O orçamento configurado não pôde ser lido
+(a conta ainda não está liberada no conector oficial do Meta), então os valores por dia foram
+deduzidos do gasto real. Teto assumido: R$2.500 por clube por ciclo.
+
+Detalhe de Palmeiras e Botafogo: `2026-09-24-palmeiras-botafogo.md`.
+
+## 1. Visão geral
+
+| Clube / campanha | Seletiva | Gasto no ciclo | Vendas | CPA | Situação |
+|---|---|---|---|---|---|
+| **VASCO OUT** | 18/10 | R$875,96 | 10 | **R$87,60** | Melhor CPA entre as ativas, mas gasta ~2× o ritmo que o saldo aguenta |
+| **CORITIBA OUT** | outubro | R$668,34 | 6 | R$111,39 | Ok. 1% é o motor. Página de destino com leitura estranha |
+| **FLU SET** | **27/09** | R$2.375,40 | 14 | R$169,67 | Sem venda há 3 dias. Sobram ~R$125 |
+| **PALMEIRAS EXTERNA** (Curitiba) | ? | R$757,19 | 3 | R$252,40 | Gasto acelerado no público errado |
+| **BOTAFOGO QUANTITATIVO** | 18/10 | R$114,06 | 0 | — | Verba presa num público só (CBO); 12 checkouts, 0 vendas |
+| Santos SET (pausada) | 27/09 | R$2.330,36 | 26 | R$89,63 | Verba esgotada, ciclo encerrado |
+| Bahia SET (pausada) | 27/09 | R$2.429,94 | 26 | R$93,46 | Verba esgotada, ciclo encerrado |
+
+- **Tráfego:** Vasco e Coritiba estão saudáveis no CPA, mas os dois gastam mais rápido que o
+  saldo permite até outubro. Palmeiras e Botafogo precisam de reestruturação hoje. O Flu está no
+  sprint final com pouco saldo.
+- **Conversão:** o Coritiba registra quase nenhuma visita à página (1,5% dos cliques contra
+  74–81% nos outros clubes). Isso precisa ser conferido antes de qualquer outra leitura de
+  funil dele.
+
+## 2. Vasco — VASCO OUT (18–24/09), seletiva 18/10
+
+| Público | Gasto | Vendas | CPA | Checkouts | Freq. | Veredito |
+|---|---|---|---|---|---|---|
+| MELHORES BAIRROS | R$116,64 | 2 | **R$58,32** | 5 | 1,60 | Melhor CPA: mais verba |
+| PAIS + ALTO VALOR (BSB, ES, JF) | R$190,58 | 3 | R$63,53 | 9 | 1,75 | Manter |
+| PAIS + ALTO VALOR (RJ) | R$378,74 | 5 | R$75,75 | 32 | 1,86 | Manter, com limite |
+| PAIS + VIAJANTES INTERNACIONAIS | R$108,00 | 0 | — | 2 | — | Já pausado ✔ |
+| RMKT | R$82,00 | 0 | — | 6 | — | Pausado. Volta nos últimos 5 dias |
+
+**O problema é o ritmo, não o CPA.** A campanha gasta ~R$150–170/dia. O saldo é de
+R$2.500 − R$875,96 = R$1.624. Dividido por 24 dias, dá **R$68/dia**. No ritmo atual, a verba
+acaba por volta de 05/10, e a campanha passa as duas últimas semanas (as que mais vendem) sem
+dinheiro.
+
+**Expectativa realista:** com CPA de ~R$70, os R$1.624 compram ~23 vendas. O total fica em
+~33 vendas no tráfego, abaixo das ~40 necessárias para 70 inscritos. É bom saber disso agora,
+não em 15/10.
+
+**O que mudar hoje (R$68/dia):**
+- MELHORES BAIRROS: R$22/dia
+- PAIS + ALTO VALOR (BSB, ES, JF): R$20/dia
+- PAIS + ALTO VALOR (RJ): R$26/dia. A frequência já está em 1,86 em 7 dias. Se passar de 2,5,
+  trocar o criativo.
+- RMKT: religar em **13/10** com R$10/dia e copy de urgência ("é neste sábado"), tirando R$10
+  do RJ.
+
+## 3. Coritiba — CORITIBA OUT (18–24/09)
+
+| Público | Gasto | Vendas | CPA | Checkouts | Veredito |
+|---|---|---|---|---|---|
+| MELHOR PÚBLICO 1% VIAJANTES | R$239,12 | 3 | **R$79,71** | 11 | Motor. Proteger |
+| MELHOR BAIRRO | R$111,01 | 1 | R$111,01 | 2 | Manter |
+| PAIS + VIAJANTES INTERNACIONAIS | R$151,28 | 1 | R$151,28 | 1 | Reduzir. Pausar se não vender até 27/09 |
+| Estado_homens_18mais_advantage | R$166,93 | 1 | R$166,93 | 1 | Já pausado ✔ |
+
+**Ponto crítico: visita à página.** Foram 668 cliques no link e só **13 visitas registradas
+(1,5%)**. Nos outros clubes, esse número fica entre 74% e 81%. Checkouts e compras continuam
+sendo registrados, então o clique chega ao Sympla. A leitura mais provável é que o anúncio
+aponte direto para o Sympla, sem passar pela página do iesports.com.br. Nesse caso, o público
+perde a página de apresentação e nós perdemos a medição do meio do funil. **Conferir o link de
+destino** dos anúncios CORITIBA8/9. Se não for o Sympla nem o iesports.com.br (atenção ao
+domínio .com expirado), corrigir hoje.
+
+**Disputa com o Palmeiras:** o Coritiba e o Palmeiras rodam o mesmo 1% na mesma cidade. O CPM
+do 1% do Coritiba subiu de R$11,93 para R$20,41 quando o Palmeiras acelerou. Como o 1% rende o
+dobro aqui (R$79,71 contra R$174,12), **quem fica com esse público em Curitiba é o Coritiba**.
+Por isso o 1% do Palmeiras cai para R$40/dia.
+
+**Ritmo:** ~R$100/dia contra um saldo de R$1.832. Se a seletiva for em 18/10, o ritmo deve ser
+~R$76/dia:
+- 1% VIAJANTES: R$35/dia
+- MELHOR BAIRRO: R$25/dia
+- PAIS + VIAJANTES: R$16/dia
+
+## 4. Fluminense — FLU SET (01–24/09), seletiva 27/09
+
+| Público | Gasto | Vendas | CPA | Status |
+|---|---|---|---|---|
+| PAIS + INTERCÂMBIO | R$475,41 | 4 | **R$118,85** | Ativo. Melhor do Flu |
+| MELHORES BAIRROS + LOCAIS | R$375,55 | 3 | R$125,18 | Pausado |
+| PAIS + ALTO VALOR | R$767,16 | 4 | R$191,79 | Pausado |
+| RMKT | R$207,63 | 1 | R$207,63 | Ativo |
+| MELHOR PÚBLICO 1% | R$419,00 | 2 | R$209,50 | Pausado |
+| PAIS + VIAJANTES / futebol aberto | R$130,65 | 0 | — | Pausados |
+
+**Situação:** 14 vendas, CPA de R$169,67 (o pior entre os clubes com ciclo em setembro). Já foram
+R$235 sem venda desde 22/09. Sobram **~R$125**.
+
+**Sprint final (25–27/09):**
+- RMKT: R$25/dia com copy de urgência: "⚠️ É neste sábado, 27/09. Últimas vagas para a
+  Seletiva do Fluminense." O remarketing é o público mais quente nos 2 últimos dias.
+- PAIS + INTERCÂMBIO: R$35/dia
+- Desligar no sábado de manhã.
+- Não reativar os pausados: não há saldo nem tempo para aprendizado.
+
+**Pós-seletiva:** o Flu fechou com CPA quase o dobro do Santos e do Bahia. Vale uma revisão
+dedicada antes do próximo ciclo: criativo, página e se o BSB (Brasília) deve ficar separado.
+
+## 5. Checklist do dia (por impacto em faturamento)
+
+1. [ ] **Vasco:** baixar de ~R$160 para R$68/dia (R$22 / R$20 / R$26). Sem isso, a verba acaba
+       em 05/10.
+2. [ ] **Botafogo:** conferir o link para o evento do Sympla de 18/10 e montar a campanha ABO
+       (R$40 / R$25 / R$20 / R$10).
+3. [ ] **Palmeiras:** PAIS + ALTO VALOR para R$25/dia, 1% para R$40/dia, CURITIBA + FUTEBOL +R$20/dia.
+4. [ ] **Coritiba:** conferir o link de destino (visitas registradas em só 1,5% dos cliques).
+       Ritmo de ~R$76/dia (R$35 / R$25 / R$16).
+5. [ ] **Flu:** RMKT com copy "é neste sábado" a R$25/dia e PAIS + INTERCÂMBIO a R$35/dia até
+       27/09 de manhã.
+6. [ ] **Palmeiras:** subir o 2º criativo (depoimentos).
+7. [ ] Me passar as datas das seletivas do Palmeiras (Curitiba) e do Coritiba para fechar o
+       valor por dia.
