@@ -144,3 +144,47 @@ dedicada antes do próximo ciclo: criativo, página e se o BSB (Brasília) deve 
 - **Botafogo: criar uma campanha nova com orçamento por conjunto (ABO).** Não reaproveitar a
   QUANTITATIVO. Manter a antiga ligada, com a verba reduzida a ~R$20/dia, até a nova sair da
   revisão e entregar. Em agosto, a reativação ficou 4 dias parada em revisão.
+
+---
+
+## 7. Coritiba: plano até 18/10, revisado com o histórico (ago → 20/09)
+
+**O link:** os anúncios CORITIBA8/9 levam direto para o Sympla (evento 3585097), sem passar por
+iesports.com.br/atendimento. Isso explica as visitas à página zeradas. **Não é esse o motivo do
+CPA.** A venda por clique ficou igual: 0,90% agora contra 0,88–1,04% no ciclo anterior, e o CPA
+foi de R$111 agora contra R$110 na CORITIBA SETE. Pode manter o link. A consequência é que, no
+Coritiba, a métrica de visitas à página e o checkout não servem para comparar com outros clubes.
+
+**Histórico por público (ago → 20/09 + OUT):**
+
+| Público | Histórico (gasto / vendas / CPA) | OUT (gasto / vendas / CPA) | Decisão |
+|---|---|---|---|
+| Estado_homens_18mais_advantage | R$1.193 / 15 / **R$79,55** | R$166,93 / 1 / R$166,93 (pausado) | **Religar.** É o motor de volume do Coritiba |
+| MELHOR PÚBLICO 1% VIAJANTES | R$1.261 / 8 / R$157,67 | R$239,12 / 3 / **R$79,71** | Manter. Vai acima do histórico dele |
+| MELHOR BAIRRO | R$607 / 5 / R$121,40 | R$111,01 / 1 / R$111,01 | Manter, com menos verba |
+| PAIS + VIAJANTES INTERNACIONAIS | R$200 / 3 / R$66,66 | R$151,28 / 1 / R$151,28 | Manter, com menos verba |
+| FUTEBOL + CIDADE | R$705 / 3 / R$234,93 | — | **Não usar** no Coritiba |
+| PAIS + VALOR ALTO | R$367 / 2 / R$183 | — | Não usar |
+| RMKT | R$238 / 1 / R$238 | — | Só nos últimos 5 dias |
+
+**Correção:** o corte do Estado_advantage em 21/09 foi precipitado. Foram só 5 dias, para o
+público que mais vendeu no Coritiba na história.
+
+**Verba (R$76/dia até 17/10):**
+
+| Público | R$/dia |
+|---|---|
+| Estado_advantage | R$28 |
+| 1% | R$25 |
+| MELHOR BAIRRO | R$13 |
+| PAIS + VIAJANTES | R$10 |
+
+De 13/10 a 17/10, os R$10 do PAIS + VIAJANTES vão para o RMKT, com copy de urgência.
+
+**Criativo:** CORITIBA8/9 são cópias do ciclo anterior, e o CTR caiu para 0,8% em 22/09 em
+dois conjuntos. Subir um criativo novo com imagens da seletiva de 20/09 (prova social recente,
+do mesmo CT).
+
+**Projeção honesta:** com CPA de ~R$100–110, o saldo de R$1.832 compra ~17–18 vendas. O total
+fica em ~23–24 vendas no tráfego, contra as ~40 da meta de 70. Para chegar lá, seria preciso
+mais ~R$1.700–1.900 de verba, ou o criativo novo derrubar o CPA para ~R$60.
