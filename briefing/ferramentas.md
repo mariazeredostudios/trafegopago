@@ -1,5 +1,19 @@
 # Ferramentas e integrações
 
+## ⚠️ Atualização 2026-10-07: Windsor parou de processar consultas
+
+- Desde 06/10, todo `get_data` do Windsor fica em `queued` com `attempts: 0` e nunca roda.
+  Até 05/10 funcionava.
+- `get_current_user` mostra `plan_id: FREE`, `is_paid: false`. A conta foi criada como **Trial**
+  em 07/08, então o período de teste terminou e a conta caiu para o plano gratuito.
+- A reconexão do Facebook no Windsor foi feita em 07/10 (conta "CA - IE Sports" segue
+  vinculada) e **não resolveu**.
+- Chamado aberto no suporte Windsor: **ref. 13939501**.
+- Para voltar: assinar plano pago (https://onboard.windsor.ai/app/pricing) **ou** usar o conector
+  oficial da Meta. Em 24/09, a conta 2508573272672867 ainda retornava "not enabled for the Ads
+  MCP". Retestar após reautorizar.
+- Enquanto isso, os dados chegam por CSV/print do Gerenciador em `relatorios/insumos/`.
+
 ## Status de acesso a dados (última checagem: 2026-08-07)
 
 | Fonte | Status | Observação |
