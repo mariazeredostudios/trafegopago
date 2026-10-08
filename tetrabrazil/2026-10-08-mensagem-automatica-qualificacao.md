@@ -57,82 +57,121 @@ clube grande. Por isso a mensagem diz explicitamente que não são necessários.
 ### 3.1 Versão principal
 
 ```
-Olá! Aqui é a equipe TetraBrazil ⚽
+Oi! Aqui é a equipe TetraBrazil ⚽
 
-Recebemos seu contato sobre o *TetraPREP 2026-2027*.
+Que bom ter você por aqui.
 
-Se você tem entre *21 e 45 anos* e quer trabalhar com futebol
-nos Estados Unidos, essa é a sua oportunidade — e não precisa
-de faculdade de Educação Física, nem de inglês fluente, nem de
-passagem por clube grande.
+Se você chegou até o nosso formulário, é porque em algum
+momento passou pela sua cabeça aquilo que muita gente pensa e
+quase ninguém fala em voz alta: *viver de futebol fora do
+Brasil.*
 
-*O que o TetraPREP abre pra você:*
-✅ USD 210 a 250 por semana trabalhando nos EUA
-✅ Hospedagem, transporte e seguro saúde inclusos
-✅ Passagem aérea paga
-✅ Visto J-1 — mais de 95% de aprovação desde 2009
+E aí vem aquela vozinha — "mas eu não tenho faculdade de
+Educação Física", "meu inglês não é bom", "nunca trabalhei em
+clube grande".
 
-Em 25 anos já colocamos *mais de 1.000 treinadores brasileiros*
-nos Estados Unidos. Só em 2025, 220 pessoas fizeram o TetraPREP
-e *90 receberam proposta de trabalho*.
+A gente faz isso há *25 anos* e já levou *mais de 1.000
+treinadores brasileiros* para os Estados Unidos. A maioria
+deles chegou pensando exatamente essas três coisas.
+
+*Só no ano passado: 220 pessoas fizeram o TetraPREP e 90
+receberam proposta de trabalho nos EUA.* 🇺🇸
+
+*Como é a vida de quem vai:*
+⚽ USD 210 a 250 por semana trabalhando com futebol
+🏠 Casa, transporte e seguro saúde — tudo incluso
+✈️ Passagem aérea paga
+📄 Visto J-1, com mais de 95% de aprovação desde 2009
+
+Você chega lá sem pagar moradia, sem pagar transporte, e
+recebendo em dólar.
 
 ━━━━━━━━━━━━━━━━━━━
-*Antes de seguir, dois pontos:*
+*Agora a parte que a gente faz questão de falar logo de cara:*
 
-*💰 Investimento: R$ 1.350*
-(em até 12x no cartão — cobre as 16h online ao vivo + 24h de
-imersão presencial)
+O TetraPREP é um investimento de *R$ 1.350* (em até 12x no
+cartão).
 
-*📅 Datas da imersão presencial:*
-• *São Paulo* — 10 a 13/dez, na Teal Rising Academy (Itu)
-• *Rio de Janeiro* — 17 a 20/dez, no CT da base do Fluminense
-  (Xerém)
+E aqui vai a conta que muda tudo: *USD 250 por semana dá cerca
+de R$ 1.290. Ou seja, a sua primeira semana de trabalho nos
+Estados Unidos já devolve praticamente tudo que você investiu
+aqui.* 💭
 
-_No núcleo do Rio existe um pacote opcional de hospedagem — 3
-diárias com café e almoço — por R$ 650 à parte._
+São 40 horas de formação — 16h online ao vivo + 24h de imersão
+presencial, com treinadores que atuam no mercado americano:
+
+📍 *São Paulo* — 10 a 13/dez, na Teal Rising Academy (Itu)
+📍 *Rio de Janeiro* — 17 a 20/dez, no CT da base do Fluminense
+   (Xerém)
+
+_No núcleo do Rio tem hospedagem opcional — 3 diárias com café
+e almoço — por R$ 650 à parte._
 ━━━━━━━━━━━━━━━━━━━
 
-As vagas são limitadas por núcleo e falamos com cada candidato
-individualmente. Pra gente direcionar seu atendimento, responda
-com o número:
+Dezembro tá logo ali, as vagas por núcleo são limitadas e a
+gente conversa com cada candidato *individualmente*. Por isso
+preferimos dedicar esse tempo a quem já está decidido.
+
+Me conta, respondendo só com o número:
 
 *1* — Estou ciente do investimento e quero que entrem em contato
 *2* — Não tenho mais interesse
+
+Se for *1*, eu já te coloco na fila do nosso time. 🤝
 ```
 
-**Por que está escrita assim:**
+**O que mudou em relação à versão anterior, e por quê:**
 
-- **A prova vem antes do preço.** "90 de 220 receberam proposta" e "USD 250 por
-  semana" chegam primeiro. Quem lê o valor já sabe o que está comprando — senão
-  R$ 1.350 vira só um número alto.
-- **O preço está isolado entre separadores e em negrito.** Não dá para passar
-  batido, que é exatamente o que você pediu.
-- **O parcelamento aparece junto do valor.** Sem ele você perde quem pode pagar
-  R$ 112/mês e se assusta com o número cheio — isso derruba lead bom, não
-  curioso.
-- **As datas são o segundo filtro.** Quem não pode estar em Itu ou Xerém em
-  dezembro cai aqui, e é melhor cair agora.
-- **As três objeções caem na abertura.** Faculdade, inglês e currículo são o que
-  mais faz gente boa desistir sozinha.
+| Antes | Agora | Por quê |
+|---|---|---|
+| "Recebemos seu contato" | "Que bom ter você por aqui" | Abertura de protocolo não cria vínculo |
+| Lista de benefícios solta | "Como é a vida de quem vai" | Vende a vida, não a especificação |
+| Nenhuma objeção nomeada | "aquela vozinha: não tenho faculdade…" | A pessoa se reconhece na frase. É o momento em que ela sente que você entende a situação dela |
+| "Investimento: R$ 1.350" seco | R$ 1.350 **contra** R$ 1.290 da 1ª semana lá fora | Transforma o preço de barreira em conta que fecha |
+| "Antes de seguir, dois pontos" | "a parte que a gente faz questão de falar logo de cara" | Soa honestidade, não letra miúda |
+| "Pra direcionar seu atendimento" | "preferimos dedicar esse tempo a quem já está decidido" | A qualificação vira exclusividade. Dizer "1" passa a ser afirmar que você é sério, não só consentir |
 
-### 3.2 Versão curta (se a de cima estiver pesada demais)
+**A conta do retorno, conferida:** USD 250 × R$ 5,16 = **R$ 1.290/semana**. O
+curso custa R$ 1.350 — portanto **1,05 semana** no topo da faixa e **1,25
+semana** na base (USD 210 = R$ 1.084). "Praticamente tudo" cobre os dois
+extremos com honestidade. Se o dólar cair muito, revisar a frase.
+
+> ⚠️ **Não escreva "12x de R$ 112,50" sem confirmar.** A página do Sympla diz
+> apenas *"Parcele sua compra em até 12x"* — a expressão "sem juros" **não
+> aparece**. Se você confirmar com a Tetra que é sem juros, troque por
+> *"ou 12x de R$ 112,50 sem juros"*: o valor da parcela é um argumento muito
+> mais forte que o valor cheio, e hoje estamos deixando ele na mesa.
+
+### 3.2 Versão curta
+
+Para quem acha a de cima longa demais. Mantém o gancho emocional e a conta do
+retorno, que são as duas peças que fazem o trabalho:
 
 ```
-Olá! Aqui é a equipe TetraBrazil ⚽
+Oi! Aqui é a equipe TetraBrazil ⚽
 
-Recebemos seu contato sobre o *TetraPREP 2026-2027* — a formação
-que já colocou *mais de 1.000 treinadores brasileiros* para
-trabalhar nos Estados Unidos. Em 2025, 90 dos 220 alunos
-receberam proposta de trabalho.
+Que bom ter você por aqui.
 
-Você não precisa de faculdade de Educação Física nem de inglês
-fluente.
+Você não precisa de faculdade de Educação Física, nem de inglês
+fluente, nem de passagem por clube grande. Precisa de um
+caminho estruturado — e é exatamente isso que a gente faz há
+25 anos, com *mais de 1.000 treinadores brasileiros* já
+colocados nos Estados Unidos.
 
-*💰 Investimento: R$ 1.350* (em até 12x no cartão)
-*📅 Presencial:* São Paulo 10-13/dez (Itu) ou Rio 17-20/dez
-(CT do Fluminense, Xerém)
+*Ano passado, 220 pessoas fizeram o TetraPREP. 90 receberam
+proposta de trabalho nos EUA.* 🇺🇸
 
-Responda com o número pra gente direcionar seu atendimento:
+Lá fora são *USD 210 a 250 por semana*, com casa, transporte,
+seguro saúde e passagem aérea inclusos.
+
+*O investimento é de R$ 1.350* (em até 12x no cartão) — menos
+do que você recebe na sua primeira semana trabalhando lá.
+
+*📅 Imersão presencial:*
+• São Paulo — 10 a 13/dez (Itu)
+• Rio de Janeiro — 17 a 20/dez (CT do Fluminense, Xerém)
+
+As vagas por núcleo são limitadas. Me responde só com o número:
 
 *1* — Estou ciente do investimento e quero que entrem em contato
 *2* — Não tenho mais interesse
@@ -142,28 +181,31 @@ Responda com o número pra gente direcionar seu atendimento:
 
 **Se responder 1 — lead quente, vai pro topo da fila:**
 ```
-Perfeito! ✅ Seu contato já está com nosso time.
+Boa! 🙌 É exatamente com gente como você que a gente gosta
+de conversar.
 
-Falamos com você em até *24 horas* no horário comercial.
+Seu contato já está com o nosso time e falamos com você em
+até *24 horas*, no horário comercial.
 
-Enquanto isso, duas coisas que adiantam seu processo:
-• Verifique se seu passaporte está válido (ou já inicie a
-  emissão — leva algumas semanas)
-• Pense em qual núcleo prefere: São Paulo (10-13/dez) ou
-  Rio de Janeiro (17-20/dez)
+Enquanto isso, duas coisas que já adiantam seu processo:
+• Dá uma olhada se o seu passaporte está válido — se não
+  tiver, já começa a emissão, leva algumas semanas
+• Vai pensando em qual núcleo prefere: São Paulo (10-13/dez)
+  ou Rio de Janeiro (17-20/dez)
 
-Qualquer dúvida, é só mandar aqui.
+Qualquer dúvida, pode mandar aqui que eu respondo. 🤝
 ```
 
 **Se responder 2 — sai da fila, sem queimar a ponte:**
 ```
-Tudo certo, obrigado pelo retorno! 🙏
+Tudo certo, obrigado pela sinceridade! 🙏
 
-Se mudar de ideia, é só chamar aqui — as inscrições do
-TetraPREP 2026-2027 seguem abertas até o preenchimento das
-vagas.
+Fica com a gente de qualquer forma: se mudar de ideia, é só
+chamar aqui. As inscrições do TetraPREP 2026-2027 seguem
+abertas até as vagas acabarem.
 
-Boa sorte na sua caminhada no futebol! ⚽
+E se não for agora, que seja na próxima — o futebol é longo.
+Boa sorte na sua caminhada! ⚽
 ```
 
 **Se responder qualquer outra coisa:**
