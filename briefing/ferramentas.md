@@ -1,5 +1,15 @@
 # Ferramentas e integrações
 
+## Atualização 2026-10-08: Windsor voltou
+
+- Em 08/10 o Windsor voltou a responder na hora, **ainda no plano Free**. A causa da fila parada
+  de 06–07/10 provavelmente não era o plano, e sim uma instabilidade do lado deles.
+  Chamado 13939501 segue aberto como registro.
+- O conector oficial da Meta (META_IESPORTS) foi reautorizado e responde dentro do Claude Code.
+  A conta 2508573272672867 ("CA - IE Sports") **continua com `is_ads_mcp_enabled: false`** (rollout
+  gradual), então não pode ser usada. Contas habilitadas: Tetra Sports (1115289043063354) e
+  TETRA + MARIA (2635791740185506), do negócio TetraBrazil Soccer Academy.
+
 ## ⚠️ Atualização 2026-10-07: Windsor parou de processar consultas
 
 - Desde 06/10, todo `get_data` do Windsor fica em `queued` com `attempts: 0` e nunca roda.
