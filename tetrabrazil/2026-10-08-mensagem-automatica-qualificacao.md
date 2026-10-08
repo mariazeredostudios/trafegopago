@@ -54,166 +54,134 @@ clube grande. Por isso a mensagem diz explicitamente que não são necessários.
 
 ## 3. A mensagem
 
-### 3.1 Versão principal
+### 3.0 O limite de 1.024 caracteres
+
+A **mensagem de saudação** do app WhatsApp Business aceita no máximo **1.024
+caracteres** — e o corpo de um *template* da Cloud API também. Todas as
+mensagens abaixo estão medidas e cabem nos dois.
+
+A contagem é em **unidades UTF-16**, que é como o WhatsApp conta: emojis fora do
+plano básico (💰 📅 🙌) valem **2**, e bandeiras como 🇺🇸 valem **4**. Por isso a
+versão final usa emoji com parcimônia — cada um come espaço que seria texto de
+venda.
+
+| Mensagem | Caracteres | UTF-16 | Folga |
+|---|---|---|---|
+| Principal (saudação) | 985 | **986** | 38 |
+| Resposta ao "1" | 798 | 800 | 224 |
+| Resposta ao "2" | 281 | 282 | 742 |
+| Resposta inválida | 133 | 134 | 890 |
+
+> Ao editar qualquer uma, meça de novo antes de publicar. O WhatsApp corta o
+> excedente sem avisar — e o que ficaria de fora é justamente o fim da mensagem,
+> onde estão as opções 1 e 2.
+
+### 3.1 Mensagem principal — 986 de 1.024
 
 ```
 Oi! Aqui é a equipe TetraBrazil ⚽
 
 Que bom ter você por aqui.
 
-Se você chegou até o nosso formulário, é porque em algum
-momento passou pela sua cabeça aquilo que muita gente pensa e
-quase ninguém fala em voz alta: *viver de futebol fora do
-Brasil.*
+Você não precisa de faculdade de Educação Física, nem de inglês fluente, nem de passagem por clube grande. Precisa de um caminho — e é isso que a gente faz há 25 anos.
 
-E aí vem aquela vozinha — "mas eu não tenho faculdade de
-Educação Física", "meu inglês não é bom", "nunca trabalhei em
-clube grande".
+*Ano passado, 220 pessoas fizeram o TetraPREP e 90 receberam proposta de trabalho nos Estados Unidos.*
 
-A gente faz isso há *25 anos* e já levou *mais de 1.000
-treinadores brasileiros* para os Estados Unidos. A maioria
-deles chegou pensando exatamente essas três coisas.
+*Lá fora:* USD 210 a 250 por semana, com casa, transporte, seguro saúde e passagem aérea inclusos.
 
-*Só no ano passado: 220 pessoas fizeram o TetraPREP e 90
-receberam proposta de trabalho nos EUA.* 🇺🇸
+*Investimento: R$ 1.350* (em até 12x no cartão)
 
-*Como é a vida de quem vai:*
-⚽ USD 210 a 250 por semana trabalhando com futebol
-🏠 Casa, transporte e seguro saúde — tudo incluso
-✈️ Passagem aérea paga
-📄 Visto J-1, com mais de 95% de aprovação desde 2009
+USD 250 por semana dá cerca de R$ 1.290 — ou seja, *sua primeira semana de trabalho nos EUA já devolve quase tudo que você investiu aqui.*
 
-Você chega lá sem pagar moradia, sem pagar transporte, e
-recebendo em dólar.
-
-━━━━━━━━━━━━━━━━━━━
-*Agora a parte que a gente faz questão de falar logo de cara:*
-
-O TetraPREP é um investimento de *R$ 1.350* (em até 12x no
-cartão).
-
-E aqui vai a conta que muda tudo: *USD 250 por semana dá cerca
-de R$ 1.290. Ou seja, a sua primeira semana de trabalho nos
-Estados Unidos já devolve praticamente tudo que você investiu
-aqui.* 💭
-
-São 40 horas de formação — 16h online ao vivo + 24h de imersão
-presencial, com treinadores que atuam no mercado americano:
-
-📍 *São Paulo* — 10 a 13/dez, na Teal Rising Academy (Itu)
-📍 *Rio de Janeiro* — 17 a 20/dez, no CT da base do Fluminense
-   (Xerém)
-
-_No núcleo do Rio tem hospedagem opcional — 3 diárias com café
-e almoço — por R$ 650 à parte._
-━━━━━━━━━━━━━━━━━━━
-
-Dezembro tá logo ali, as vagas por núcleo são limitadas e a
-gente conversa com cada candidato *individualmente*. Por isso
-preferimos dedicar esse tempo a quem já está decidido.
-
-Me conta, respondendo só com o número:
-
-*1* — Estou ciente do investimento e quero que entrem em contato
-*2* — Não tenho mais interesse
-
-Se for *1*, eu já te coloco na fila do nosso time. 🤝
-```
-
-**O que mudou em relação à versão anterior, e por quê:**
-
-| Antes | Agora | Por quê |
-|---|---|---|
-| "Recebemos seu contato" | "Que bom ter você por aqui" | Abertura de protocolo não cria vínculo |
-| Lista de benefícios solta | "Como é a vida de quem vai" | Vende a vida, não a especificação |
-| Nenhuma objeção nomeada | "aquela vozinha: não tenho faculdade…" | A pessoa se reconhece na frase. É o momento em que ela sente que você entende a situação dela |
-| "Investimento: R$ 1.350" seco | R$ 1.350 **contra** R$ 1.290 da 1ª semana lá fora | Transforma o preço de barreira em conta que fecha |
-| "Antes de seguir, dois pontos" | "a parte que a gente faz questão de falar logo de cara" | Soa honestidade, não letra miúda |
-| "Pra direcionar seu atendimento" | "preferimos dedicar esse tempo a quem já está decidido" | A qualificação vira exclusividade. Dizer "1" passa a ser afirmar que você é sério, não só consentir |
-
-**A conta do retorno, conferida:** USD 250 × R$ 5,16 = **R$ 1.290/semana**. O
-curso custa R$ 1.350 — portanto **1,05 semana** no topo da faixa e **1,25
-semana** na base (USD 210 = R$ 1.084). "Praticamente tudo" cobre os dois
-extremos com honestidade. Se o dólar cair muito, revisar a frase.
-
-> ⚠️ **Não escreva "12x de R$ 112,50" sem confirmar.** A página do Sympla diz
-> apenas *"Parcele sua compra em até 12x"* — a expressão "sem juros" **não
-> aparece**. Se você confirmar com a Tetra que é sem juros, troque por
-> *"ou 12x de R$ 112,50 sem juros"*: o valor da parcela é um argumento muito
-> mais forte que o valor cheio, e hoje estamos deixando ele na mesa.
-
-### 3.2 Versão curta
-
-Para quem acha a de cima longa demais. Mantém o gancho emocional e a conta do
-retorno, que são as duas peças que fazem o trabalho:
-
-```
-Oi! Aqui é a equipe TetraBrazil ⚽
-
-Que bom ter você por aqui.
-
-Você não precisa de faculdade de Educação Física, nem de inglês
-fluente, nem de passagem por clube grande. Precisa de um
-caminho estruturado — e é exatamente isso que a gente faz há
-25 anos, com *mais de 1.000 treinadores brasileiros* já
-colocados nos Estados Unidos.
-
-*Ano passado, 220 pessoas fizeram o TetraPREP. 90 receberam
-proposta de trabalho nos EUA.* 🇺🇸
-
-Lá fora são *USD 210 a 250 por semana*, com casa, transporte,
-seguro saúde e passagem aérea inclusos.
-
-*O investimento é de R$ 1.350* (em até 12x no cartão) — menos
-do que você recebe na sua primeira semana trabalhando lá.
-
-*📅 Imersão presencial:*
+*Imersão presencial:*
 • São Paulo — 10 a 13/dez (Itu)
 • Rio de Janeiro — 17 a 20/dez (CT do Fluminense, Xerém)
 
-As vagas por núcleo são limitadas. Me responde só com o número:
+Vagas limitadas por núcleo e falamos com cada candidato individualmente. Me responde só com o número:
 
 *1* — Estou ciente do investimento e quero que entrem em contato
 *2* — Não tenho mais interesse
+
+Se for *1*, já te coloco na fila do nosso time 🤝
 ```
 
-### 3.3 As respostas automáticas de cada opção
+**O que foi cortado para caber, e para onde foi:**
 
-**Se responder 1 — lead quente, vai pro topo da fila:**
+| Saiu da principal | Por quê | Foi para |
+|---|---|---|
+| "viver de futebol fora do Brasil" | Bonito, mas caro em caracteres. A linha das três objeções já faz o trabalho emocional | — |
+| Lista de 4 benefícios em linhas separadas | Virou uma linha só, sem perder nenhum item | compactado |
+| Visto J-1 e os 95% de aprovação | É objeção de quem **já** decidiu, não de quem está decidindo | resposta ao "1" |
+| "mais de 1.000 treinadores" | O dado 220 → 90 é mais forte e mais barato | — |
+| 40h / 16h online + 24h presencial | Detalhe operacional, não argumento de venda | resposta ao "1" |
+| Hospedagem opcional de R$ 650 | Só vale para o núcleo do Rio e só importa depois do sim | resposta ao "1" |
+| Os separadores ━━━ | 19 caracteres cada, duas vezes | — |
+
+**O que foi mantido inteiro, porque é o que faz a mensagem funcionar:**
+
+1. **A linha das três objeções** — faculdade, inglês, clube grande. É onde a
+   pessoa se reconhece.
+2. **O dado 220 → 90.** Prova concreta, em uma frase.
+3. **O preço em destaque.** É o filtro que você pediu.
+4. **A conta do retorno.** USD 250/semana = R$ 1.290 contra R$ 1.350 do curso.
+   Transforma o preço de barreira em conta que fecha.
+5. **As duas datas.** Segundo filtro: quem não pode estar em Itu ou Xerém em
+   dezembro cai aqui.
+6. **O fecho "já te coloco na fila do nosso time".** Faz o "1" parecer entrada,
+   não formulário.
+
+### 3.2 As respostas automáticas
+
+**Se responder 1** — recebe o que foi cortado da principal, agora no momento
+certo (800 caracteres):
+
 ```
-Boa! 🙌 É exatamente com gente como você que a gente gosta
-de conversar.
+Boa! 🙌 É exatamente com gente como você que a gente gosta de conversar.
 
-Seu contato já está com o nosso time e falamos com você em
-até *24 horas*, no horário comercial.
+Seu contato já está com o nosso time e falamos com você em até *24 horas*, no horário comercial.
 
-Enquanto isso, duas coisas que já adiantam seu processo:
-• Dá uma olhada se o seu passaporte está válido — se não
-  tiver, já começa a emissão, leva algumas semanas
-• Vai pensando em qual núcleo prefere: São Paulo (10-13/dez)
-  ou Rio de Janeiro (17-20/dez)
+Duas coisas que já adiantam seu processo:
 
-Qualquer dúvida, pode mandar aqui que eu respondo. 🤝
+• *Passaporte* — confere se o seu está válido. Se não tiver, já começa a emissão, leva algumas semanas.
+• *Núcleo* — vai pensando em qual prefere: São Paulo (10-13/dez, em Itu) ou Rio de Janeiro (17-20/dez, no CT da base do Fluminense, em Xerém).
+
+Ah, e sobre o visto: é o J-1, com *mais de 95% de aprovação desde 2009* — a gente cuida desse processo com você.
+
+São 40h de formação no total: 16h online ao vivo + 24h de imersão presencial.
+
+_No núcleo do Rio existe hospedagem opcional, com 3 diárias, café e almoço, por R$ 650 à parte._
+
+Qualquer dúvida, manda aqui que eu respondo 🤝
 ```
 
-**Se responder 2 — sai da fila, sem queimar a ponte:**
+**Se responder 2** — sai da fila sem queimar a ponte (282 caracteres):
+
 ```
 Tudo certo, obrigado pela sinceridade! 🙏
 
-Fica com a gente de qualquer forma: se mudar de ideia, é só
-chamar aqui. As inscrições do TetraPREP 2026-2027 seguem
-abertas até as vagas acabarem.
+Fica com a gente de qualquer forma: se mudar de ideia, é só chamar aqui. As inscrições do TetraPREP 2026-2027 seguem abertas até as vagas acabarem.
 
-E se não for agora, que seja na próxima — o futebol é longo.
-Boa sorte na sua caminhada! ⚽
+E se não for agora, que seja na próxima — o futebol é longo. Boa sorte na sua caminhada! ⚽
 ```
 
-**Se responder qualquer outra coisa:**
+**Se responder qualquer outra coisa** (134 caracteres):
+
 ```
-Não consegui entender 😅 Responda só com *1* (quero contato)
-ou *2* (não tenho interesse) — assim seu atendimento sai mais
-rápido.
+Não consegui entender 😅
+
+Me responde só com *1* (quero contato) ou *2* (não tenho interesse) — assim seu atendimento sai mais rápido.
 ```
+
+### 3.3 Como medir antes de publicar
+
+Salve o texto num arquivo e rode:
+
+```python
+t = open('mensagem.txt', encoding='utf-8').read().rstrip('\n')
+print(len(t), 'caracteres |', sum(2 if ord(c) > 0xFFFF else 1 for c in t), 'UTF-16')
+```
+
+Se o segundo número passar de 1.024, corte antes de colar no WhatsApp.
 
 ### 3.4 Variação que vale testar depois
 
