@@ -280,3 +280,65 @@ mensagem funciona — falta o caminho (link sticker, bio apontando para a LP).
 
 **O risco mudou de lugar.** Não é mais "o tráfego vai gerar lead?". É:
 **o lead é da idade certa, e alguém está atendendo?**
+
+---
+
+## 9. Correção: o número real de leads é 219, não 197
+
+Maria reportou **219 linhas na planilha**. Fui verificar no pixel e os três
+contadores reconciliam assim (29/09 a 08/10):
+
+| Contador | Valor | O que é |
+|---|---|---|
+| **Planilha (Apps Script)** | **219** | registro de servidor — não depende do navegador |
+| Pixel: eventos `Lead` em `tetrabrazil.com` | 407 | eventos brutos do navegador |
+| Pixel ÷ 2 | **204** | envios reais (ver disparo duplicado abaixo) |
+| Meta atribuiu ao anúncio | **197** | leads que a Meta liga a um clique |
+
+- **219 − 204 = 15 envios que o pixel não registrou (7%)** — perda normal por
+  bloqueador de anúncio, prevenção de rastreamento do iOS e saída rápida da
+  página.
+- **197 / 219 = 90% dos contatos vieram do tráfego pago.** Dado o volume de
+  cliques (135/dia pagos contra 6,5/dia orgânicos), é exatamente o esperado.
+
+**A planilha é a fonte de verdade.** É registro de servidor; os outros dois
+dependem do navegador do usuário.
+
+### Números corrigidos
+
+| | Antes (com 197) | Corrigido (com 219) |
+|---|---|---|
+| Contatos capturados | 197 | **219** |
+| Custo por contato | R$ 2,18 | **R$ 1,96** |
+| Contatos por dia | 20 | **22** |
+
+O CPL por conjunto e por idade nas seções 3 e 4 continua calculado sobre os
+**leads atribuídos pela Meta**, porque é o único recorte em que dá para separar
+conjunto e faixa etária. A comparação relativa entre conjuntos não muda.
+
+### Achado técnico: o evento `Lead` dispara duas vezes
+
+Agregando os eventos `Lead` por hora em `tetrabrazil.com`, **111 das 116 horas
+com disparo têm contagem par (96%)**. As cinco ímpares são 1, 3, 5, 9 e 11.
+
+Se cada envio gerasse um evento, a paridade seria ~50/50. 96% de contagens pares
+em 116 observações não é acaso: **o evento está disparando duas vezes por envio
+de formulário.**
+
+Impacto real, para não superdimensionar o problema:
+
+- **Não inflou o número de leads do relatório.** A Meta deduplica eventos
+  idênticos do mesmo usuário: 407 eventos brutos viraram 197 atribuídos, próximo
+  dos 204 envios reais.
+- **Inflou o volume bruto do pixel em 2x.** Quem ler as estatísticas do conjunto
+  de dados direto vai ver o dobro do real.
+- **Não é emergência**, mas deve ser corrigido no código da LP — provavelmente o
+  `fbq('track','Lead')` está sendo chamado no envio e de novo no
+  re-render/confirmação do formulário.
+
+### A verificar com a Maria
+
+1. **Duplicatas na planilha:** 219 linhas são 219 pessoas distintas? Conferir
+   telefone/e-mail repetidos. Se houver duplicata, o número cai.
+2. **Período:** a planilha cobre exatamente 29/09 a 08/10? Linhas anteriores à
+   subida da campanha de Leads inflariam a comparação.
