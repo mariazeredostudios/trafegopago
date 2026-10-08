@@ -342,3 +342,43 @@ Impacto real, para não superdimensionar o problema:
    telefone/e-mail repetidos. Se houver duplicata, o número cai.
 2. **Período:** a planilha cobre exatamente 29/09 a 08/10? Linhas anteriores à
    subida da campanha de Leads inflariam a comparação.
+
+---
+
+## 10. Entrega por plataforma — e o ganho do perfil
+
+Quebra do investimento por onde o anúncio foi entregue (conta inteira):
+
+| Plataforma | Gasto | % da verba | Impressões | Alcance | Cliques |
+|---|---|---|---|---|---|
+| **Instagram** | **$113,32** | **73%** | 33.949 | **14.844** | 1.144 |
+| Facebook | $40,49 | 26% | 14.510 | 7.747 | 849 |
+| WhatsApp | $0,84 | 0,5% | 7.108 | 1.314 | 35 |
+| Threads | $0,38 | 0,2% | 189 | 158 | 8 |
+| Audience Network | $0,28 | 0,2% | 52 | 23 | 14 |
+
+**73% da verba foi entregue dentro do Instagram**, alcançando 14.844 pessoas com
+anúncios que carregam o nome do perfil ao lado.
+
+### Por que isso sustenta o ganho de seguidores
+
+- No período o perfil ganhou **+344 seguidores** (saldo de +243).
+- No ranking "Top content by follows" dos Insights, a melhor publicação trouxe
+  **+5** seguidores; as quatro primeiras somadas trazem **12**.
+- Logo, **332 dos 344 novos seguidores (97%) não vieram de um post específico** —
+  vieram de visitas ao perfil (1.382 no período).
+- A maior fonte nova de exposição do perfil na janela foi a campanha.
+
+**Limite da afirmação:** os Insights não separam seguidor vindo de anúncio de
+seguidor vindo de conteúdo. Não é atribuição medida — é a explicação mais
+provável, sustentada por três números verificáveis (73% da verba no Instagram,
+14.844 alcançados, 12 de 344 follows explicados por posts). No relatório do
+cliente a frase está construída nesse limite, sem alegar atribuição direta.
+
+### Mudança de enquadramento no relatório do cliente
+
+A versão anterior comparava orgânico e pago (124 cliques na bio contra 1.349 do
+anúncio, "11x menos") e detalhava Reels x post estático. A pedido da Maria, isso
+saiu: lia como crítica ao trabalho de conteúdo do cliente, e não é o que o
+relatório precisa entregar. A seção agora mostra **o que a campanha somou ao
+perfil**, usando só os números dos prints enviados mais a quebra por plataforma.
