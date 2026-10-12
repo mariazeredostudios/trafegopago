@@ -80,3 +80,19 @@ viagem (funil de valor), assim que houver rastreamento desse dado.
   cortada. Pendente de confirmação: como o orçamento é hoje dividido (ou
   não) entre topo/meio/fundo de funil e entre conjuntos de anúncio. Ver
   `briefing/pendencias.md`.
+
+## 6. Produto novo (out/2026): Flamengo EF International
+
+- **O que é:** seletiva da Escola Flamengo (Flamengo Escola de Futebol), operada pela IE Sports.
+  Os selecionados disputam a **Disney Cup 2027** (julho/2027, ESPN Wide World of Sports, Orlando),
+  em pacotes de 12 ou 17 dias. Inclui treinos com comissão técnica da base do Flamengo, Orlando
+  City, Rollins College, parques aquáticos e Disney Springs.
+- **Idade:** 8 a 19 anos.
+- **1ª seletiva:** 08/11/2026 (domingo), Campo da Aeronáutica, Barra da Tijuca (RJ). Avaliação
+  final feita por um representante do clube.
+- **Preço da viagem:** US$3.000–5.000 por jogador, segundo o site.
+- **Site:** flamengoefinternational.com (página da Disney Cup em /disneycup).
+- **Sympla:** evento 3610322.
+- **Contatos:** Instagram da escola @escolaflamengo · WhatsApp +55 21 99574-3531.
+- **Verba:** R$2.500 por seletiva. Sem histórico próprio na conta. A estratégia usa como
+  referência os clubes do RJ (ver `relatorios/2026-10-12-plano-flamengo.md`).
