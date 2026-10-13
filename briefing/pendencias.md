@@ -54,3 +54,15 @@ histórico de decisão).
       configurações de conectores do Claude e habilitar para este
       ambiente. Status: **não conectado** em 2026-08-07 — ver
       `briefing/ferramentas.md`.
+
+
+## Auditoria recorrente: segmentação dos conjuntos (aberta em 13/10/2026)
+
+- Em 13/10, o CORITIBA OUT foi encontrado com **todos os conjuntos sem público e sem localização**,
+  desde a criação em 18/09. Só ~1/3 da verba foi para o Paraná.
+- Regra: ao criar ou duplicar campanha, conferir em cada conjunto:
+  - **Localização** do estado ou cidade, com a opção "Pessoas que moram neste local".
+  - **Público personalizado ou lookalike** de fato aplicado (não só no nome do conjunto).
+  - **Advantage+ de público** conforme o planejado.
+- Checagem rápida nos dados: gasto por região (Windsor, campo `region`). Mais de ~20% fora do
+  estado-alvo é sinal de segmentação aberta.

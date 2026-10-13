@@ -74,3 +74,34 @@ Proteção: definir o **limite de gastos da campanha** com o novo teto (conta o 
 
 **Coritiba:** antes de triplicar a verba, confirmar se as vendas no Sympla desde 03/10 batem com
 as do Meta, que mostra 0 vendas em 10 dias.
+
+---
+
+## 6. Causa real do Coritiba: segmentação aberta desde a criação (achado do gestor, confirmado nos dados)
+
+Os conjuntos do CORITIBA OUT tinham nome de público ("1% VIAJANTES", "MELHOR BAIRRO" etc.), mas
+estavam sem público e sem localização configurados. A verba foi para o Brasil inteiro.
+
+| Período | Gasto total | Gasto no Paraná | % no PR |
+|---|---|---|---|
+| 18–30/09 | ~R$1.330 | R$479 | ~36% |
+| 01–13/10 | ~R$880 | R$259 | ~29% |
+
+Até o MELHOR BAIRRO, que deveria ter só alfinetes em Curitiba, gastou em BA, MG, RJ e SP. O
+problema existe **desde o início** e não foi uma mudança recente.
+
+**Correção dos diagnósticos anteriores:** a queda de vendas e o CPM baixo (R$6–10) do Coritiba
+não vinham da disputa com o Palmeiras, nem do link direto para o Sympla, nem do cansaço do
+criativo. Vinham de anúncio entregue fora do Paraná, que é inventário barato e não compra.
+
+**Leitura positiva:** quase todas as 13 vendas devem ter vindo do PR. Nesse caso, o CPA real no
+PR fica em **~R$57** (R$738 ÷ 13). O público certo converte bem.
+
+**Outras campanhas (gasto fora do estado-alvo, 18/09–13/10):**
+
+| Campanha | Fora do estado | Leitura |
+|---|---|---|
+| Bahia Estado_advantage | ~36% | Revisar a localização |
+| Bahia demais conjuntos | ~8–16% | Configurar "pessoas que moram neste local" |
+| Flu (todos os conjuntos) | ~12–21% | Configurar "pessoas que moram neste local" |
+| Botafogo, Cruzeiro, Grêmio, Vasco, Flamengo | — | OK |
