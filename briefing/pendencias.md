@@ -66,3 +66,13 @@ histórico de decisão).
   - **Advantage+ de público** conforme o planejado.
 - Checagem rápida nos dados: gasto por região (Windsor, campo `region`). Mais de ~20% fora do
   estado-alvo é sinal de segmentação aberta.
+- 13/10: o **FLU OUT** também estava com os conjuntos sem o público configurado (só o nome). Ali a
+  localização segurou ~80% no RJ, mas os públicos (Intercâmbio, 1%, Bairros) não estavam
+  aplicados.
+- Causa provável a confirmar: com o **Advantage+ de público ligado**, lookalikes e interesses
+  viram só "sugestões" e o Meta entrega para todo mundo. Também pode ter acontecido de a
+  duplicação de campanha não levar o público junto. Em todo conjunto, conferir se aparece
+  **"Usar opções de público originais"** quando o público precisa ser restrito.
+- Os benchmarks que vieram do Flu de outubro (PAIS + INTERCÂMBIO a R$63–73) foram obtidos com
+  **público aberto no RJ**. Eles valem como "RJ amplo + esse criativo", não como prova do público
+  Intercâmbio.
