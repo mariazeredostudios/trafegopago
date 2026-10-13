@@ -52,3 +52,25 @@ seletivas de 18/10.
 4. [ ] Flu: PAIS + INTERCÂMBIO para R$90.
 5. [ ] 14/10: anúncio de urgência mais WhatsApp nos clubes de 18/10.
 6. [ ] Cruzeiro: criar INTERAÇÃO + VIAJANTES.
+
+---
+
+## 5. Remanejamento de verba (decisão do gestor, 13/10)
+
+Os R$1.000 que sobraram do Palmeiras vão para Coritiba e Grêmio (+R$500 cada). O Botafogo cai
+para R$2.150 e os R$350 que sobram vão para o Bahia.
+
+| Campanha | Novo teto | Gasto até 13/10 | Saldo | R$/dia (13–17/10, ~4,5 dias) |
+|---|---|---|---|---|
+| CORITIBA OUT | R$3.000 | R$2.191,28 | R$808,72 | ~R$180 |
+| GREMIO OUT | R$3.000 | R$2.076,54 | R$923,46 | ~R$205 |
+| BAHIA OUTUBRO | R$2.850 | R$1.797,47 | R$1.052,53 | ~R$234 |
+| BOTA OUT | R$2.150 | R$1.802,53 | R$347,47 | ~R$77 |
+
+Seletivas de 18/10 com **22 inscritos** em Coritiba, Grêmio e Bahia. Com o CPA atual
+(R$163–173), a verba extra rende ~5–7 vendas por clube. Ajuda, mas não chega a 70.
+
+Proteção: definir o **limite de gastos da campanha** com o novo teto (conta o que já foi gasto).
+
+**Coritiba:** antes de triplicar a verba, confirmar se as vendas no Sympla desde 03/10 batem com
+as do Meta, que mostra 0 vendas em 10 dias.
