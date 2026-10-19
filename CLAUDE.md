@@ -102,3 +102,16 @@ leitura de Instagram/site/Sympla estão documentadas em
 ## Pendências em aberto com o cliente
 
 Ver `briefing/pendencias.md`.
+
+## Formato das respostas para a usuária (preferência pedida em 19/10/2026)
+
+Relatórios e análises enviados no chat devem ser **detalhados e bem separados**:
+- Começar por um bloco **🚨 URGENTE** (só o que precisa ser feito agora), se houver.
+- **Uma seção por clube**, separada por linha horizontal (`---`), sempre na mesma ordem interna:
+  1. **Situação:** uma frase.
+  2. **Números:** tabela curta (gasto, vendas, custo por venda, saldo, máximo por dia, previsão).
+  3. **O que fazer:** checklist `[ ]`, uma ação por linha, com o nome exato do conjunto e o
+     valor em R$/dia.
+  4. **Por quê:** 1–2 frases.
+- Frases curtas, sem parágrafos longos. Nada de misturar clubes no mesmo bloco.
+- Fechar com um **checklist final do dia**, em ordem de prioridade.
