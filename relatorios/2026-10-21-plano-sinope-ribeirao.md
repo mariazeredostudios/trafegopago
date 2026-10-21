@@ -34,3 +34,38 @@ Previsão: no ritmo de Maringá (~R$88), 25–30 vendas. No ritmo de Curitiba, ~
 
 Regras para as duas: ABO; limite de gastos de R$2.500; data de término na manhã da seletiva;
 evento novo no Sympla com pixel testado; conjunto com R$150 gastos sem venda é pausado.
+
+## Atualização 21/10: públicos do Grêmio revistos com o histórico (set/25–out/26)
+
+Teto de Sinope confirmado: R$2.500.
+
+| Público | 2025 (CPA) | 2026 (CPA) | Total |
+|---|---|---|---|
+| HOMENS_ESTADO_FUTEBOL_18+ | — | **R$64** (17 vendas) | R$1.086 / 17 |
+| p4_cidade_homens_18a44_aberto | **R$54** (59) | R$793 (1) | R$3.970 / 60 |
+| p2_cidade_ambos_25mais_pais&futebol | **R$52** (44) | R$291 (4) | R$3.431 / 48 |
+| p3_estado_homens_18a44_aberto | R$68 (42) | R$145 (13) | R$4.764 / 55 |
+| p1_estado_ambos_25mais_pais&futebol | R$71 (72) | R$235 (12) | R$7.905 / 84 |
+| RMKT (todas as versões) | R$203 | R$165 | R$5.038 / 30 |
+| 1% VIAJANTES | — | R$242 | R$1.210 / 5 |
+| COMPRADORES SYMPLA | — | R$271 | R$271 / 1 |
+| Estado ADVANTAGE | — | sem venda | R$531 / 0 |
+
+Exclui ~R$2.300 de jan/26 sem registro de conversão. Parte do gasto de 2026 dos públicos p1–p4
+caiu no período sem pixel, então o CPA de 2026 deles está pior do que a realidade.
+
+**Sinope (substitui a tabela anterior):** mercado novo, então repete os públicos amplos que
+funcionaram em 2025 quando Porto Alegre ainda não estava saturada.
+
+| Conjunto | Localização | R$/dia |
+|---|---|---|
+| p2_cidade_ambos_25mais_pais&futebol | Sinope +80 km | R$20 |
+| p4_cidade_homens_18a44_aberto | Sinope +80 km | R$20 |
+| HOMENS_REGIÃO_FUTEBOL_18+ | Sinope +80, Sorriso +40, Lucas do Rio Verde +40 | R$15 |
+| GAÚCHOS + GRÊMIO (teste) | mesma região | R$15 |
+| RMKT + INTERAÇÃO | mesma região | R$5 → R$15 a partir de 11/11 |
+
+Cortados: 1% VIAJANTES (R$242 no Grêmio) e ALTO VALOR AGRO.
+
+**POA 15/11:** trocar o 1% (R$10) por **HOMENS_ESTADO_FUTEBOL_18+ R$20** e baixar o
+Estado_ambos para R$15. Total continua em R$90.
