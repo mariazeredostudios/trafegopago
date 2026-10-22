@@ -37,3 +37,18 @@ Palmeiras Ribeirão e Grêmio Sinope ainda não aparecem nos dados.
   - PAIS + INTERCÂMBIO R$35;
   - RMKT a R$25 com o anúncio "É NESTE SÁBADO".
 - Previsão: 15–16 vendas.
+
+## Correções da usuária (22/10)
+- **Flu:** a seletiva é no domingo (25/10). São 28 inscritos no Sympla, e o Flu perdeu na
+  Libertadores em 21/10. Plano até sábado, ~R$75/dia:
+  - PAIS + VIAJANTES INT. R$30;
+  - FLU ABERTO FUTEBOL (novo: RJ +40 km, 25–55, Futebol + Fluminense, Advantage+) R$30;
+  - RMKT de urgência R$15;
+  - pausar MELHORES BAIRROS (CTR 0,64%) e PAIS + INTERCÂMBIO (o RMKT pega os 14 checkouts).
+- **Sport:** a seletiva é em **08/11**, não em 01/11. São 8 inscritos no Sympla contra 3 no Meta.
+  Saldo R$1.335 ÷ 17 dias ≈ R$78/dia:
+  - Estado R$35;
+  - CIDADE_ambos_25mais_pais&futebol (novo) R$25;
+  - RMKT R$10 → R$20 a partir de 01/11;
+  - pausar MELHORES BAIRROS e CIDADE COM FUTEBOL;
+  - criativo novo (collab com o Sport).
