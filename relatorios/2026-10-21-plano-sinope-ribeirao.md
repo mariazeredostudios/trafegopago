@@ -69,3 +69,16 @@ Cortados: 1% VIAJANTES (R$242 no Grêmio) e ALTO VALOR AGRO.
 
 **POA 15/11:** trocar o 1% (R$10) por **HOMENS_ESTADO_FUTEBOL_18+ R$20** e baixar o
 Estado_ambos para R$15. Total continua em R$90.
+
+## Versão final Sinope (26/10): 2 conjuntos
+
+A usuária decidiu ficar com 2 conjuntos com mais verba, para não espalhar o dinheiro. Janela de
+27/10 a 21/11 (26 dias), ≈ R$95/dia. Limite de gastos de R$2.500 e término em 22/11.
+
+| Conjunto | Local | Segmentação | Otimização | R$/dia |
+|---|---|---|---|---|
+| SINOPE_ambos_25mais_pais&futebol | Sinope +80 km | 25–65; Futebol, Futebol (esportes), Pais, Grêmio; soccer fans; pais de filhos de 6–17 | Compra | R$50 |
+| REGIAO_homens_18a44_aberto | Sinope +80, Sorriso +40, Lucas do Rio Verde +40 | homens 18–44, sem interesses | Iniciar finalização de compra | R$45 |
+
+Opcional: RMKT de R$15 a partir de 12/11, tirando R$7–8 de cada conjunto.
+Cidade pequena: se a frequência passar de 3, trocar o criativo.
