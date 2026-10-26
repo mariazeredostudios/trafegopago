@@ -38,3 +38,26 @@ FUTEBOL R$100 / 1 → R$20 · Estado R$152 / 0 → R$30 · religar MELHORES BAIR
 - manter CIDADE+25MAIS+PAISEFUT R$25, CIDADE+HOMENS+18A44 R$25 e COMPRADORES SYMPLA R$20;
 - conferir no Sympla se o evento de 15/11 tem vendas. Com 14 checkouts e 0 compras, é preciso
   descartar falha do pixel de Purchase.
+
+## Grêmio: diagnóstico revisado (26/10, à tarde)
+
+A usuária confirmou que o pixel está certo. GRÊMIO NOV (21–26/10): R$480, ~415 visitas, 14
+checkouts e 0 vendas. Só **3,4% das visitas viram checkout**, contra 14% em set–out/25. O CTR
+está normal (2–3%).
+
+Conclusão: o vazamento está depois do clique (página do Sympla, oferta e saturação de Porto
+Alegre, com seletivas quase mensais desde set/25). Trocar público mexe só no que acontece antes
+do clique, por isso todos os testes de público dão o mesmo resultado.
+
+Plano:
+- **Parar de testar público.** Ficam 3 conjuntos: HOMENS_ESTADO_FUTEBOL_18+ R$40 (otimizando
+  Iniciar finalização de compra), CIDADE+25MAIS+PAISEFUT R$30, INTERIOR RS (sem POA +40 km) R$30.
+- **Mexer no que é comum a todos:**
+  - página do Sympla: o que o aprovado ganha, destino da viagem, FAQ, vídeo;
+  - criativo com imagens reais da seletiva de 18/10;
+  - anúncio de parceria com o perfil do Grêmio ou com um treinador da base;
+  - oferta, por decisão do gestor: "traga um amigo" / irmão.
+- **Fora do Meta:** escolinhas de POA e os 30 inscritos de 18/10 indicando amigos.
+- **Gatilho:** se em 02/11 POA tiver menos de 5 vendas, propor ao gestor mover ~R$500 para Sinope
+  (mercado novo).
+- **Para o negócio:** espaçar as seletivas de POA (a cada 2–3 meses).
