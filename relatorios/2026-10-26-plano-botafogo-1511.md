@@ -27,9 +27,12 @@ Limite de gastos de R$2.500; término 15/11 às 08h; excluir compradores dos úl
 |---|---|
 | Estado_homens_18mais_advantage (RJ) | R$45 |
 | MELHORES BAIRROS + LOCAIS (lista corrigida) | R$35 |
-| ABERTO (RJ, 25–55, sem interesses) | R$25 |
+| ABERTO (RJ, 18–65, interesse Botafogo; cópia exata do QUANTITATIVO) | R$25 |
 | RMKT + INTERAÇÃO | R$10 → R$25 a partir de 08/11 |
 | **Total** | **R$115 → R$130** (≈ R$2.300–2.400) |
 
 Previsão: 20–25 vendas pelo Meta. Porto Alegre mostrou que repetir a seletiva na mesma
 praça em menos de 30 dias derruba a conversão. Vale acompanhar a taxa visita → checkout.
+
+Correção 26/10: o "ABERTO" da QUANTITATIVO **não é aberto**. Ele tem o interesse "Botafogo de
+Futebol e Regatas", RJ estado, 18–65, todos os gêneros, Advantage+ ligado.
