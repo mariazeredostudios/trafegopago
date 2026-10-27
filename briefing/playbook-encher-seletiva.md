@@ -28,3 +28,17 @@ Criado em 26/10/2026, depois dos ciclos ruins do Sport (6 vendas por R$1.442) e 
 | 7 | **Lookalike dos compradores de seletiva (pixel Purchase 180D)**, e não dos de viagem | Perfil de quem paga R$100, que é diferente de quem paga R$20 mil |
 | 8 | **Oferta** (decisão do gestor): "leve um amigo / irmão", vagas por categoria visíveis | Indicação dentro do time da criança |
 | 9 | **Checkout próprio** (ver `checkout-proprio-medicao.md`) nas próximas praças fracas | Mede todas as etapas e permite recuperar contatos |
+
+## Rodada 2 de ideias (27/10, Sport e Grêmio)
+
+1. **Campanha de Cadastro (formulário instantâneo) "Pré-inscrição"** + mensagem no WhatsApp com o
+   link do Sympla. Captura a família com dúvida, que hoje sai do Sympla sem deixar contato.
+2. **Depoimento de aprovado do próprio clube** (vídeo de celular de 15–30 s) como criativo principal.
+   Pedir no grupo de WhatsApp dos aprovados.
+3. **Pré-página no Lovable** (vídeo, como funciona o dia, FAQ, WhatsApp, botão para o Sympla) para
+   atacar a taxa de 3% de visita → checkout do Grêmio.
+4. **Oferta** (decisão do gestor): "todo atleta recebe avaliação técnica", lote promocional com
+   prazo real e combo para irmãos.
+5. **Praças novas:** Sport → Caruaru, João Pessoa e Campina Grande. Grêmio → Serra gaúcha e
+   verba para Sinope.
+6. **Criadores e escolinhas locais** com anúncio de parceria (o post do criador impulsionado).
