@@ -141,3 +141,9 @@ fechou com 71.
 
 Referências recentes: Botafogo fechou a seletiva de 25/10 com 79 inscritos; Vasco fechou a
 última com 71.
+
+## Conta de ritmo da usuária (28/10/2026)
+
+O ideal é **2 ingressos por dia durante 30 dias** (~60). Como metade das inscrições entra na
+última semana (ver régua acima), nas primeiras ~3 semanas o ritmo saudável é **~1,5/dia**, e na
+última semana é ~5–6/dia.
