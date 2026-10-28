@@ -25,3 +25,8 @@ Bahia NOV (21/11) e Palmeiras Ribeirão (08/11) ainda não existem.
   R$30) e pausar os dois CIDADE.
 - Levar ao gestor: liberar ~R$600 da sobra de POA para a reta final de Sinope (que já vendeu),
   ou para outro clube.
+
+## Santos: encerrado de propósito (28/10)
+A seletiva de 01/11 chegou a **85 inscritos** no Sympla, por isso a usuária pausou o tráfego.
+Foram R$2.334 gastos e 27 vendas atribuídas ao Meta. ~58 inscrições vieram por fora (orgânico do
+clube, indicação). Sobram R$166 do teto.
