@@ -45,3 +45,13 @@ clube, indicação). Sobram R$166 do teto.
 | Vasco | 22/11 | 4 | 3 | 1,3x | 70–80 |
 
 Faltam Flamengo, Bota e Bahia.
+
+## Início de ciclo: novembro × ciclos anteriores (mesmos N dias)
+
+| Clube | Dias | Ciclo anterior | Agora (NOV) | Final do ciclo anterior |
+|---|---|---|---|---|
+| Vasco | 3 | OUT: R$372 / 3 vendas (R$124) · SET: R$309 / 1 | **R$170 / 4 (R$43)** | 71 inscritos |
+| Botafogo | 3 | OUT: R$231 / 1 (R$231) · SET: R$94 / 0 | **R$198 / 3 (R$66)** | 79 inscritos |
+| Coritiba | 8 | OUT: R$888 / 8 (R$111) · SETE: R$780 / 4 | R$682 / 6 (R$114), 46 checkouts | — |
+| Grêmio POA | 8 | OUT: R$844 / 9 (R$94) · SET: R$1.030 / 3 | **R$831 / 1** | 30 inscritos |
+| Sport | 6 | SET: R$2.394 / 6 (R$399) | OUT: R$807 / 3 (R$269) | — |

@@ -147,3 +147,9 @@ Referências recentes: Botafogo fechou a seletiva de 25/10 com 79 inscritos; Vas
 O ideal é **2 ingressos por dia durante 30 dias** (~60). Como metade das inscrições entra na
 última semana (ver régua acima), nas primeiras ~3 semanas o ritmo saudável é **~1,5/dia**, e na
 última semana é ~5–6/dia.
+
+## Comparação de início de ciclo (pedido da usuária em 28/10/2026)
+
+Para dizer se uma campanha começou bem, compare os **primeiros N dias** dela com os **mesmos N
+dias** da campanha anterior do mesmo clube (gasto, checkouts, vendas, CPA) e com o resultado
+final daquela seletiva em inscritos.
