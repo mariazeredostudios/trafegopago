@@ -30,3 +30,18 @@ Bahia NOV (21/11) e Palmeiras Ribeirão (08/11) ainda não existem.
 A seletiva de 01/11 chegou a **85 inscritos** no Sympla, por isso a usuária pausou o tráfego.
 Foram R$2.334 gastos e 27 vendas atribuídas ao Meta. ~58 inscrições vieram por fora (orgânico do
 clube, indicação). Sobram R$166 do teto.
+
+## Inscritos reais no Sympla (passados pela usuária em 28/10)
+
+| Seletiva | Data | Inscritos | Vendas Meta | Real ÷ Meta | Meta da usuária |
+|---|---|---|---|---|---|
+| Santos | 01/11 | 88 | 27 | 3,3x | ✅ |
+| Palmeiras Ribeirão | 08/11 | 125 | — (campanha não aparece na conta lida) | — | ✅ |
+| Sport | 08/11 | 26 | 10 | 2,6x | 60 |
+| Palmeiras Santana de Parnaíba | ? | 31 | — (não aparece) | — | 70 |
+| Coritiba | 15/11 | 13 | 6 | 2,2x | 60–65 |
+| Grêmio POA | 15/11 | 8 | 1 | — | — |
+| Grêmio Sinope | 22/11 | 5 | 1 | — | 60 |
+| Vasco | 22/11 | 4 | 3 | 1,3x | 70–80 |
+
+Faltam Flamengo, Bota e Bahia.
