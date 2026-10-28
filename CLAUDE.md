@@ -115,3 +115,8 @@ Relatórios e análises enviados no chat devem ser **detalhados e bem separados*
   4. **Por quê:** 1–2 frases.
 - Frases curtas, sem parágrafos longos. Nada de misturar clubes no mesmo bloco.
 - Fechar com um **checklist final do dia**, em ordem de prioridade.
+
+## Meta de vendas por seletiva (confirmada em 28/10/2026)
+
+A meta de vendas pelo tráfego pago é **30 vendas por seletiva**, em todos os clubes. Usar 30
+nas projeções. (Valores antigos de 27, 34 e 35 foram substituídos.)
