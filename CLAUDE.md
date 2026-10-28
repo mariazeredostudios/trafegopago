@@ -129,3 +129,15 @@ Na última semana antes da seletiva, os inscritos costumam **quase dobrar**. A r
 - 40–45 inscritos na segunda → fecha com ~80.
 Use essa régua para dizer se a seletiva está no ritmo. Referência: a última seletiva do Vasco
 fechou com 71.
+
+## Apoio orgânico por clube (informado pela usuária em 28/10/2026)
+
+| Clube | Orgânico / collab |
+|---|---|
+| Palmeiras | Posta tudo e tem estratégia própria; quase não precisa de campanha paga |
+| Coritiba | Faz collab e posta sempre |
+| Vasco | **Não faz collab** |
+| Grêmio | **Não faz nada** (depende 100% do pago) |
+
+Referências recentes: Botafogo fechou a seletiva de 25/10 com 79 inscritos; Vasco fechou a
+última com 71.
