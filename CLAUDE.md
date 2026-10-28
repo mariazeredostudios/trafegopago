@@ -120,3 +120,12 @@ Relatórios e análises enviados no chat devem ser **detalhados e bem separados*
 
 A meta de vendas pelo tráfego pago é **30 vendas por seletiva**, em todos os clubes. Usar 30
 nas projeções. (Valores antigos de 27, 34 e 35 foram substituídos.)
+
+## Régua de inscritos (informada pela usuária em 28/10/2026)
+
+Na última semana antes da seletiva, os inscritos costumam **quase dobrar**. A régua é a
+**segunda-feira da última semana**:
+- 35 inscritos na segunda → fecha com ~70.
+- 40–45 inscritos na segunda → fecha com ~80.
+Use essa régua para dizer se a seletiva está no ritmo. Referência: a última seletiva do Vasco
+fechou com 71.
