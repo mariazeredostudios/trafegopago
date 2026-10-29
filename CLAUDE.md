@@ -153,3 +153,9 @@ O ideal é **2 ingressos por dia durante 30 dias** (~60). Como metade das inscri
 Para dizer se uma campanha começou bem, compare os **primeiros N dias** dela com os **mesmos N
 dias** da campanha anterior do mesmo clube (gasto, checkouts, vendas, CPA) e com o resultado
 final daquela seletiva em inscritos.
+
+## Nomes de anúncio (aviso da usuária, repetido em 29/10/2026)
+
+O **nome do anúncio se repete entre os meses, mas o criativo muda todo mês**. Nunca conclua que
+um criativo é antigo ou está cansado pelo nome. Para avaliar fadiga, use frequência, CTR e
+Hook Rate.
