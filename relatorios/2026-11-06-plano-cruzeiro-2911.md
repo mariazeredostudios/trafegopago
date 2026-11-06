@@ -1,8 +1,7 @@
-# Plano Cruzeiro DEZ
+# Plano Cruzeiro: seletiva 29/11 (domingo)
 
-Criado em 06/11. **Premissa (a confirmar com a usuária): seletiva em 13/12 (domingo) e R$2.500**,
-os mesmos parâmetros do Fortaleza. Se a data for outra, recalcular o início e os valores.
-Meta: 30 vendas.
+Criado em 06/11. Limite de R$2.500, confirmado pela usuária. Meta: 30 vendas. A seletiva
+anterior foi em 25/10.
 
 ## Histórico do Cruzeiro por público
 
@@ -26,28 +25,28 @@ Achados:
 - **MELHORES BAIRROS nunca foi testado no Cruzeiro.** Em outros clubes, vendeu a R$42–79
   (Coritiba, Vasco, Bota e Santos).
 
-## Estrutura CRUZEIRO DEZ (ABO)
+## Estrutura CRUZEIRO NOV 29/11 (ABO)
 
 Configuração da campanha:
 - Campanha nova (não reaproveitar a QUANTITATIVO). Objetivo: Vendas, otimizado para Compra.
-- Limite de gastos: R$2.500. Início: 16/11. Término: 13/12 às 08h (27 dias).
+- Limite de gastos: R$2.500. **Início: 07/11. Término: 29/11 às 08h** (22 dias).
 - Em todos os conjuntos: Advantage+ ligado e "pessoas que moram ou estiveram recentemente".
-- **Excluir "Cruzeiro - Compradores"** dos últimos 30/60 dias (quem foi à seletiva de 25/10).
+- **Excluir "Cruzeiro - Compradores - 30D"** (quem foi à seletiva de 25/10).
 
-| Conjunto | 16/11–06/12 (21 dias) | 07/12–12/12 (6 dias) |
+| Conjunto | 07/11–22/11 (16 dias) | 23/11–28/11 (6 dias) |
 |---|---|---|
-| p1_ESTADO_HOMENS_25MAIS_ABERTO | R$35 | R$30 |
-| MELHORES BAIRROS BH (novo) | R$25 | R$25 |
-| MELHOR PUBLICO - 1% DOS VIAJANTES | R$25 | R$20 |
-| RMKT CRUZEIRO (última semana) | — | R$35 |
-| **Total** | **R$85** (= R$1.785) | **R$110** (= R$660) |
+| p1_ESTADO_HOMENS_25MAIS_ABERTO | R$40 | R$35 |
+| MELHORES BAIRROS BH (novo) | R$30 | R$30 |
+| MELHOR PUBLICO - 1% DOS VIAJANTES | R$30 | R$25 |
+| RMKT CRUZEIRO (última semana) | — | R$45 |
+| **Total** | **R$100** (= R$1.600) | **R$135** (= R$810) |
 
-Total previsto: R$2.445, com R$55 de folga.
+Total previsto: R$2.410, com R$90 de folga.
 
 ### 1. p1_ESTADO_HOMENS_25MAIS_ABERTO (volume)
 - Localização: Minas Gerais. Idade: 25–65, **homens**. Sem interesses.
 - O público que mais vendeu na história do Cruzeiro (93 vendas).
-- R$35/dia, e não R$90 como em outubro.
+- R$40/dia, e não R$90 como em outubro.
 
 ### 2. MELHORES BAIRROS BH (qualificado, novo)
 - Bairros: Belvedere, Lourdes, Funcionários, Savassi, Sion, Anchieta, Santo Agostinho, Serra,
@@ -65,7 +64,7 @@ Total previsto: R$2.445, com R$55 de folga.
 - Públicos: COMPRADORES VIAGENS GERAL + Semelhante (1%) - COMPRADORES VIAGENS GERAL.
 - O mesmo conjunto de outubro (R$117) e de jul–set (R$105).
 
-### 4. RMKT CRUZEIRO (criar em 07/12)
+### 4. RMKT CRUZEIRO (criar em 23/11)
 - Localização: Minas Gerais. 18–65, ambos os gêneros.
 - Públicos, todos na mesma caixa:
   - VISITA AO PERFIL - 180D;
@@ -78,12 +77,14 @@ Total previsto: R$2.445, com R$55 de folga.
 
 ## Régua e previsão
 
-- Segunda da última semana: **07/12**. 35 inscritos → ~70; 40–45 → ~80.
-- Pontos de controle: 23/11 (7 dias, primeira leitura) · 30/11 ≈ 18–20 · **07/12 = 35–45**.
-- Black Friday (24 a 30/11): o CPM sobe. Não pausar e não tirar conclusões desses dias.
-- Regra: conjunto com R$150 sem venda → pausar.
-- Previsão: com o custo de outubro (R$133), **~19 vendas**. Se o público novo e a verba mais
-  espalhada trouxerem o custo de volta a ~R$85, **~29 vendas**. Faixa: 19–28.
+- Segunda da última semana: **23/11**. 35 inscritos → ~70; 40–45 → ~80.
+- Pontos de controle: **13/11** (7 dias, primeira leitura; conjunto com R$150 sem venda → pausar)
+  · 16/11 ≈ 15 inscritos · **23/11 = 35–45**.
+- ⚠️ **A Black Friday (27/11) cai na última semana.** O CPM sobe de ~24 a 28/11, justo na reta
+  final. Por isso o RMKT entra com R$45: é quem já conhece a seletiva e sofre menos com o leilão
+  caro. Não pausar por causa do CPM.
+- Previsão: com o custo de outubro (R$133), **~18 vendas**. Se o público novo e a verba mais
+  espalhada trouxerem o custo de volta a ~R$85, **~28 vendas**. Faixa: 18–28.
 
 ## Copies
 
@@ -94,7 +95,7 @@ Sem preço no texto. Completar [LOCAL] e [COMPETIÇÃO/DESTINO]; não inventar.
 **Texto principal:**
 Cruzeirense de coração, essa é para o seu filho. 💙🦊
 
-No dia 13/12, atletas de 8 a 18 anos vão ser avaliados pelos treinadores da base do Cruzeiro, em
+No dia 29/11, atletas de 8 a 18 anos vão ser avaliados pelos treinadores da base do Cruzeiro, em
 [LOCAL].
 
 Os selecionados formam o time que vai representar a Raposa em [COMPETIÇÃO/DESTINO], com as
@@ -102,10 +103,10 @@ estrelas no peito. ⭐
 
 Se ele vive de bola no pé, essa pode ser a chance da vida dele.
 
-⚽ 8 a 18 anos · 📍 [LOCAL] · 📅 Domingo, 13/12
+⚽ 8 a 18 anos · 📍 [LOCAL] · 📅 Domingo, 29/11
 👉 Vagas limitadas. Inscreva seu filho pelo link.
 
-**Título:** Seletiva Cruzeiro, 13/12
+**Título:** Seletiva Cruzeiro, 29/11
 **Descrição:** Atletas de 8 a 18 anos. Vagas limitadas.
 **CTA:** Inscreva-se
 
@@ -114,24 +115,24 @@ Se ele vive de bola no pé, essa pode ser a chance da vida dele.
 **Texto principal:**
 Imagine seu filho representando o Cruzeiro fora do país. 🌎⚽
 
-No dia 13/12, os treinadores da base do Cruzeiro avaliam atletas de 8 a 18 anos, em [LOCAL].
+No dia 29/11, os treinadores da base do Cruzeiro avaliam atletas de 8 a 18 anos, em [LOCAL].
 
 Os selecionados formam o time do Cruzeiro em [COMPETIÇÃO/DESTINO]. Eles são treinados e
 acompanhados pelos treinadores da base, com a metodologia do clube.
 
 Uma experiência internacional que forma o atleta e a pessoa, dentro e fora de campo.
 
-📅 Domingo, 13/12 · 📍 [LOCAL]
+📅 Domingo, 29/11 · 📍 [LOCAL]
 👉 Vagas limitadas. Garanta a avaliação do seu filho.
 
 **Título:** Seu filho com a camisa do Cruzeiro
-**Descrição:** Seletiva 13/12. 8 a 18 anos.
+**Descrição:** Seletiva 29/11. 8 a 18 anos.
 **CTA:** Inscreva-se
 
-### C) RMKT CRUZEIRO (urgência, de 07/12 a 12/12)
+### C) RMKT CRUZEIRO (urgência, de 23/11 a 28/11)
 
 **Texto principal:**
-⚠️ É neste domingo, 13/12.
+⚠️ É neste domingo, 29/11.
 
 A seletiva do Cruzeiro está com as últimas vagas. Os treinadores da base vão avaliar atletas de 8 a
 18 anos em [LOCAL].
@@ -140,6 +141,6 @@ Você já conhece o projeto. Falta só garantir a vaga do seu filho.
 
 👉 Finalize a inscrição pelo link.
 
-**Título:** Últimas vagas: domingo, 13/12
+**Título:** Últimas vagas: domingo, 29/11
 **Descrição:** Seletiva Cruzeiro, 8 a 18 anos.
 **CTA:** Comprar agora
