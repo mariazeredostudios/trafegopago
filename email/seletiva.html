@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark">
+<title>Seletiva {{clube}} — iEsports</title>
+<!--
+  LAYOUT DE E-MAIL MARKETING — Seletiva Internacional de Clubes (iEsports)
+  Variáveis (troque antes do disparo):
+    {{nome}}  {{clube}}  {{cidade}}  {{data_seletiva}}  {{horario}}  {{local_ct}}
+    {{vagas_restantes}}  {{prazo_inscricao}}  {{url_unsubscribe}}
+  Imagens: troque os src por URLs públicas (https) hospedadas.
+  Link de CTA: sempre www.iesports.com.br (NUNCA o .com sem .br — domínio expirado).
+  Adicione UTMs: ?utm_source=email&utm_medium=crm&utm_campaign=seletiva-{{clube}}
+-->
+<style>
+  body{margin:0;padding:0;background:#0b1220;-webkit-text-size-adjust:100%;}
+  table{border-collapse:collapse;}
+  img{border:0;display:block;max-width:100%;height:auto;}
+  a{color:#00c389;}
+  @media screen and (max-width:620px){
+    .container{width:100%!important;}
+    .px{padding-left:20px!important;padding-right:20px!important;}
+    .stack{display:block!important;width:100%!important;}
+    .h1{font-size:28px!important;line-height:34px!important;}
+    .btn a{display:block!important;}
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:#0b1220;">
+
+<!-- Preheader (texto de prévia na caixa de entrada) -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#0b1220;font-size:1px;line-height:1px;">
+  {{nome}}, a seletiva do {{clube}} está com inscrições abertas. Vagas limitadas — garanta a do seu atleta por R$100.
+  &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0b1220;">
+<tr><td align="center" style="padding:24px 12px;">
+
+  <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;background:#ffffff;border-radius:16px;overflow:hidden;font-family:Helvetica,Arial,sans-serif;">
+
+    <!-- TOPO: logo -->
+    <tr>
+      <td align="center" style="background:#0b1220;padding:22px 24px 18px;">
+        <img src="https://www.iesports.com.br/logo-email.png" alt="iEsports" width="140" style="margin:0 auto;color:#ffffff;font:700 22px Helvetica,Arial,sans-serif;">
+      </td>
+    </tr>
+
+    <!-- HERO -->
+    <tr>
+      <td style="background:#0b1220;background-image:linear-gradient(180deg,#0b1220 0%,#0f2a3a 100%);padding:8px 36px 40px;" class="px" align="center">
+        <p style="margin:0 0 14px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#00c389;font-weight:700;">
+          Seletiva Internacional · {{clube}}
+        </p>
+        <h1 class="h1" style="margin:0 0 16px;font-size:36px;line-height:42px;color:#ffffff;font-weight:800;">
+          Seu filho no CT do {{clube}}.<br>Seu futuro no mundo.
+        </h1>
+        <p style="margin:0 0 28px;font-size:16px;line-height:24px;color:#c9d6e2;">
+          Treinadores da base avaliam atletas de 8 a 18 anos. Os selecionados formam o time que representa o clube em competições internacionais.
+        </p>
+        <table role="presentation" class="btn" cellpadding="0" cellspacing="0" align="center">
+          <tr><td align="center" style="background:#00c389;border-radius:999px;">
+            <a href="https://www.iesports.com.br/atendimento?utm_source=email&utm_medium=crm&utm_campaign=seletiva-{{clube}}&utm_content=hero"
+               style="display:inline-block;padding:16px 36px;font-size:16px;font-weight:800;color:#06251c;text-decoration:none;font-family:Helvetica,Arial,sans-serif;">
+              QUERO INSCREVER MEU ATLETA
+            </a>
+          </td></tr>
+        </table>
+        <p style="margin:14px 0 0;font-size:13px;color:#8aa0b4;">Inscrição da seletiva: <strong style="color:#ffffff;">R$100</strong> · pagamento seguro via Sympla</p>
+      </td>
+    </tr>
+
+    <!-- IMAGEM DE DESTAQUE -->
+    <tr>
+      <td>
+        <img src="https://www.iesports.com.br/email/hero-ct.jpg" alt="Atletas em treino no CT do {{clube}}" width="600" style="width:100%;background:#dfe7ee;">
+      </td>
+    </tr>
+
+    <!-- BLOCO DE DADOS: quando / onde / vagas -->
+    <tr>
+      <td style="padding:32px 36px 8px;" class="px">
+        <h2 style="margin:0 0 18px;font-size:22px;color:#0b1220;">Dia da seletiva</h2>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f6f9;border-radius:12px;">
+          <tr>
+            <td class="stack" width="33%" style="padding:18px;text-align:center;border-right:1px solid #dfe7ee;">
+              <div style="font-size:12px;color:#5b6f82;text-transform:uppercase;letter-spacing:1px;">Data</div>
+              <div style="font-size:18px;font-weight:800;color:#0b1220;margin-top:4px;">{{data_seletiva}}</div>
+              <div style="font-size:13px;color:#5b6f82;">{{horario}}</div>
+            </td>
+            <td class="stack" width="34%" style="padding:18px;text-align:center;border-right:1px solid #dfe7ee;">
+              <div style="font-size:12px;color:#5b6f82;text-transform:uppercase;letter-spacing:1px;">Local</div>
+              <div style="font-size:18px;font-weight:800;color:#0b1220;margin-top:4px;">CT do {{clube}}</div>
+              <div style="font-size:13px;color:#5b6f82;">{{cidade}}</div>
+            </td>
+            <td class="stack" width="33%" style="padding:18px;text-align:center;">
+              <div style="font-size:12px;color:#5b6f82;text-transform:uppercase;letter-spacing:1px;">Vagas</div>
+              <div style="font-size:18px;font-weight:800;color:#d9480f;margin-top:4px;">{{vagas_restantes}} restantes</div>
+              <div style="font-size:13px;color:#5b6f82;">até {{prazo_inscricao}}</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- COMO FUNCIONA -->
+    <tr>
+      <td style="padding:28px 36px 8px;" class="px">
+        <h2 style="margin:0 0 18px;font-size:22px;color:#0b1220;">Como funciona</h2>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="44" valign="top" style="padding-bottom:16px;"><div style="width:34px;height:34px;line-height:34px;border-radius:50%;background:#00c389;color:#06251c;text-align:center;font-weight:800;">1</div></td>
+            <td style="padding-bottom:16px;font-size:15px;line-height:22px;color:#33475b;"><strong style="color:#0b1220;">Inscreva-se</strong> pelo link e garanta a vaga no Sympla.</td>
+          </tr>
+          <tr>
+            <td width="44" valign="top" style="padding-bottom:16px;"><div style="width:34px;height:34px;line-height:34px;border-radius:50%;background:#00c389;color:#06251c;text-align:center;font-weight:800;">2</div></td>
+            <td style="padding-bottom:16px;font-size:15px;line-height:22px;color:#33475b;"><strong style="color:#0b1220;">Treine no CT</strong> e seja avaliado pelos treinadores da base do clube.</td>
+          </tr>
+          <tr>
+            <td width="44" valign="top" style="padding-bottom:8px;"><div style="width:34px;height:34px;line-height:34px;border-radius:50%;background:#00c389;color:#06251c;text-align:center;font-weight:800;">3</div></td>
+            <td style="padding-bottom:8px;font-size:15px;line-height:22px;color:#33475b;"><strong style="color:#0b1220;">Seja selecionado</strong> e represente o {{clube}} em competições internacionais.</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- PROVA SOCIAL -->
+    <tr>
+      <td style="padding:20px 36px;" class="px">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0f2a3a;border-radius:12px;">
+          <tr><td style="padding:24px;">
+            <p style="margin:0 0 10px;font-size:16px;line-height:24px;color:#ffffff;font-style:italic;">
+              “{{depoimento — texto real de pai/atleta de uma edição anterior}}”
+            </p>
+            <p style="margin:0;font-size:13px;color:#00c389;font-weight:700;">— {{nome_do_responsavel}}, pai de atleta · {{clube}}</p>
+          </td></tr>
+        </table>
+        <p style="margin:12px 0 0;font-size:13px;text-align:center;">
+          <a href="https://www.iesports.com.br/atendimento?utm_source=email&utm_medium=crm&utm_campaign=seletiva-{{clube}}&utm_content=videos" style="color:#0b7a5a;font-weight:700;">▶ Veja vídeos das viagens anteriores</a>
+        </p>
+      </td>
+    </tr>
+
+    <!-- CTA FINAL -->
+    <tr>
+      <td align="center" style="padding:12px 36px 36px;" class="px">
+        <h2 style="margin:0 0 8px;font-size:24px;color:#0b1220;">As vagas são limitadas.</h2>
+        <p style="margin:0 0 22px;font-size:15px;line-height:22px;color:#5b6f82;">Garanta a presença do seu atleta na seletiva do {{clube}}.</p>
+        <table role="presentation" class="btn" cellpadding="0" cellspacing="0" align="center">
+          <tr><td align="center" style="background:#00c389;border-radius:999px;">
+            <a href="https://www.iesports.com.br/atendimento?utm_source=email&utm_medium=crm&utm_campaign=seletiva-{{clube}}&utm_content=cta-final"
+               style="display:inline-block;padding:16px 36px;font-size:16px;font-weight:800;color:#06251c;text-decoration:none;font-family:Helvetica,Arial,sans-serif;">
+              GARANTIR MINHA VAGA — R$100
+            </a>
+          </td></tr>
+        </table>
+        <p style="margin:16px 0 0;font-size:13px;color:#5b6f82;">Dúvidas? Fale com a gente pelo link acima ou responda este e-mail.</p>
+      </td>
+    </tr>
+
+    <!-- RODAPÉ -->
+    <tr>
+      <td align="center" style="background:#0b1220;padding:28px 36px;" class="px">
+        <p style="margin:0 0 6px;font-size:14px;color:#ffffff;font-weight:700;">iEsports</p>
+        <p style="margin:0 0 14px;font-size:12px;line-height:18px;color:#8aa0b4;">Transformamos sua paixão pelo Futebol em experiências internacionais.</p>
+        <p style="margin:0 0 14px;font-size:12px;">
+          <a href="https://www.iesports.com.br" style="color:#00c389;text-decoration:none;">www.iesports.com.br</a>
+        </p>
+        <p style="margin:0;font-size:11px;line-height:17px;color:#6b8094;">
+          Você recebeu este e-mail porque se cadastrou em um de nossos canais.<br>
+          <a href="{{url_unsubscribe}}" style="color:#8aa0b4;">Cancelar inscrição</a> · {{endereco_da_empresa}}
+        </p>
+      </td>
+    </tr>
+
+  </table>
+</td></tr>
+</table>
+</body>
+</html>
