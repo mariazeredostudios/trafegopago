@@ -30,7 +30,7 @@ Fonte: Meta Ads via Windsor. 11/11 está parcial (manhã). Últimos 4 dias = 08 
 ## Ajustes
 | Campanha | Ação |
 |---|---|
-| Coritiba NOV | Limite de gastos para R$2.035; manter PAIS + ALTO VALOR R$20 e PAIS + VIAJANTES R$20; pausar 1% e BAIRROS |
+| Coritiba NOV | Limite de gastos para R$2.035; 1% DOS VIAJANTES R$20 e PAIS + ALTO VALOR R$20; pausar PAIS + VIAJANTES e BAIRROS (corrigido: ver abaixo) |
 | Grêmio POA | COMPRADORES SYMPLA R$90 → R$105; RMKT CHECKOUT R$30 |
 | Botafogo | BAIRROS R$45 → R$30; COMPRADORES SYMPLA R$40 → R$50; Estado R$55; RMKT CHECKOUT R$25 |
 | Bahia | Estado R$45 → R$35; PAIS + ALTO VALOR R$20 → R$25; 1% R$40. Em 14/11: Estado R$30, 1% R$35, RMKT + INTERAÇÃO R$25 |
@@ -39,3 +39,17 @@ Fonte: Meta Ads via Windsor. 11/11 está parcial (manhã). Últimos 4 dias = 08 
 | Fluminense | Gasto mínimo de R$40 no PAIS + INTERCÂMBIO; manter ~R$140 |
 | Cruzeiro | Orçamento da campanha até R$110; término em 29/11 às 08h |
 | Fortaleza | Pausar PAIS + ALTO VALOR; CIDADE R$25; 1% R$35 (R$60/dia). Pedir ao gestor +R$1.000 |
+
+## Correção (11/11, tarde): Coritiba
+
+A usuária apontou o erro: eu tinha olhado só os últimos 4 dias. No total da campanha:
+
+| Conjunto | Gasto | Vendas | Custo/venda |
+|---|---|---|---|
+| MELHOR PUBLICO - 1% DOS VIAJANTES | R$420 | 4 | **R$105** |
+| PAIS + ALTO VALOR | R$255 | 2 | R$128 |
+| PAIS + VIAJANTES INTERNACIONAIS | R$432 | 3 | R$144 |
+| MELHORES BAIRROS | R$460 | 2 | R$230 |
+
+Decisão: ficam o **1% DOS VIAJANTES (R$20)** e o **PAIS + ALTO VALOR (R$20)**. Pausar o
+PAIS + VIAJANTES e o BAIRROS. Os 4 dias sem venda do 1% (R$121) estão abaixo da regra de R$150.
