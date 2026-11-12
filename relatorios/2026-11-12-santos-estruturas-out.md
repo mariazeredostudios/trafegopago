@@ -46,3 +46,19 @@ Resultado: R$2.335, 30 vendas, R$78 por venda, 94+ inscritos.
 - Excluir os compradores dos últimos 30 dias (seletiva de 01/11).
 - Limite de gastos de R$2.500 e data de término.
 - RMKT só na última semana.
+
+## SANTOS NOV: seletiva 29/11 (domingo), R$2.500
+
+Início: 13/11. Término: 29/11 às 08h (16 dias). Régua: segunda, 23/11.
+
+| Conjunto | 13–22/11 (10 dias) | 23–28/11 (6 dias) |
+|---|---|---|
+| PAIS + VIAJANTES INTERNACIONAIS | R$45 | R$45 |
+| MELHOR PUBLICO - 1% DOS VIAJANTES | R$40 | R$40 |
+| FUTEBOL + PAIS | R$30 | R$25 |
+| MELHORES BAIRROS + LOCAIS | R$25 | R$20 |
+| RMKT | — | R$45 |
+| **Total** | **R$140** (= R$1.400) | **R$175** (= R$1.050) |
+
+Total previsto: R$2.450, com R$50 de folga. Black Friday (27/11) na última semana: o CPM sobe;
+o RMKT leva mais verba porque é o público que sofre menos com o leilão caro.
