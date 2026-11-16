@@ -46,3 +46,5 @@ R$50) e serão ajustados com a aprovação da usuária.
 - Aprovação das copies.
 - Informação do prêmio (time/competição/destino).
 - Aprovação dos orçamentos, do limite de R$2.500 e da ativação.
+- Vídeo na conta: PALMEIRAS BRASÍLIA - VIDEO 1 (id 1632026394433340), via Dropbox.
+- Fotos enviadas pela usuária pelo link de upload. Os códigos (image_hash) ainda não chegaram.
