@@ -26,3 +26,11 @@ As seletivas de 15/11 (Coritiba, Grêmio POA, Bota) já saíram do ar.
 | Cruzeiro | Manter ~R$105; testar MELHORES BAIRROS BH com gasto mínimo de R$30 (CBO concentrado no p2) |
 | Sport | Manter. 1ª leitura em 18/11 |
 | Fortaleza | Pausar PAIS + ALTO VALOR (R$129, 0 vendas); CIDADE R$30; 1% R$25 (R$55/dia). Ou pedir +R$1.000 ao gestor |
+
+## Aplicado via Windsor (16/11, a pedido da usuária; Sinope de fora)
+- Vasco: 1% DOS VIAJANTES pausado; PAIS + ALTO VALOR R$45.
+- Fortaleza: PAIS + ALTO VALOR pausado; CIDADE_18A44 R$30; 1% R$25.
+- Bahia: 1% R$45; PAIS + ALTO VALOR R$35.
+- Fluminense: orçamento da campanha R$165.
+- Não aplicado (precisa escolher público no Gerenciador): RMKT CHECKOUT Vasco, RMKT +
+  INTERAÇÃO Bahia, RMKT FLU, MELHORES BAIRROS BH (Cruzeiro).
