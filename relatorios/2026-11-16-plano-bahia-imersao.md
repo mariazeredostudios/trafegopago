@@ -127,3 +127,17 @@ no Meta), ~15–20 vendas no Meta bastam. Previsão com R$2.800 a ~R$118: ~22–
   - COMPRADORES QUENTES: IMERSÃO - FLEXÍVEL (COPY B) 120252470320480675.
 - Copies e limite aprovados pela usuária. Limite de gastos: **R$2.800** aplicado.
 - Pendente: ativação. A 4:5 dupla e a 9:16 colete não chegaram como arquivo e não entraram.
+
+## MELHORES BAIRROS SSA: versão "completão" (16/11)
+Aplicado via Windsor, por coordenada aproximada:
+- 11 bairros (2 km): Barra, Graça/Corredor da Vitória, Horto Florestal, Pituba, Caminho das
+  Árvores/Itaigara, Patamares/Greenville, Alphaville Salvador, Vilas do Atlântico, Buraquinho,
+  Busca Vida, Guarajuba. Ondina saiu.
+- 4 pontos extras (1,5 km): Shopping da Bahia/Salvador Shopping, Shopping Paralela, Parque
+  Shopping Bahia (Lauro), Colégio Antônio Vieira (Garcia).
+- Os demais shoppings, colégios e cursos ficam dentro dos círculos dos bairros (Barra, Graça,
+  Pituba, Patamares). Para pino exato, adicionar pelo nome no Gerenciador:
+  - shoppings: Shopping Barra;
+  - colégios: Anchieta, Marista (Patamares e Canela), São Paulo, Oficina, Gregor Mendel, Sartre,
+    Pan American School of Bahia, Maple Bear Salvador;
+  - idiomas: ACBEU, ICBA, Aliança Francesa, Cultura Inglesa.
