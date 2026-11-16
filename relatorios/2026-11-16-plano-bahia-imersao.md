@@ -69,3 +69,36 @@ Janela: 17/11 a 18/12 (32 dias). Limite de gastos R$2.800. Término 19/12 às 07
 Total ≈ R$2.735. Custo por venda aceitável: R$100–150 → ~19–28 vendas. Regra: R$250 sem venda →
 pausar. Depois de 21/11, se faltar volume, entra o 1% DOS VIAJANTES (R$20), tirando do conjunto
 mais fraco.
+
+## Referência: imersão Bahia de nov/2025 (campanha MV - [IE] [VENDAS-IMERSÃO BAHIA NOV] [A+])
+- Resultado informado pela usuária: **51 avaliativos + 28 aprovados = 79 participantes**.
+- Meta: **R$2.000, 17 vendas, R$118 por venda**. Avaliativos ÷ vendas Meta ≈ 3x.
+
+| Conjunto | Gasto | Vendas | Custo/venda |
+|---|---|---|---|
+| **p1_estado_ambos_25mais_pais&futebol** | R$932 | **9** | **R$104** |
+| p6_cidade_ambos_18a44_futebol | R$286 | 2 | R$143 |
+| p7_cidade_advantage | R$218 | 2 | R$109 |
+| p2_estado_ambos_18a44_futebol | R$232 | 2 | R$116 |
+| p3_estado_homens_18a44_aberto | R$232 | 1 | R$232 |
+| p4_cepsInteresse_ambos_18a44_aberto | R$60 | 1 | R$60 |
+| p5_cidade_homens_18a44_aberto | R$41 | 0 | — |
+
+Estrutura do p1:
+- Bahia, 25–65, Advantage+ **desligado**.
+- Caixa 1: Pais (todos), filhos de 9–12, filhos de 13–17.
+- **E** caixa 2: Futebol (futebol), Adidas, Nike, Soccer fans (high).
+- As duas caixas aqui são de propósito: "pais **que** gostam de futebol".
+
+## Estrutura final proposta (substitui o PAIS FUTEBOL + ALTO VALOR SSA, que nunca foi testado)
+
+| Conjunto | 17/11–13/12 | 14–18/12 |
+|---|---|---|
+| ESTADO_AMBOS_25MAIS_PAIS&FUTEBOL (cópia do p1 de 2025) | R$35 | R$35 |
+| MELHORES BAIRROS SSA + LITORAL NORTE | R$25 | R$25 |
+| COMPRADORES QUENTES | R$20 | R$25 |
+| RMKT IMERSÃO | — | R$30 |
+| **Total** | **R$80** | **R$115** |
+
+Meta: 50 participantes (avaliativos + aprovados). Pela proporção de 2025 (~3 avaliativos por venda
+no Meta), ~15–20 vendas no Meta bastam. Previsão com R$2.800 a ~R$118: ~22–24.
