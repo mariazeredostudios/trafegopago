@@ -70,3 +70,4 @@ R$50) e serão ajustados com a aprovação da usuária.
   - anúncio PAIS (120252472025220675) ✅;
   - faltam: anúncio 1% (120252472037640675), anúncio FUTEBOL (120252472048000675),
     conjuntos 120252471993960675 / 120252472004180675 / 120252472012330675, campanha.
+- **ATIVADA (16/11):** campanha, 3 conjuntos FLEX e 3 anúncios. RMKT - FLEX pausado até 30/11.
