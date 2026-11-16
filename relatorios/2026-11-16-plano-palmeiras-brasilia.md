@@ -64,3 +64,9 @@ R$50) e serão ajustados com a aprovação da usuária.
 | RMKT - FLEX (120252472052480675), ligar em 30/11 | R$30 | COPY C (120252472065810675) |
 
 - Pendente: limite de R$2.500 e ativação dos 3 primeiros (aprovação da usuária).
+- Ativação aprovada pela usuária ("aprovo o limite e ativa"). Progresso, chamada a chamada (a
+  conexão da Windsor cai entre as chamadas):
+  - limite de R$2.500 ✅;
+  - anúncio PAIS (120252472025220675) ✅;
+  - faltam: anúncio 1% (120252472037640675), anúncio FUTEBOL (120252472048000675),
+    conjuntos 120252471993960675 / 120252472004180675 / 120252472012330675, campanha.
