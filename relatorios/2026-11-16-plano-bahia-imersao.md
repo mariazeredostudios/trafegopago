@@ -102,3 +102,21 @@ Estrutura do p1:
 
 Meta: 50 participantes (avaliativos + aprovados). Pela proporção de 2025 (~3 avaliativos por venda
 no Meta), ~15–20 vendas no Meta bastam. Previsão com R$2.800 a ~R$118: ~22–24.
+
+## Criação no Meta (16/11, tudo PAUSADO)
+- Campanha **BAHIA IMERSÃO 19-20/12**: 120252470176590675 (Vendas, ABO).
+- Conjuntos (criativo dinâmico, pixel de Compra, 7 dias clique / 1 dia visualização,
+  término em 19/12 às 07h, Advantage+ desligado):
+  - ESTADO_AMBOS_25MAIS_PAIS&FUTEBOL (120252470181670675): R$35. Cópia do p1 de 2025.
+  - COMPRADORES QUENTES (120252470184750675): R$20. Bahia - Compradores - 180D +
+    COMPRADORES IESPORTS 180D + COMPRADORES VIAGENS GERAL; BA.
+  - MELHORES BAIRROS SSA + LITORAL NORTE (120252470191920675): R$25. 10 pinos de 2 km (Barra,
+    Graça/Vitória, Ondina, Horto, Pituba, Caminho das Árvores/Itaigara, Patamares, Alphaville,
+    Vilas do Atlântico, Busca Vida); interesses de futebol; 25–65. **Pinos por coordenada
+    aproximada: conferir no mapa do Gerenciador.**
+- Artes na conta:
+  - 1:1 grupo (afa847d0…), 1:1 cachos (4ae6198d…), 1:1 colete (0be8c930…);
+  - 9:16 grupo (bfdb9d86…), 9:16 cachos (e68587da…).
+- Faltam a 4:5 dupla e a 9:16 colete (a usuária vai enviar pelo botão de upload).
+- Pendente: "ok copies", criar os anúncios flexíveis (1 por conjunto), limite de R$2.800,
+  ativação.
