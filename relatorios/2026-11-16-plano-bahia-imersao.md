@@ -38,3 +38,19 @@ Criado em 16/11. Fonte do evento: Sympla 3646273.
 ## Pendente
 - Orçamento total, preço do ingresso, número de vagas, se a imersão leva à seleção para viagem.
 - Criativos (a usuária vai enviar).
+
+## Revisão (16/11, orientação da usuária)
+- **Roda junto com a BAHIA NOV.** Começa já (17/11) e vai até 19/12 às 07h.
+- **Foco da mensagem: "Viva 2 dias como um jogador profissional".**
+  - 2 dias de treino no CT, amistoso, almoço no CT;
+  - perto da metodologia do Bahia;
+  - concorre a uma camisa autografada pelos jogadores do profissional.
+  - A seletiva para o International **não** é o argumento principal.
+- **Para não disputar com a BAHIA NOV** (que usa Estado aberto, 1% DOS VIAJANTES BA, PAIS + ALTO
+  VALOR BA e RMKT + INTERAÇÃO), a imersão usa públicos diferentes:
+  1. **COMPRADORES BAHIA + IESPORTS** (quem já pagou seletiva; upsell): Bahia.
+  2. **MELHORES BAIRROS SSA + LITORAL NORTE** (novo).
+  3. **PAIS FUTEBOL + ALTO VALOR SSA**: Salvador + 40 km, 30–55, interesses de futebol e Soccer
+     fans + pais com filhos de 6–17 + "prefere bens de alto valor". É diferente do PAIS + ALTO
+     VALOR da NOV (estado, viagem/primeira classe).
+  - O 1% DOS VIAJANTES entra só depois de 21/11, se for preciso.
