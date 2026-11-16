@@ -59,3 +59,11 @@ Estrutura de origem (o RMKT que mais vendeu em cada clube):
   - orçamentos: Vasco R$20 (veio com R$45), Bahia R$45 (veio com R$35), Flu com gasto mínimo
     de R$30;
   - ativação.
+- **Aplicado (aprovado pela usuária):**
+  - Vasco RMKT: copy de urgência (creative 4703061563309493), R$20/dia, **ATIVO**.
+  - Flu RMKT: copy de urgência (creative 967760322758378; a geração automática de fundo foi
+    desligada porque exigia catálogo), sem gasto mínimo (a soma dos mínimos passava do orçamento
+    da campanha), **ATIVO**.
+  - Bahia RMKT: R$45/dia, **pausado**. A copy nova não pôde ser aplicada: os públicos são da conta
+    do Bahia (ecbahia) e exigem a página do Bahia (166133546756181), que a Windsor não tem
+    permissão para usar. O anúncio "RMKT - ARTES" está com a copy do ARTES atual.
