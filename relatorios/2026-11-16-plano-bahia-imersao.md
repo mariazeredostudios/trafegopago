@@ -120,3 +120,4 @@ no Meta), ~15–20 vendas no Meta bastam. Previsão com R$2.800 a ~R$118: ~22–
 - Faltam a 4:5 dupla e a 9:16 colete (a usuária vai enviar pelo botão de upload).
 - Pendente: "ok copies", criar os anúncios flexíveis (1 por conjunto), limite de R$2.800,
   ativação.
+- Vídeo da imersão na conta: BAHIA IMERSÃO - VIDEO 1 (id 1158768306754559), via Dropbox.
