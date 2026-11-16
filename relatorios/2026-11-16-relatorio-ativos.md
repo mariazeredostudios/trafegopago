@@ -34,3 +34,28 @@ As seletivas de 15/11 (Coritiba, Grêmio POA, Bota) já saíram do ar.
 - Fluminense: orçamento da campanha R$165.
 - Não aplicado (precisa escolher público no Gerenciador): RMKT CHECKOUT Vasco, RMKT +
   INTERAÇÃO Bahia, RMKT FLU, MELHORES BAIRROS BH (Cruzeiro).
+
+## RMKT (16/11): em criação
+Estrutura de origem (o RMKT que mais vendeu em cada clube):
+- **Vasco:** "rmktinteração" da MARIA [VASCO QUANTITATIVO]: R$1.898, 20 vendas (R$95). Públicos
+  VÍDEOVASCO, VISITA 180D e os semelhantes de 1% de cada, + 18 interesses de futebol e Soccer
+  fans; RJ.
+- **Bahia:** "RMKT + INTERAÇÃO" da MARIA [BAHIA QUANTITATIVO]: R$2.190, 23 vendas (R$95).
+  13 públicos (sem os de compradores) e exclusão de Bahia - Compradores - 30D; BA.
+- **Flu:** "RMKT" da FLU BSB: R$1.423, 16 vendas (R$89). 8 públicos (sem compradores) e
+  exclusão de Fluminense - Compradores - 30D; **só RJ** (a original tinha Brasília).
+- Conjuntos duplicados dentro das campanhas atuais (pausados):
+  - Vasco 120252469230530675;
+  - Bahia 120252469231350675;
+  - Flu 120252469232800675.
+- Criativos: os campeões da campanha atual de cada clube (Vasco "IESPORTS BR" com 10 vendas;
+  Bahia "ARTES" com 16; Flu "IESPORTS" com 13), com a copy de urgência.
+- Anúncios criados (PAUSADOS), com o criativo campeão:
+  - Vasco: RMKT - IESPORTS BR (120252469251280675);
+  - Bahia: RMKT - ARTES (120252469257560675);
+  - Flu: RMKT - IESPORTS (120252469269030675).
+- Pendente:
+  - aprovação da copy de urgência (trocar via update_ad_creative);
+  - orçamentos: Vasco R$20 (veio com R$45), Bahia R$45 (veio com R$35), Flu com gasto mínimo
+    de R$30;
+  - ativação.
