@@ -54,3 +54,18 @@ Criado em 16/11. Fonte do evento: Sympla 3646273.
      fans + pais com filhos de 6–17 + "prefere bens de alto valor". É diferente do PAIS + ALTO
      VALOR da NOV (estado, viagem/primeira classe).
   - O 1% DOS VIAJANTES entra só depois de 21/11, se for preciso.
+
+## Valores (orçamento R$2.800, ingresso R$350)
+Janela: 17/11 a 18/12 (32 dias). Limite de gastos R$2.800. Término 19/12 às 07h.
+
+| Conjunto | 17/11–13/12 (27 dias) | 14–18/12 (5 dias) |
+|---|---|---|
+| COMPRADORES QUENTES (compradores Bahia e IESPORTS 180D + COMPRADORES VIAGENS GERAL; BA) | R$20 | R$25 |
+| MELHORES BAIRROS SSA + LITORAL NORTE | R$30 | R$30 |
+| PAIS FUTEBOL + ALTO VALOR SSA | R$30 | R$30 |
+| RMKT IMERSÃO (última semana) | — | R$30 |
+| **Total** | **R$80** (= R$2.160) | **R$115** (= R$575) |
+
+Total ≈ R$2.735. Custo por venda aceitável: R$100–150 → ~19–28 vendas. Regra: R$250 sem venda →
+pausar. Depois de 21/11, se faltar volume, entra o 1% DOS VIAJANTES (R$20), tirando do conjunto
+mais fraco.
