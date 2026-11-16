@@ -48,3 +48,19 @@ R$50) e serão ajustados com a aprovação da usuária.
 - Aprovação dos orçamentos, do limite de R$2.500 e da ativação.
 - Vídeo na conta: PALMEIRAS BRASÍLIA - VIDEO 1 (id 1632026394433340), via Dropbox.
 - Fotos enviadas pela usuária pelo link de upload. Os códigos (image_hash) ainda não chegaram.
+
+## Anúncios (16/11, PAUSADOS)
+- Copies aprovadas (A, B, C), com a Disney Cup 2027.
+- 10 artes enviadas para a conta. A horizontal 16:9 ficou de fora: o anúncio dinâmico aceita no
+  máximo 10 mídias (9 artes + 1 vídeo).
+- Os conjuntos duplicados da EXTERNA não aceitam anúncio flexível. Foram criados conjuntos
+  "- FLEX" com a mesma segmentação. Os duplicados ficam pausados e sem uso:
+
+| Conjunto FLEX (id) | Valor | Anúncio |
+|---|---|---|
+| PAIS + ALTO VALOR - FLEX (120252471993960675) | R$60 | COPY A (120252472025220675) |
+| MELHOR PUBLICO - 1% DOS VIAJANTES - FLEX (120252472004180675) | R$40 | COPY A (120252472037640675) |
+| BRASÍLIA + FUTEBOL - FLEX (120252472012330675) | R$30 | COPY B (120252472048000675) |
+| RMKT - FLEX (120252472052480675), ligar em 30/11 | R$30 | COPY C (120252472065810675) |
+
+- Pendente: limite de R$2.500 e ativação dos 3 primeiros (aprovação da usuária).
