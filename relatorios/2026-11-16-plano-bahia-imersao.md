@@ -121,3 +121,9 @@ no Meta), ~15–20 vendas no Meta bastam. Previsão com R$2.800 a ~R$118: ~22–
 - Pendente: "ok copies", criar os anúncios flexíveis (1 por conjunto), limite de R$2.800,
   ativação.
 - Vídeo da imersão na conta: BAHIA IMERSÃO - VIDEO 1 (id 1158768306754559), via Dropbox.
+- Anúncios flexíveis (PAUSADOS), com 5 artes + 1 vídeo e o link do Sympla 3646273:
+  - ESTADO: IMERSÃO - FLEXÍVEL (COPY A) 120252470228510675;
+  - BAIRROS: IMERSÃO - FLEXÍVEL (COPY A) 120252470308030675;
+  - COMPRADORES QUENTES: IMERSÃO - FLEXÍVEL (COPY B) 120252470320480675.
+- Copies e limite aprovados pela usuária. Limite de gastos: **R$2.800** aplicado.
+- Pendente: ativação. A 4:5 dupla e a 9:16 colete não chegaram como arquivo e não entraram.
