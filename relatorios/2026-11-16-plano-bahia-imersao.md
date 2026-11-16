@@ -141,3 +141,11 @@ Aplicado via Windsor, por coordenada aproximada:
   - colégios: Anchieta, Marista (Patamares e Canela), São Paulo, Oficina, Gregor Mendel, Sartre,
     Pan American School of Bahia, Maple Bear Salvador;
   - idiomas: ACBEU, ICBA, Aliança Francesa, Cultura Inglesa.
+
+## 16/11: ATIVADA
+- A usuária editou as localizações do MELHORES BAIRROS pelo Claude no Chrome (pinos pelo nome) e
+  pediu para ativar.
+- Ativos: campanha BAHIA IMERSÃO 19-20/12, os 3 conjuntos e os 3 anúncios flexíveis.
+- Limite: R$2.800. Término: 19/12 às 07h.
+- Régua (vendas no Meta): 24/11 ~4 · 01/12 ~8 · 14/12 ~13 · 19/12 17 ou mais (= ~50 avaliativos).
+- 14/12: criar RMKT IMERSÃO (R$30) e COMPRADORES QUENTES R$25.
