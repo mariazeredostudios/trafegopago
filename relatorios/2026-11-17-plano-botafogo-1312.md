@@ -169,3 +169,10 @@ Total ≈ R$2.490. A COPY C (RMKT) sai: o INTERAÇÃO faz o papel de remarketing
 - Vídeos: BOTA DEZ - VIDEO 1 (1836034754395955), VIDEO 2 (2600633243777045).
 - **Flamengo:** COMPRADORES BOTAFOGO 180D e RMKT BOT - 180D excluídos dos 4 conjuntos (17/11).
 - Pendente: ok das copies, limite de R$2.500 e ativação.
+
+## 17/11: ATIVADA ("ok copies, limite, ativa")
+- COPY B ajustada a pedido da usuária: "Imagine seu filho representando o Botafogo fora do país."
+  (novo creative 1735166024836641).
+- Limite de gastos: **R$2.500** ✅.
+- Ativos: campanha BOTA DEZ 13/12, os 3 conjuntos (ESTADO R$45, ABERTO R$30, INTERAÇÃO R$15) e os 3 anúncios.
+- Controle: 24/11 primeira leitura; 07/12 INTERAÇÃO para R$40 + régua.
