@@ -111,3 +111,9 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
   - RJ ABERTO: FLA DEZ - FLEXÍVEL (COPY B) 120252487915170675;
   - RMKT FLA: FLA DEZ - RMKT (COPY C) 120252488285860675 (ligar em 30/11).
 - Pendente: ok das copies, limite de R$2.500 e ativação dos 3 primeiros.
+
+## 17/11: ATIVADA (aprovada pela usuária: "ok copies e aprovo o limite e ativa")
+- Limite de gastos: **R$2.500** ✅.
+- Ativos: campanha FLAMENGO DEZ 06/12, os 3 conjuntos FLEX (PAIS R$55, 1% R$35, RJ ABERTO R$30) e os 3 anúncios.
+- RMKT FLA - FLEX e o anúncio COPY C ficam **pausados até 30/11**.
+- Controle: 23/11 primeira leitura (R$150 sem venda → pausar); 30/11 ligar o RMKT e conferir a régua.
