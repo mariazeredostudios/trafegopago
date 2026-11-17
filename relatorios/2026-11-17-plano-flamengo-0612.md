@@ -105,3 +105,9 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 - Artes (9): 1:1 jogue ce2ab2da…, 1:1 represente 0406b206…, 1:1 seletiva b0be31bc…, 4:5 jogue 773b65d7…, 4:5 represente 80d4a5ea…, 4:5 seletiva eae4c627…, 9:16 jogue 73325d02…, 9:16 represente e0ddd1c5…, 9:16 seletiva a0b17543….
 - Vídeos: VIDEO 1 (1084254497982956), VIDEO 2 (2905529653166700).
 - Limite de 10 mídias no flexível: 8 artes + 2 vídeos (a 1:1 "jogue" ficou de fora; a 4:5 "jogue" cobre o feed).
+- Anúncios flexíveis (PAUSADOS), 8 artes + 2 vídeos, botão "Saiba mais", link do Sympla 3645053, página 390059101638921:
+  - PAIS + ALTO VALOR: FLA DEZ - FLEXÍVEL (COPY A) 120252487889940675;
+  - 1% DOS VIAJANTES: FLA DEZ - FLEXÍVEL (COPY A) 120252487901460675;
+  - RJ ABERTO: FLA DEZ - FLEXÍVEL (COPY B) 120252487915170675;
+  - RMKT FLA: FLA DEZ - RMKT (COPY C) 120252488285860675 (ligar em 30/11).
+- Pendente: ok das copies, limite de R$2.500 e ativação dos 3 primeiros.
