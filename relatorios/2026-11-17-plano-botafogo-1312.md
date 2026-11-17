@@ -106,3 +106,45 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 - Criativos (imagens em 2 mensagens de até 5; vídeos pelo Dropbox).
 - Corrigir o endereço no Sympla; pixel 8699470433453828 na integração do Facebook.
 - Limite de R$2.500 e ativação.
+
+## Versão final (17/11, pedido da usuária): públicos de agosto, sem repetir os do Flamengo
+
+### Agosto (MARIA [BOTAFOGO QUANTITATIVO], 24/07 a 17/08)
+
+| Conjunto | Gasto | Vendas | Custo/venda |
+|---|---|---|---|
+| **Estado_homens_18mais_advantage** (RJ, **ambos os gêneros**, sem interesses) | R$1.065 | 38 | **R$28** |
+| **ABERTO** (RJ, interesse Botafogo) | R$700 | 15 | **R$47** |
+| **INTERAÇÃO** (públicos do Botafogo E interesse Botafogo) | R$197 | 5 | **R$39** |
+| abertofutebol / PAIS + ALTO VALOR / 1% | R$126 | 1 | — |
+
+- Apesar do nome, o Estado de agosto rodava para **homens e mulheres**. No NOV ele estava só com homens.
+- O INTERAÇÃO de agosto usava só públicos do Botafogo (VÍDEOBOT, SITE BOTAFOGO, VÍDEO BOTAFOGO,
+  RMKT BOT 180D e os semelhantes). No NOV ele tinha os públicos gerais da IESPORTS (os mesmos do RMKT
+  do Flamengo) e não vendeu.
+
+### Separação dos cariocas
+| Público | Flamengo (até 06/12) | Botafogo (até 13/12) |
+|---|---|---|
+| Pais + alto valor / luxo | ✅ PAIS + ALTO VALOR | ❌ |
+| Compradores de viagem + LAL | ✅ 1% DOS VIAJANTES | ❌ |
+| Futebol geral (16 interesses, inclui Flamengo) | ✅ RJ ABERTO | ❌ |
+| Públicos gerais IESPORTS (engajamento, seguidores, RMKT 180D, compradores Sympla) | ✅ RMKT FLA a partir de 30/11 | ❌ (saem COMPRADORES SYMPLA e BAIRROS) |
+| Interesse Botafogo | ❌ | ✅ ABERTO BOTA |
+| Públicos do Botafogo (vídeo, site, RMKT BOT) | ❌ | ✅ INTERAÇÃO BOTA |
+| Estado aberto (Advantage) | ❌ | ✅ (único ponto de sobreposição; o Meta escolhe quem entrega) |
+
+- Proposta: excluir **COMPRADORES BOTAFOGO 180D** e **RMKT BOT - 180D** dos conjuntos do Flamengo, e
+  COMPRADORES BOTAFOGO 180D de todos os conjuntos do Botafogo.
+- O Meta não permite mais excluir por interesse (ex.: "Flamengo"). A separação é feita pelos públicos
+  escolhidos e pela exclusão de públicos personalizados.
+
+### Estrutura BOTA DEZ 13/12 (substitui a anterior)
+| Conjunto | 17/11–06/12 (20 dias) | 07–12/12 (6 dias) | Copy |
+|---|---|---|---|
+| ESTADO AMBOS ADVANTAGE - FLEX (cópia de agosto) | R$45 | R$45 | A |
+| ABERTO BOTA - FLEX (interesse Botafogo) | R$30 | R$30 | A |
+| INTERAÇÃO BOTA - FLEX (só públicos do Botafogo, sem compradores) | R$15 | R$40 | B |
+| **Total** | **R$90** (= R$1.800) | **R$115** (= R$690) | |
+
+Total ≈ R$2.490. A COPY C (RMKT) sai: o INTERAÇÃO faz o papel de remarketing na última semana.
