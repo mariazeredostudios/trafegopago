@@ -43,15 +43,15 @@ Total ≈ R$2.460. Saem: BAIRROS, PAIS + INTERCÂMBIO e o RMKT + INTERAÇÃO ant
 - Previsão: R$2.460 a R$65–90 → **~27–35 vendas** (meta 30).
 
 ## Copies (aguardando aprovação)
-Sem preço. [COMPETIÇÃO/DESTINO] a confirmar.
+Sem preço. Competição: Disney Cup 2027 (confirmada pelas artes).
 
 ### A) PAIS + ALTO VALOR e 1% DOS VIAJANTES
 Imagine seu filho vestindo o Manto fora do país. 🌎⚽
 
-No domingo, 06/12, atletas de 8 a 18 anos são avaliados na seletiva oficial Flamengo EF
+No domingo, 06/12, atletas de 8 a 19 anos são avaliados na seletiva oficial Flamengo EF
 International, no Clube da Aeronáutica, na Barra da Tijuca.
 
-Os selecionados formam o time que vai representar o Flamengo em [COMPETIÇÃO/DESTINO], com
+Os selecionados formam o time que vai representar o Flamengo em Disney Cup 2027, nos Estados Unidos, com
 comissão técnica do projeto e a metodologia do clube.
 
 Uma experiência internacional que forma o atleta e a pessoa, dentro e fora de campo.
@@ -64,16 +64,16 @@ Uma experiência internacional que forma o atleta e a pessoa, dentro e fora de c
 ### B) RJ ABERTO (torcedor)
 Rubro-negro de coração, essa é para o seu filho. ❤️🖤
 
-Domingo, 06/12, tem seletiva oficial do Flamengo na Barra da Tijuca, para atletas de 8 a 18 anos.
+Domingo, 06/12, tem seletiva oficial do Flamengo na Barra da Tijuca, para atletas de 8 a 19 anos.
 
-Os selecionados vestem o Manto em [COMPETIÇÃO/DESTINO].
+Os selecionados vestem o Manto em Disney Cup 2027, nos Estados Unidos.
 
 Se ele vive de bola no pé, essa pode ser a chance dele.
 
-⚽ 8 a 18 anos · 📍 Clube da Aeronáutica, Barra · 📅 Domingo, 06/12
+⚽ 8 a 19 anos · 📍 Clube da Aeronáutica, Barra · 📅 Domingo, 06/12
 👉 Vagas limitadas. Inscreva seu filho pelo link.
 
-**Título:** Seletiva Flamengo · 06/12 · **Descrição:** Atletas de 8 a 18 anos
+**Título:** Seletiva Flamengo · 06/12 · **Descrição:** Atletas de 8 a 19 anos
 
 ### C) RMKT FLA (30/11 a 05/12)
 ⚠️ É neste domingo, 06/12.
@@ -88,7 +88,7 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 **Título:** É neste domingo: seletiva Flamengo · **Descrição:** Garanta a vaga do seu filho
 
 ## Pendente
-- Competição/destino da viagem.
+- Vídeo (Dropbox) e artes (link de upload).
 - Aprovação das copies e da estrutura.
 - Criativos (imagens, 5 por mensagem; vídeos pelo Dropbox).
 - Limite de R$2.500 e ativação.
