@@ -148,3 +148,24 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 | **Total** | **R$90** (= R$1.800) | **R$115** (= R$690) | |
 
 Total ≈ R$2.490. A COPY C (RMKT) sai: o INTERAÇÃO faz o papel de remarketing na última semana.
+
+## Criação no Meta (17/11, tudo PAUSADO) — aprovada com "aplica"
+- Competição: **Disney Cup 2027** (informada pela usuária). Artes: **8 a 18 anos**.
+- Campanha **BOTA DEZ 13/12**: 120252488668440675 (Vendas, ABO). Término 13/12 às 08h.
+- Conjuntos (pixel 8699470433453828 Compra, 7d clique / 1d visualização, RJ estado, excluindo COMPRADORES BOTAFOGO 180D):
+  - ESTADO AMBOS ADVANTAGE - FLEX (120252488670310675): R$45. Sem interesses, homens e mulheres.
+  - ABERTO BOTA - FLEX (120252488670760675): R$30. Interesse Botafogo.
+  - INTERAÇÃO BOTA - CARROSSEL (120252488673160675): R$15 (R$40 de 07 a 12/12). Públicos do Botafogo
+    (VÍDEOBOT, SITE BOTAFOGO, VÍDEO BOTAFOGO, RMKT BOT 180D e semelhantes) E interesse Botafogo. Não é
+    dinâmico, para aceitar o carrossel.
+- Anúncios (PAUSADOS), link Sympla 3656518, botão "Saiba mais":
+  - ESTADO: BOTA DEZ - FLEXÍVEL (COPY A) 120252488675680675. 4:5 e 9:16 de Disney, Nilton Santos, Convoca e
+    "Não é base" + 2 vídeos.
+  - ABERTO: BOTA DEZ - FLEXÍVEL (COPY A) 120252488681530675. 4:5 e 9:16 de Disney, Nilton Santos, Goleiro e
+    "Não é base" + 2 vídeos.
+  - INTERAÇÃO: BOTA DEZ - CARROSSEL (COPY B) 120252488692570675. Card 1: "Quer jogar... Disney Cup" (1:1);
+    card 2: "O que o programa oferece" (1:1). Ordem fixa.
+- Fora: a arte do goleiro com "15 de novembro" e 50% de desconto (proibido divulgar desconto).
+- Vídeos: BOTA DEZ - VIDEO 1 (1836034754395955), VIDEO 2 (2600633243777045).
+- **Flamengo:** COMPRADORES BOTAFOGO 180D e RMKT BOT - 180D excluídos dos 4 conjuntos (17/11).
+- Pendente: ok das copies, limite de R$2.500 e ativação.
