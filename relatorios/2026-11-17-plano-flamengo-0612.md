@@ -51,7 +51,7 @@ Imagine seu filho vestindo o Manto fora do país. 🌎⚽
 No domingo, 06/12, atletas de 8 a 19 anos são avaliados na seletiva oficial Flamengo EF
 International, no Clube da Aeronáutica, na Barra da Tijuca.
 
-Os selecionados formam o time que vai representar o Flamengo em Disney Cup 2027, nos Estados Unidos, com
+Os selecionados formam o time que vai representar o Flamengo na Disney Cup 2027, nos Estados Unidos, com
 comissão técnica do projeto e a metodologia do clube.
 
 Uma experiência internacional que forma o atleta e a pessoa, dentro e fora de campo.
@@ -66,7 +66,7 @@ Rubro-negro de coração, essa é para o seu filho. ❤️🖤
 
 Domingo, 06/12, tem seletiva oficial do Flamengo na Barra da Tijuca, para atletas de 8 a 19 anos.
 
-Os selecionados vestem o Manto em Disney Cup 2027, nos Estados Unidos.
+Os selecionados vestem o Manto na Disney Cup 2027, nos Estados Unidos.
 
 Se ele vive de bola no pé, essa pode ser a chance dele.
 
