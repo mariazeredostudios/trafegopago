@@ -93,3 +93,15 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 - Criativos (imagens, 5 por mensagem; vídeos pelo Dropbox).
 - Limite de R$2.500 e ativação.
 - Pixel IESPORTS (8699470433453828) na integração do Facebook do evento no Sympla.
+
+## Criação no Meta (17/11, tudo PAUSADO)
+- Campanha **FLAMENGO DEZ 06/12**: 120252487818510675 (Vendas, ABO). Término dos conjuntos: 06/12 às 08h.
+- Conjuntos (criativo dinâmico, pixel 8699470433453828 Compra, 7d clique / 1d visualização, RJ estado, home + recent):
+  - PAIS + ALTO VALOR - FLEX (120252487825580675): R$55. Cópia do OUT (35–55, interesses de luxo + pais + alto valor).
+  - MELHOR PUBLICO - 1% DOS VIAJANTES - FLEX (120252487828080675): R$35. COMPRADORES VIAGENS GERAL + LAL 1% + LAL 3% viajantes.
+  - RJ ABERTO - FLEX (120252487831850675): R$30. 16 interesses de futebol (com Flamengo) + Soccer fans.
+  - RMKT FLA - FLEX (120252487837330675): R$30, ligar em 30/11. Públicos do RMKT + INTERAÇÃO do OUT **sem** as listas de compradores (COMPRADORES IESPORTS 180D e COMPRADORES SYMPLA saíram).
+- Não existe público "Flamengo - Compradores - 30D" na conta: sem exclusão de compradores (o OUT também não tinha).
+- Artes (9): 1:1 jogue ce2ab2da…, 1:1 represente 0406b206…, 1:1 seletiva b0be31bc…, 4:5 jogue 773b65d7…, 4:5 represente 80d4a5ea…, 4:5 seletiva eae4c627…, 9:16 jogue 73325d02…, 9:16 represente e0ddd1c5…, 9:16 seletiva a0b17543….
+- Vídeos: VIDEO 1 (1084254497982956), VIDEO 2 (2905529653166700).
+- Limite de 10 mídias no flexível: 8 artes + 2 vídeos (a 1:1 "jogue" ficou de fora; a 4:5 "jogue" cobre o feed).
