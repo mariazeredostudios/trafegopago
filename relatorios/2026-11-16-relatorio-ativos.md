@@ -67,3 +67,18 @@ Estrutura de origem (o RMKT que mais vendeu em cada clube):
   - Bahia RMKT: R$45/dia, **pausado**. A copy nova não pôde ser aplicada: os públicos são da conta
     do Bahia (ecbahia) e exigem a página do Bahia (166133546756181), que a Windsor não tem
     permissão para usar. O anúncio "RMKT - ARTES" está com a copy do ARTES atual.
+
+## 17–18/11: RMKT Vasco sem entrega
+- O conjunto RMKT + INTERAÇÃO (QUANTITATIVO) (120252469230530675) teve **0 impressões** desde que foi
+  ligado em 16/11. A causa provável é o criativo novo em análise ou reprovado, ou o público pequeno
+  (4 públicos E 18 interesses).
+- A usuária pediu: refazer o anúncio com todas as artes e publicar.
+- A VASCO NOV não aceitou um conjunto FLEX novo (erro "otimização deve ser igual"). Foi criada uma campanha
+  separada, **VASCO RMKT 22/11** (120252489217030675), **pausada**:
+  - conjunto RMKT VASCO - FLEX (120252489217910675): R$20/dia, término 22/11 às 08h, mesma segmentação,
+    Advantage+ ligado;
+  - anúncio VASCO RMKT - FLEXÍVEL (120252489222000675): 4 artes 4:5 + 4 artes 9:16 de novembro (todas
+    conferidas: 22/11, São Januário, Disney Cup 2027) + 2 vídeos da campanha; copy de urgência aprovada;
+    Sympla 3630124. As 4 versões 1:1 ficaram de fora (o limite é de 10 mídias).
+- O limite de R$110 na campanha nova foi **negado** no pedido de aprovação. Nada foi ativado. O RMKT
+  antigo continua ligado (sem entregar).
