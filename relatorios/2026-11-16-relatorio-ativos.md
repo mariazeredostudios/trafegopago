@@ -86,3 +86,9 @@ Estrutura de origem (o RMKT que mais vendeu em cada clube):
 ## 18/11: Flu
 - A pedido da usuária: **gasto mínimo de R$70/dia** no PAIS + INTERCAMBIO (120252353915000675), o público
   com ~R$41 por compra (R$126 / 3 vendas no FLUMINENSE NOV). Orçamento da campanha (CBO): R$165.
+- 18/11 (pedido: gastar R$2.700, hoje com 33 inscritos, meta de 55):
+  - gasto até a manhã de 18/11 ≈ R$2.075 → saldo ≈ R$625 para ~3,6 dias;
+  - aplicado: **limite de R$2.700** na campanha (antes não tinha), **orçamento R$165 → R$175/dia**,
+    **término 22/11 às 08h** nos 5 conjuntos (antes não tinham);
+  - projeção: ~6–8 vendas no Meta até sábado. Pela proporção do ciclo (~33 inscritos para ~20 vendas
+    no Meta), isso dá ~45–48 inscritos. Para chegar a 55, o restante precisa vir de orgânico/collab.
