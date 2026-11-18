@@ -92,3 +92,6 @@ Estrutura de origem (o RMKT que mais vendeu em cada clube):
     **término 22/11 às 08h** nos 5 conjuntos (antes não tinham);
   - projeção: ~6–8 vendas no Meta até sábado. Pela proporção do ciclo (~33 inscritos para ~20 vendas
     no Meta), isso dá ~45–48 inscritos. Para chegar a 55, o restante precisa vir de orgânico/collab.
+  - aprovado pela usuária ("quero"): **BRASIL + FLU + FUTEBOL com teto de R$50/dia**
+    (daily_max_spend_target) e **RMKT FLU com mínimo de R$30/dia**. Distribuição: PAIS + INTERCAMBIO ≥ R$70,
+    RMKT ≥ R$30, BRASIL ≤ R$50, o resto (~R$25) livre para o Meta.
