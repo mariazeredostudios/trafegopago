@@ -82,3 +82,7 @@ Estrutura de origem (o RMKT que mais vendeu em cada clube):
     Sympla 3630124. As 4 versões 1:1 ficaram de fora (o limite é de 10 mídias).
 - O limite de R$110 na campanha nova foi **negado** no pedido de aprovação. Nada foi ativado. O RMKT
   antigo continua ligado (sem entregar).
+
+## 18/11: Flu
+- A pedido da usuária: **gasto mínimo de R$70/dia** no PAIS + INTERCAMBIO (120252353915000675), o público
+  com ~R$41 por compra (R$126 / 3 vendas no FLUMINENSE NOV). Orçamento da campanha (CBO): R$165.
