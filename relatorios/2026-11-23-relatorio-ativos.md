@@ -61,3 +61,23 @@ Pausar as três campanhas. O Flu parou certo (limite de R$2.700 e término às 0
 | Fortaleza | Manter; meta de 30 vendas batida. Avaliar criativo novo (4 dias com 2 vendas) |
 | Botafogo | Manter; 1ª leitura em 24/11 |
 | Bahia imersão | Manter |
+
+## Aplicado em 23/11 ("pausa e aplica tudo")
+- **Pausadas:** BAHIA NOV (120252156780380675), VASCO NOV (120252117849770675), GRÊMIO SINOP
+  (120252117545030675).
+- **Sport:**
+  - CIDADE COM FUTEBOL - FLEX pausado;
+  - RECIFE+40 ABERTO - FLEX R$80 → R$100;
+  - **RMKT SPORT - FLEX** (120252581126700675) ATIVO, R$60/dia, Recife + 40 km, término 29/11 às 08h.
+    Públicos: envolvimento 365D, seguidores, visita ao perfil, RMKT IESPORTS 180D + semelhantes;
+    exclui COMPRADORES IESPORTS 180D. Anúncio SPORT NOV - RMKT (COPY C) 120252581134220675, com
+    5 artes + 2 vídeos. Copy de urgência: "É neste domingo, 29/11… Orlando Cup 2027".
+- **Santos:**
+  - 1% DOS VIAJANTES R$40 → R$52;
+  - BAIRROS R$25 → R$32;
+  - **RMKT SANTOS** (120252579746680675) ATIVO, R$50/dia, estado de SP, término 29/11 às 08h.
+    Duplicado do 1% com o anúncio dele (120252579747620675). Públicos do RMKT do SANTOS OUT sem as
+    listas de compradores; exclui COMPRAS SANTOS.
+  - Achado: o RMKT do SANTOS OUT rodava com o anúncio "iu03_avaliativobahiaSet". Esse é o nome
+    dos anúncios do Santos NOV também; a copy é do Santos.
+- **Flamengo:** 1% DOS VIAJANTES R$35 → R$25; RJ ABERTO R$30 → R$38.
