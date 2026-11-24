@@ -54,3 +54,9 @@ link." Título: "É neste fim de semana: treino do Coxa".
 
 - 24/11: COPY A ajustada a pedido da usuária: "Avaliação por treinadores da base" e sem a linha de
   horários. Aplicado nos 3 anúncios via update_ad.
+
+## 24/11: ATIVADA ("sem teto, aprovo o limite e ativa")
+- Limite de gastos: **R$2.500** ✅. Sem teto de custo.
+- Ativos: campanha, PAIS + ALTO VALOR R$40, 1% R$30, PAIS + VIAJANTES R$25 e os 3 anúncios (COPY A).
+- RMKT CORITIBA (R$30, COPY C): pausado até 14/12.
+- Controle: 01/12 primeira leitura (R$150 sem venda → pausar); 14/12 ligar o RMKT.
