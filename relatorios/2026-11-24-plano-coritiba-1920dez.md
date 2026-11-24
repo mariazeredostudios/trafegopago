@@ -40,9 +40,7 @@ Campanha **CORITIBA TREINO ABERTO 19-20/12** (120252596721010675), ABO. Término
 ## Copies (aguardando ok)
 **A)** "Viva 2 dias como um jogador profissional do Coxa. 💚🤍 Nos dias 19 e 20/12, o Coritiba
 International abre o treino de pré-temporada para atletas de 8 a 18 anos, no FT 10 Sports, em Santa
-Cândida (Curitiba). ⚽ 2 dias de treino com a metodologia do Coritiba · 👀 Avaliação da comissão técnica
-do programa · 🕐 Horário pela idade: 2014–2019 às 14h30 · 2007–2013 às 16h30. *Não é uma seletiva
-para a base. 👉 Garanta a vaga do seu filho pelo link." Título: "Treino aberto pré-temporada
+Cândida (Curitiba). ⚽ 2 dias de treino com a metodologia do Coritiba · 👀 Avaliação por treinadores da base. *Não é uma seletiva para a base. 👉 Garanta a vaga do seu filho pelo link." Título: "Treino aberto pré-temporada
 Coritiba".
 
 **C)** "⚠️ É neste fim de semana: 19 e 20/12. O treino aberto de pré-temporada do Coritiba
@@ -53,3 +51,6 @@ link." Título: "É neste fim de semana: treino do Coxa".
 ## Pendente
 - Ok das copies; orçamento; preço do ingresso; teto de custo (R$70?); limite de R$2.500; ativação.
 - Pixel 8699470433453828 na integração do Facebook do evento no Sympla.
+
+- 24/11: COPY A ajustada a pedido da usuária: "Avaliação por treinadores da base" e sem a linha de
+  horários. Aplicado nos 3 anúncios via update_ad.
