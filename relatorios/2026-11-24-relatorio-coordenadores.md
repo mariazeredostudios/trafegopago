@@ -91,3 +91,20 @@ mais, por causa do orgânico, collab e indicação. **[INSCRITOS]: preencher com
 - Santos: término 29/11 às 08h no 1% e no BAIRROS.
 - Bahia imersão: ESTADO PAIS&FUTEBOL R$35 → R$42; BAIRROS SSA R$25 → R$20.
 - Mantidos: Palmeiras, Flamengo (ajustado em 23/11), Fortaleza, Botafogo.
+
+## Teto de custo por compra (24/11, pedido da usuária: média de R$60)
+- **COST_CAP R$60** (lance com limite de custo) aplicado em:
+  - Botafogo: ESTADO AMBOS (120252488670310675), ABERTO BOTA (120252488670760675), INTERAÇÃO
+    CARROSSEL (120252488673160675);
+  - Flamengo: PAIS + ALTO VALOR (120252487825580675), 1% DOS VIAJANTES (120252487828080675).
+- Sem teto: Flamengo RJ ABERTO (R$47), Palmeiras (R$70, vende bem), Fortaleza (R$47), Bahia imersão
+  (ingresso de R$350; alvo de R$100–150) e Sport/Santos/Cruzeiro (última semana; teto travaria a
+  entrega justo quando as inscrições dobram).
+- Risco: com teto, o Meta pode **não gastar** o orçamento. Conferir em 26/11. Se gastar menos da
+  metade, subir o teto para R$70.
+- Por que o Bota DEZ está mais caro que agosto (R$28):
+  - 3ª seletiva em 7 semanas no mesmo público;
+  - campanha com 7 dias, conjuntos novos ainda aprendendo;
+  - compras atribuídas com atraso (janela de 7 dias);
+  - concorrência no RJ (Flu até 22/11 e Fla).
+  - Custo por checkout: DEZ R$14 × NOV R$11.
