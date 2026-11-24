@@ -149,3 +149,9 @@ Aplicado via Windsor, por coordenada aproximada:
 - Limite: R$2.800. Término: 19/12 às 07h.
 - Régua (vendas no Meta): 24/11 ~4 · 01/12 ~8 · 14/12 ~13 · 19/12 17 ou mais (= ~50 avaliativos).
 - 14/12: criar RMKT IMERSÃO (R$30) e COMPRADORES QUENTES R$25.
+
+## 24/11: vídeos novos
+- A pedido da usuária: 2 vídeos novos (Dropbox) adicionados aos 3 anúncios flexíveis da imersão:
+  BAHIA IMERSÃO - VIDEO 2 (1503895588283596) e VIDEO 3 (2196836107931305).
+- Cada anúncio agora tem 5 artes + 3 vídeos (8 mídias). As copies não mudaram.
+- 24/11: ESTADO PAIS&FUTEBOL R$35 → R$42; BAIRROS SSA R$25 → R$20.
