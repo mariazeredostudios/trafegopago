@@ -176,3 +176,14 @@ Total ≈ R$2.490. A COPY C (RMKT) sai: o INTERAÇÃO faz o papel de remarketing
 - Limite de gastos: **R$2.500** ✅.
 - Ativos: campanha BOTA DEZ 13/12, os 3 conjuntos (ESTADO R$45, ABERTO R$30, INTERAÇÃO R$15) e os 3 anúncios.
 - Controle: 24/11 primeira leitura; 07/12 INTERAÇÃO para R$40 + régua.
+
+## 25/11: público qualitativo (pedido da usuária: "o último que deu certo no Bota")
+- Origem: **PAIS + ALTO VALOR do BOTA OUT** (120251549670570675): R$531, 6 vendas (R$88). É o último
+  público qualificado que vendeu no Botafogo. O NOV não teve público de pais.
+- Criado **PAIS + ALTO VALOR (BOTA OUT) - FLEX** (120252612748020675), ATIVO:
+  - R$30/dia, teto de custo R$60, término 13/12 às 08h;
+  - RJ, 30–65; comportamento "prefere bens de alto valor" + Pais (todos), filhos de 9–12 e 13–17;
+  - exclui COMPRADORES BOTAFOGO 180D.
+- Anúncio BOTA DEZ - FLEXÍVEL PAIS (COPY B) 120252612759640675: 8 artes + 2 vídeos, copy de pais
+  (Disney Cup 2027, treinadores da base, Nilton Santos).
+- Descartado (a usuária negou): PAIS + VIAJANTES do Santos OUT.
