@@ -57,3 +57,23 @@
 - Competição/destino (Palmeiras: Disney Cup 2027? Grêmio: qual?).
 - Criativos dos dois.
 - Aprovação das estruturas e das copies.
+
+## Decisões da usuária (26/11)
+- Os dois: **Disney Cup 2027**.
+- **Grêmio: nenhuma palavra começando com "inter"** (copy, títulos, nomes de conjuntos e anúncios).
+  "RMKT + INTERAÇÃO" → "RMKT + ENGAJAMENTO".
+- Usar os **públicos que mais venderam recentemente** em cada time.
+
+## GRÊMIO POA 05/12: criado (26/11, tudo PAUSADO)
+Campanha **GRÊMIO POA 05/12** (120252634548810675), ABO. Término 05/12 às 07h. RS (estado).
+
+| Conjunto (id) | Origem | R$/dia | Anúncio |
+|---|---|---|---|
+| COMPRADORES SYMPLA - FLEX (120252634555990675) | NOV: 13 vendas | R$70 | COPY B 120252634579670675 |
+| ESTADO PAIS & FUTEBOL - FLEX (120252634558920675) | OUT: 7 vendas | R$60 | COPY A 120252634568850675 |
+| MELHOR PUBLICO - 1% DOS VIAJANTES - FLEX (120252634560580675) | OUT: 5 vendas | R$45 | COPY A 120252634574130675 |
+| RMKT + ENGAJAMENTO - FLEX (120252634565160675) | OUT: 3 vendas | R$45 | COPY B 120252634585030675 |
+| **Total** | | **R$220** | |
+
+- 10 artes (1:1 ×3, 4:5 ×4, 9:16 ×3), sem vídeo. Idade nas copies: 8 a 19 anos (como nas artes).
+- Pendente: ok das copies, limite de R$2.500, ativação.
