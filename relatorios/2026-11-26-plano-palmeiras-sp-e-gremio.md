@@ -98,3 +98,9 @@ São Paulo (cidade) + 40 km. Públicos = versões SP dos que mais venderam em Pa
 - 7 artes (16:9, 1:1, 4:5 ×2, 9:16 ×3). Sem vídeo: o link enviado (V-DEO2.mov) é o mesmo arquivo do
   VIDEO 2 do Flamengo (2905529653166700). Aguardando o vídeo certo.
 - Pendente: ok das copies, limite de R$2.500, ativação. Pixel no evento 3654594 do Sympla.
+
+## 26/11: PALMEIRAS SP ATIVADO ("ok copies, aprovo o limite e ativa")
+- Limite de gastos **R$2.500** ✅. Campanha, 3 conjuntos (PAIS R$50, 1% R$45, FUTEBOL R$40) e 3 anúncios
+  (COPY A) ativos: R$135/dia. Término 13/12 às 08h.
+- RMKT PALMEIRAS - FLEX (R$30, COPY B): conjunto e anúncio pausados até 07/12.
+- Controle: 30/11 primeira leitura (R$150 sem venda → pausar); 07/12 ligar o RMKT; vídeo certo pendente.
