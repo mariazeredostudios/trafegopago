@@ -104,3 +104,10 @@ São Paulo (cidade) + 40 km. Públicos = versões SP dos que mais venderam em Pa
   (COPY A) ativos: R$135/dia. Término 13/12 às 08h.
 - RMKT PALMEIRAS - FLEX (R$30, COPY B): conjunto e anúncio pausados até 07/12.
 - Controle: 30/11 primeira leitura (R$150 sem venda → pausar); 07/12 ligar o RMKT; vídeo certo pendente.
+
+## 26/11: vídeo do Palmeiras SP adicionado
+- Conferi os quadros do V-DEO2.mov: é do Palmeiras (atleta com camisa/colete do Palmeiras). Subido como
+  PALMEIRAS SP - VIDEO 1 (2165153157543656), capa 9:16 imaginou. Incluído nos 4 anúncios via update_ad.
+- ⚠️ Esse mesmo link (mesmo rlkey) foi enviado em 17/11 como vídeo do Flamengo e virou FLAMENGO DEZ -
+  VIDEO 2 (2905529653166700). O arquivo tem data de gravação de 10/11. Se não foi substituído no Dropbox
+  depois, os anúncios do Fla estão com um vídeo do Palmeiras. Aguardando a usuária conferir/aprovar a retirada.
