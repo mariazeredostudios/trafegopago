@@ -34,3 +34,17 @@ Velhas (Sinop, Vasco NOV, Bahia NOV, Flu) sem gasto desde 24/11 ✅.
 4. Bota: teto ABERTO BOTA e PAIS (BOTA OUT) R$60 → R$80.
 5. Palmeiras BSB: PAIS R$60 → R$42; 1% R$40 → R$48; FUTEBOL R$30 → R$36 (+ RMKT R$30 em 30/11).
 - Manter: Cruzeiro, Fortaleza, Bahia imersão, Coritiba, Grêmio POA, Palmeiras SP.
+
+## Aplicado em 26/11 (pedido da usuária: "volta Fla e Bota ao normal… bater até 2.600… aumenta a verba do Sport")
+- **Flamengo** (meta: R$2.600 em 06/12):
+  - teto de custo removido (LOWEST_COST_WITHOUT_CAP) no PAIS e no 1%;
+  - PAIS R$55 → R$65; 1% R$25 → R$30; RJ ABERTO R$38 → R$48 (R$143/dia);
+  - limite da campanha R$2.500 → **R$2.600**;
+  - 30/11: ligar o RMKT FLA (R$30) → R$173/dia. Projeção ~R$2.520. No dia 30/11, se faltar, RJ ABERTO +20%.
+- **Botafogo** (meta: R$2.600 em 13/12):
+  - teto removido nos 4 conjuntos;
+  - ESTADO AMBOS R$45 → R$30 (o mais caro, R$169/venda); ABERTO R$30, PAIS (BOTA OUT) R$30, CARROSSEL R$15 (R$105/dia);
+  - 07/12: CARROSSEL → R$40 (R$130/dia). Projeção ~R$2.600;
+  - limite R$2.500 → **R$2.600**.
+- **Sport:** RECIFE+40 R$120 → R$150; RMKT SPORT R$78 → R$95 (R$245/dia). Projeção ~R$2.600 de R$2.700 até 29/11.
+- Ainda aguardando: Santos (1% → R$65) e Palmeiras BSB (PAIS R$42 / 1% R$48 / FUTEBOL R$36).
