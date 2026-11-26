@@ -77,3 +77,7 @@ Campanha **GRÊMIO POA 05/12** (120252634548810675), ABO. Término 05/12 às 07h
 
 - 10 artes (1:1 ×3, 4:5 ×4, 9:16 ×3), sem vídeo. Idade nas copies: 8 a 19 anos (como nas artes).
 - Pendente: ok das copies, limite de R$2.500, ativação.
+
+## 26/11: GRÊMIO ATIVADO ("Grêmio, aprovo limite e ativa")
+- Limite de gastos **R$2.500** ✅. Campanha, 4 conjuntos e 4 anúncios ativos (R$220/dia). Término 05/12 às 07h.
+- Controle: 30/11 (segunda) régua + leitura (R$150 sem venda → pausar); subir verba se custo < R$100.
