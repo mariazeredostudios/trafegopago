@@ -111,3 +111,4 @@ São Paulo (cidade) + 40 km. Públicos = versões SP dos que mais venderam em Pa
 - ⚠️ Esse mesmo link (mesmo rlkey) foi enviado em 17/11 como vídeo do Flamengo e virou FLAMENGO DEZ -
   VIDEO 2 (2905529653166700). O arquivo tem data de gravação de 10/11. Se não foi substituído no Dropbox
   depois, os anúncios do Fla estão com um vídeo do Palmeiras. Aguardando a usuária conferir/aprovar a retirada.
+- 26/11: a usuária conferiu e confirmou que está tudo certo (Fla e Palmeiras SP). Nada alterado no Fla.
