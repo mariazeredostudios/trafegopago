@@ -48,3 +48,5 @@ Velhas (Sinop, Vasco NOV, Bahia NOV, Flu) sem gasto desde 24/11 ✅.
   - limite R$2.500 → **R$2.600**.
 - **Sport:** RECIFE+40 R$120 → R$150; RMKT SPORT R$78 → R$95 (R$245/dia). Projeção ~R$2.600 de R$2.700 até 29/11.
 - Ainda aguardando: Santos (1% → R$65) e Palmeiras BSB (PAIS R$42 / 1% R$48 / FUTEBOL R$36).
+- 26/11 ("aplica santos e palmeiras"): Santos 1% R$52 → **R$65**. Palmeiras BSB: PAIS R$60 → **R$42**, 1% R$40 → **R$48**,
+  BRASÍLIA + FUTEBOL R$30 → **R$36** (R$126/dia; +RMKT R$30 em 30/11 → R$156; fecha ~R$2.500 em 05/12).
