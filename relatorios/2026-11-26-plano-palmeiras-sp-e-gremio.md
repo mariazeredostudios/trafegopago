@@ -81,3 +81,20 @@ Campanha **GRÊMIO POA 05/12** (120252634548810675), ABO. Término 05/12 às 07h
 ## 26/11: GRÊMIO ATIVADO ("Grêmio, aprovo limite e ativa")
 - Limite de gastos **R$2.500** ✅. Campanha, 4 conjuntos e 4 anúncios ativos (R$220/dia). Término 05/12 às 07h.
 - Controle: 30/11 (segunda) régua + leitura (R$150 sem venda → pausar); subir verba se custo < R$100.
+
+## PALMEIRAS SP 13/12: criado (26/11, tudo PAUSADO)
+Campanha **PALMEIRAS SP 13/12** (120252634906950675), ABO. Término dos conjuntos 13/12 às 08h.
+São Paulo (cidade) + 40 km. Públicos = versões SP dos que mais venderam em Palmeiras Brasília
+(1% R$68, FUTEBOL R$61, PAIS R$101) + RMKT.
+
+| Conjunto (id) | 26/11–06/12 | 07–13/12 | Anúncio |
+|---|---|---|---|
+| PAIS + ALTO VALOR - FLEX (120252634912690675) | R$50 | R$50 | COPY A 120252634961450675 |
+| MELHOR PUBLICO - 1% DOS VIAJANTES - FLEX (120252634916190675) | R$45 | R$45 | COPY A 120252634964370675 |
+| FUTEBOL + PALMEIRAS - FLEX (120252634919140675) | R$40 | R$40 | COPY A 120252634966890675 |
+| RMKT PALMEIRAS - FLEX (120252634945620675), ligar 07/12 | — | R$30 | COPY B 120252634972980675 |
+| **Total** | **R$135** | **R$165** | ≈ R$2.475 |
+
+- 7 artes (16:9, 1:1, 4:5 ×2, 9:16 ×3). Sem vídeo: o link enviado (V-DEO2.mov) é o mesmo arquivo do
+  VIDEO 2 do Flamengo (2905529653166700). Aguardando o vídeo certo.
+- Pendente: ok das copies, limite de R$2.500, ativação. Pixel no evento 3654594 do Sympla.
