@@ -117,3 +117,14 @@ Você já começou a inscrição. Falta só um passo para o seu filho estar em c
 - Ativos: campanha FLAMENGO DEZ 06/12, os 3 conjuntos FLEX (PAIS R$55, 1% R$35, RJ ABERTO R$30) e os 3 anúncios.
 - RMKT FLA - FLEX e o anúncio COPY C ficam **pausados até 30/11**.
 - Controle: 23/11 primeira leitura (R$150 sem venda → pausar); 30/11 ligar o RMKT e conferir a régua.
+
+## 27/11: troca do público de pais (pedido da usuária)
+- **Pausado:** PAIS + ALTO VALOR - FLEX (120252487825580675). Ciclo: R$439, 3 vendas (R$146).
+- **Criado e ativo:** PAIS + VIAJANTES INTERNACIONAIS - FLEX (120252650731880675), **R$65/dia**, sem teto, término
+  06/12 às 08h, RJ (estado).
+  - Segmentação do Coritiba/Santos: Pais + Viagem e lazer + Frequent Travelers + Frequent international travelers + 4
+    status de pais; Advantage+ com sugestão de 35–60 anos.
+  - Anúncio FLA DEZ - FLEXÍVEL (COPY A) 120252650760020675 (8 artes + 2 vídeos).
+  - Obs.: a 1ª tentativa de criar o anúncio deu erro do Meta (código 2). Se aparecer um anúncio duplicado pausado
+    nesse conjunto, é sobra dessa tentativa.
+- Verba do Fla segue R$143/dia (+ RMKT R$30 em 30/11). Limite R$2.600.
